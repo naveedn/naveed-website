@@ -2,7 +2,7 @@
 template: post
 title: Hello World!
 slug: hello-world
-draft: true
+draft: false
 date: 2020-03-05T04:09:02.419Z
 description: 'Testing Gatsby out :)'
 category: test
