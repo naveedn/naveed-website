@@ -3,7 +3,7 @@ template: page
 title: About me
 socialImage: /media/image-2.jpg
 slug: about
-draft: false
+draft: true
 ---
 I'm a coder based in San Francisco. I've been programming for about 6 years professionally, and I'm interested in blogging about the "softer" side in software-engineering -- namely, exploring the human relationships in how we build software.  Hopefully some of this stuff is interesting to you as well. 
 
