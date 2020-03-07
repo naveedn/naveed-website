@@ -4,7 +4,7 @@ title: >-
   How to adjust to remote work for engineers who work better in close proximity
   to others
 slug: remote-work-engineer-tips
-draft: true
+draft: false
 date: 2020-03-06T23:49:59.070Z
 description: >-
   Here are 4 tips I've collected for transitioning into remote work after
