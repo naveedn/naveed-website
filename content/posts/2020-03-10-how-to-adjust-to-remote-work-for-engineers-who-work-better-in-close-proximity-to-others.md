@@ -7,7 +7,7 @@ slug: remote-work-engineer-tips
 draft: false
 date: 2020-03-06T23:49:59.070Z
 description: >-
-  Here are 4 tips I've collected for transitioning into remote work after
+  Here are 5 tips I've collected for transitioning into remote work after
   spending 6 months experimenting with this work style. If you're a programmer
   who thrives in social environments, this article is for you.
 category: productivity
