@@ -80,11 +80,19 @@ Oh right. Clearly, we have a habit in this industry of over extending our resour
 
 #### They disenfranchise the middle 60% of all applicants. 
 
-Up until now, dear reader, you've had to take me at my word -- but your patience is about to be rewarded. In my most recent interviewing process, I got a chance to interview with one of the largest software job applicant websites and was able to peel back the lid on how interviews look like from the other side. As part of my interview, I was given a sample of actual data the organization regarding job interviews and job hiring. Given a dataset of 700+ actual candidates, how many of them got a call back from a company? Rather, how many calls did the best candidates get vs anyone who "passed"?
+Up until now, dear reader, you've had to take me at my word -- but your patience is about to be rewarded. In my most recent interviewing process, I got a chance to interview with one of the bigger software job applicant websites and was able to peel back the lid on how interviews look like from the other side. As part of my interview, I was given a sample of actual data the organization regarding job interviews and job hiring. Given a dataset of 800 actual candidates who all scored average or higher in an assessment, how many of them got a call back from a company? Rather, how many calls did the best candidates get vs anyone who "passed"?
+
+**NOTE: my goal is not to "out" any company, but highlight discrepancies in the hiring process. As a result, I will not be providing specifics about the company or providing information that would compromise their identity.** 
 
 
 
-![]()
+![Y axis: Number of Applicants, X axis: Number of Callbacks from companies](/media/screen-shot-2020-03-10-at-7.33.59-pm.png "The power curve of test performance vs. job opportunities")
+
+
+
+In this graph, a large percentage of candidate got between 1 and 5 calls back, despite all candidates passing the test. Some candidates got as much as 120 different companies to callback. My first assumption is that this would be represented by a bell curve, you know -- where most candidates would get an equal distribution of calls.
+
+ I suppose, after some reflection, that this actually makes sense -- the best candidates are in short supply, so why wouldn't companies clamor for them.  So, I guess this graph isn't all bad, assuming that all the people getting calls are really incredible and knocked the test out of the park.
 
 
 
