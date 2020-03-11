@@ -116,13 +116,15 @@ Another reason is that this opened up a huge market for enterprising individuals
 
 Finally, for the average joe or jane that gets into a company based on their LC performance, some of them fall victim to their confirmation bias. Well, because *they* made it, everyone should make it to be considered "on the same level". They begin to view themselves as upholders of meritocracy, and pride themselves on being considered a "tough interviewer". Sadly, I think I fell into this camp for a long time. The toxic behavior of gate-keeping is very much enabled by this style of interview. It's important to clarify that this exists in other styles of interviews as well, but it seems especially rampant with LeetCode interviews.
 
-## Current Alternatives to LC interviews: a comparison
+## Current alternatives to LC interviews: Take-Homes
 
-\- Take Home projects
+On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Previously, I used to think of these assessments as the solution, but I've found the solution to be wonky at best, and actually worse than LeetCode interviews in the worst case. 
 
-\- No whiteboard interviews
+ 
 
-## Introducing a new style of Engineering Interviews
+Honorable Mention: No whiteboard interviews.
+
+# Introducing a new style of Engineering Interviews
 
 \- Remove Leetcode Mediums / Hard
 
