@@ -30,7 +30,7 @@ For the uninitiated, these LeetCode interviews are designed to test an engineer'
 
 Now imagine doing this 2-4 times in the process of interviewing with 1 company. You may be thinking, "its not so bad", consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. Thats a **lot** of interviews, all following the same routine. With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve these problems fast enough.
 
-![A screenshot of my most recent interview cycle](/media/screen-shot-2020-03-10-at-9.15.29-pm.png "C's get Degrees, amirite hahaha? *nudge nudge*")
+![A screenshot of my most recent interview cycle](/media/job-prospects-screenshot.png "C's get Degrees, amirite hahaha? *nudge nudge*")
 
 Interviewing with so many companies, however, provided me a very useful breadth of data points: I could observe the nuances and differences in the interviewing styles. Some companies have much better interview processes than others. But before we jump into potential alternatives, let's break down this interview into its individual components, so we can understand the motivations for why we continue this practice.
 
@@ -46,13 +46,13 @@ Finally, there is a widely circulated belief that the engineers who can solve th
 
 ## What's wrong with these interviews
 
-#### They are a terrible proxy for everyday development.
+#### They are an inaccurate proxy for everyday development.
 
 First and foremost, they are absolutely nothing like what you would be doing on the job. I can tell you with 100% certainty that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. These kinds of problems *don't exist* in modern day software engineering because the power and speed of recent computers make these performance tricks negligible.  It's a better use of someone's time if they spent the same effort solving more problems than optimizing a single problem.
 
-It's also worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. Thats not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of bugs everywhere they go. 
+It's also worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. Thats not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of state-related bugs everywhere they go. 
 
-#### They benefit only a small class of software engineers. 
+#### They benefit only a small class of software engineers.
 
 Let's talk about the kinds of people who benefit from this kind of interview. Off the top of my head, I can think of two major groups: competitive programmers, and/or young, single candidates who have recently studied computer science in college. 
 
@@ -72,9 +72,9 @@ So, enough with the moral qualms about the interview; let's discuss the structur
 
 And the last part of the interview is designed so we can allow the candidate some time to ask us questions so we can pitch the company favorably to them (aka make them drink the kool-aid). 
 
-While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that 1 or 2 interviewers can accurately glean this information in a single 1 hour interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. Whats the common solution? Let's introduce a tool like greenhouse, and have a whole suite of engineers take time out of their day and rapid-fire interview the poor candidate (who is probably sweating profusely right now in the conference room you left them in). The law of averages will save us! If we all agree we *like* this candidate, then let's let her pass. But if one of us didn't get a good vibe? Well, "iTs bEtTeR to PaSs oN a GoOd CaNdiDaTe ThAn HiRe a BaD OnE", so it's sayonara and good luck to you.
+While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that 1 or 2 interviewers can accurately glean this information in a single 1 hour interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. Whats the common solution? Let's introduce a tool like greenhouse, and have a whole suite of engineers take time out of their day and rapid-fire interview the poor candidate (who is probably sweating profusely right now in the conference room you left them in). The law of averages will save us! If we all agree we *like* this candidate, then let's let her pass. But if one of us didn't get a good vibe? Well, "its better to pass on a good candidate than hire a bad one", so it's sayonara and good luck to you.
 
-We are trying to cram 3 interviews into 1. What's the old, tired joke about project managers? 
+We are trying to cram 3 interviews into 1. How's that old, tired joke about project managers go? 
 
 > Definition of Project Manager: 
 >
@@ -88,29 +88,23 @@ Just to throw another wrench into this whole process, many interviewers pay lip-
 
 Having someone coach you to a  workable solution means the highest score you can expect to get for the interview is a "Neutral". We don't observe the process of problem solving, we just reward people who already know the problem and get it right. Oh, you're supposed to show these steps to your interviewer, but you can't take too long on any one. 
 
-#### They disenfranchise the middle 60% of all applicants. 
+#### They disenfranchise the middle 60% of all applicants.
 
 Up until now, dear reader, you've had to take me at my word -- but your patience is about to be rewarded. In my most recent interviewing process, I got a chance to interview with one of the bigger software job applicant websites and was able to peel back the lid on how interviews look like from the other side. As part of my interview, I was given a sample of actual data collected by the organization regarding job interviews and job hiring. Given a dataset of 800 actual candidates who all scored average or higher in a LC style assessment, how many of them got a call back from a company? Rather, how many calls did the best candidates get vs anyone who "passed"?
 
 **NOTE: my goal is not to "out" any company, but highlight discrepancies in the hiring process. As a result, I will not be providing specifics about the company or providing information that would compromise their identity.** 
 
-
-
 ![Y axis: Number of Applicants, X axis: Number of Callbacks from companies](/media/screen-shot-2020-03-10-at-7.33.59-pm.png "The power curve of test performance vs. job opportunities")
-
-
 
 In this graph, X axis represents the actual number of calls that a candidate in that bucket would get, and the Y axis represents the number of applicants receiving X calls.  As you can see, a large percentage of candidate got between 1 and 5 calls back, despite all candidates passing the test. Some candidates at the far end got as much as 120 different companies to callback! My first assumption is that this would be look more like bell curve, you know -- where most candidates would get an equal distribution of calls, and the outliers (people doing exceptionally well) would get proportionally more calls. 
 
 I suppose, after some reflection, that this actually makes sense -- the best candidates are in short supply, so why wouldn't companies fight tooth-and-nail for them? So, I guess this graph isn't all bad, assuming that all the people getting calls are really incredible and knocked the test out of the park.
 
-
-
 ![Reality does not reflect expectations](/media/screen-shot-2020-03-10-at-7.44.12-pm.png "Comparing test performance to ")
 
-Ok, what the fuck? Do you see that top line in the scatter plot? Those are people that scored perfect (5/5) on the assessment, but still didn't get the same number of calls as their peers. If this assessment was truly valuable, shouldn't all the people with the crazy high test scores be in the top right corner? Why are so many candidates on the left hand side of the graph? Again, these are people who *already passed the assessment*.
+Ok, what the f--? Do you see that top line in the scatter plot? Those are people that scored perfect (5/5) on the assessment, but still didn't get the same number of calls as their peers. If this assessment was valuable, shouldn't all the people with the crazy high test scores be in the top right corner? Why are so many candidates on the left hand side of the graph? Again, these are people who *already passed the assessment*.
 
-This definitely threw me for a loop in the interview. When I was talking to the other engineers, they admitted that while the platform was exceptional for the top 20% of candidates, the middle 60% often struggled to convert into full-time hires and would churn. In fact, this was an active area of development for the company. Pretty wild. So even if, say, you did well with this kind of assessment -- there is still quite a bit of disparity between testing well and actually landing the job.    
+This definitely threw me for a loop in the interview. When I was talking to the other engineers, they admitted that while the platform was exceptional for the top 20% of candidates, the middle 60% struggled to convert into full-time hires and would churn. In fact, this was an active area of development for the company. Pretty wild. So even if, say, you did well with this kind of assessment -- there is still quite a bit of disparity between testing well and actually landing the job.    
 
 ## How did these interviews get so popular?
 
@@ -122,11 +116,21 @@ Finally, for the average joe or jane that gets into a company based on their LC 
 
 ## Current alternatives to LC interviews: Take-Homes
 
-On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Previously, I used to think of these assessments as the solution, but I've found the solution to be wonky at best, and actually worse than LeetCode interviews in the average case. 
+On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Previously, I used to think of these assessments as a superior solution, but after this last round of interviews, I've found it to be wonky at best, and worse than LeetCode interviews in the average case.
 
- 
+#### What they get right
 
-Honorable Mention: No whiteboard interviews.
+* They allow the interviewee the flexibility to do the interview over a longer period of time, so the "time crunch" isn't a factor. Given the amount of time, a candidate can usually build and present a higher quality solution, which is analogous to the work they would do on the job.
+* They are usually more pragmatic in nature, testing a coder's ability to demonstrate knowledge in various areas (like design patterns, documentation, testing, architecture decisions) that would be hard to communicate effectively in the span of an hour long interview.
+
+#### What they get wrong
+
+* They are higher effort for both parties. Because of the asynchronous nature of these projects, getting clarifications on ambiguous wording via email can take anywhere from a couple hours to a few days, throwing you off your groove if you're coding the assessment. Candidates are usually interviewing with a handful of companies at a time, and these take-homes take a disproportionate amount of time when compared a quick LeetCode style interview. For the engineers reviewing these projects, if you work at a company where you might have a few hundred candidates, this does not scale. You can't review them all. 
+* Because they take place over a longer period of time, they can often balloon in scope. Some companies give lengthy projects as a way to judge efficacy, and there isn't a good standard on what a candidate should and shouldn't accept. The ambiguity makes it difficult for a candidate to know how much to invest, especially if they are interviewing with a few companies at once. Whats the time frame? 3 hours? 6? Should I have a full test suite as well? Not having a clear time frame can muddle the results, making it difficult for interviewers to get a good litmus test, while making some candidates choose an "incorrect" amount of time on the project.
+
+In my own experience, I found myself actually wanting to do a LeetCode interview after getting rejected by a company after doing their take home. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens. It's just not a good use of my time. 
+
+However, for some people, this is still a great way to interview, and for the companies offering it, I applaud you for not cargo culting. If this is your jam, I would highly recommend taking a look at [the list of companies that don't do whiteboard interviews.](https://github.com/poteto/hiring-without-whiteboards)
 
 # Introducing a new style of Engineering Interviews
 
