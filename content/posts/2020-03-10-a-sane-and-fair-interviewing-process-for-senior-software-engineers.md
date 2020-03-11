@@ -70,7 +70,7 @@ And the last part of the interview is designed so we can allow the candidate som
 
 While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that 1 or 2 interviewers can accurately glean this information in a single 1 hour interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. Whats the common solution? Let's introduce a tool like greenhouse, and have a whole suite of engineers take time out of their day and rapid-fire interview the poor candidate (who is probably sweating profusely right now in the conference room you left them in). The law of averages will save us! If we all agree we *like* this candidate, then let's let her pass. But if one of us didn't get a good vibe? Well, "iTs bEtTeR to PaSs oN a GoOd CaNdiDaTe ThAn HiRe a BaD OnE", so it's sayonara and good luck to you.
 
-We are trying to cram 3 interviews into 1. What's the joke about project managers? 
+We are trying to cram 3 interviews into 1. What's the old, tired joke about project managers? 
 
 > Definition of Project Manager: 
 >
@@ -78,9 +78,15 @@ We are trying to cram 3 interviews into 1. What's the joke about project manager
 
 Oh right. Clearly, we have a habit in this industry of over extending our resources and delivering suboptimal solutions. It's no wonder why Fred Brooks is quoted as saying that "adding manpower to a late software project makes it later". We're doing the same thing with our interviews. 
 
+#### Depending on the interviewer, you are rewarded little to no credit for communication, problem solving, or coach-ability -- just the results of your solution
+
+Just to throw another wrench into this whole process, many interviewers pay lip-service to the idea that candidates should be judged holistically, but then judge them by very strict standards. Its not enough to try and articulate your approach, try to code a strategy, and iterate to your solution in a real-life manner. If you get stuck and ask for hints, you get docked points. If you don't solve the problem the way your interviewer wants you to solve the problem, your solution is considered "messy" and "confusing". A sub-optimal solution? "Lacks Problem Solving Skills". 
+
+Having someone coach you to a  workable solution means the highest score you can expect to get for the interview is a "Neutral". We don't observe the process of problem solving, we just reward people who already know the problem and get it right.
+
 #### They disenfranchise the middle 60% of all applicants. 
 
-Up until now, dear reader, you've had to take me at my word -- but your patience is about to be rewarded. In my most recent interviewing process, I got a chance to interview with one of the bigger software job applicant websites and was able to peel back the lid on how interviews look like from the other side. As part of my interview, I was given a sample of actual data the organization regarding job interviews and job hiring. Given a dataset of 800 actual candidates who all scored average or higher in an assessment, how many of them got a call back from a company? Rather, how many calls did the best candidates get vs anyone who "passed"?
+Up until now, dear reader, you've had to take me at my word -- but your patience is about to be rewarded. In my most recent interviewing process, I got a chance to interview with one of the bigger software job applicant websites and was able to peel back the lid on how interviews look like from the other side. As part of my interview, I was given a sample of actual data collected by the organization regarding job interviews and job hiring. Given a dataset of 800 actual candidates who all scored average or higher in a LC style assessment, how many of them got a call back from a company? Rather, how many calls did the best candidates get vs anyone who "passed"?
 
 **NOTE: my goal is not to "out" any company, but highlight discrepancies in the hiring process. As a result, I will not be providing specifics about the company or providing information that would compromise their identity.** 
 
@@ -90,17 +96,17 @@ Up until now, dear reader, you've had to take me at my word -- but your patience
 
 
 
-In this graph, a large percentage of candidate got between 1 and 5 calls back, despite all candidates passing the test. Some candidates got as much as 120 different companies to callback. My first assumption is that this would be represented by a bell curve, you know -- where most candidates would get an equal distribution of calls.
+In this graph, X axis represents the actual number of calls that a candidate in that bucket would get, and the Y axis represents the number of applicants receiving X calls.  As you can see, a large percentage of candidate got between 1 and 5 calls back, despite all candidates passing the test. Some candidates at the far end got as much as 120 different companies to callback! My first assumption is that this would be look more like bell curve, you know -- where most candidates would get an equal distribution of calls, and the outliers (people doing exceptionally well) would get proportionally more calls. 
 
- I suppose, after some reflection, that this actually makes sense -- the best candidates are in short supply, so why wouldn't companies clamor for them.  So, I guess this graph isn't all bad, assuming that all the people getting calls are really incredible and knocked the test out of the park.
-
-
+I suppose, after some reflection, that this actually makes sense -- the best candidates are in short supply, so why wouldn't companies fight tooth-and-nail for them? So, I guess this graph isn't all bad, assuming that all the people getting calls are really incredible and knocked the test out of the park.
 
 
 
+![Reality does not reflect expectations](/media/screen-shot-2020-03-10-at-7.44.12-pm.png "Comparing test performance to ")
 
+Ok, what the fuck? Do you see that top line in the scatter plot? Those are people that scored perfect (5/5) on the assessment, but still didn't get the same number of calls as their peers. If this assessment was truly valuable, shouldn't all the people with the crazy high test scores be in the top right corner? Why are so many candidates on the left hand side of the graph? Again, these are people who *already passed the assessment*.
 
-\- Depending on the interviewer, you are rewarded little to no credit for communication, problem solving, or coach-ability -- just the results of your solution
+This definitely threw me for a loop in the interview. When I was talking to the other engineers, they admitted that while the platform was exceptional for the top 20% of candidates, the middle 60% often struggled to convert into full-time hires and would churn. In fact, this was an active area of development for the company. Pretty wild. So even if, say, you did well with this kind of assessment -- there is still quite a bit of disparity between testing well and actually landing the job.    
 
 ## How did these interviews get so popular?
 
