@@ -38,7 +38,7 @@ The world is not black and white; there are a few reasons why companies prefer L
 
 Companies are on a constrained timeline and budget to conduct interviews. Interviewing is costly, so companies look for ways in which they can maximize the signal of a potential candidate without wasting too many resources on a "dud".  Many companies believe that the most damaging thing that can happen to a company is hiring the wrong person. In this vein, interviewers are encouraged to pass over potential "good" candidates until they find their one "great" candidate. LC style interviews provide a quick and easy, binary decision making process. "Did the person solve the problem? No? Ok then, let's move on." 
 
-The second benefit is the widely circulated belief that the engineers who can solve these LC problems are either hard workers who take their career seriously, or naturally gifted problem solvers. The former represent the aspects of hard work and grit (the ideal worker), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these guys (or gals) to show up so you can reap the benefits. 
+The second benefit is the widely circulated belief that the engineers who can solve these LC problems are either hard workers who take their career seriously and prepared adequately, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these guys (or gals) to show up so you can reap the benefits. 
 
 ## What's wrong with these interviews
 
@@ -58,7 +58,39 @@ Which points to an obvious problem: If people don't have the means to be able to
 
 #### They cram too much into too small of a timeframe.
 
-\- They disenfranchise the middle 60% of all applicants. 
+So, enough with the moral qualms about the interview; let's discuss the structure. I noted above how the typical interviewing process works. Having interviewed a few hundred candidates, it makes sense what people are testing for in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, we are looking for answers that present insightful views into their decision making process, and their ability to communicate and gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
+
+* ability to code in a language of their (or our) choosing,
+* analyze and solve a problem
+* demonstrate knowledge of design patterns, testing, and clean code architecture
+* familiarity with data structures, algorithms of the problem
+* technical communication skills and coach-ability if they are stuck
+
+And the last part of the interview is designed so we can allow the candidate some time to ask us questions so we can pitch the company favorably to them (aka make them drink the kool-aid). 
+
+While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that 1 or 2 interviewers can accurately glean this information in a single 1 hour interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. Whats the common solution? Let's introduce a tool like greenhouse, and have a whole suite of engineers take time out of their day and rapid-fire interview the poor candidate (who is probably sweating profusely right now in the conference room you left them in). The law of averages will save us! If we all agree we *like* this candidate, then let's let her pass. But if one of us didn't get a good vibe? Well, "iTs bEtTeR to PaSs oN a GoOd CaNdiDaTe ThAn HiRe a BaD OnE", so it's sayonara and good luck to you.
+
+We are trying to cram 3 interviews into 1. What's the joke about project managers? 
+
+> Definition of Project Manager: 
+>
+> A person who thinks 9 women can deliver a baby in 1 month.
+
+Oh right. Clearly, we have a habit in this industry of over extending our resources and delivering suboptimal solutions. It's no wonder why Fred Brooks is quoted as saying that "adding manpower to a late software project makes it later". We're doing the same thing with our interviews. 
+
+#### They disenfranchise the middle 60% of all applicants. 
+
+Up until now, dear reader, you've had to take me at my word -- but your patience is about to be rewarded. In my most recent interviewing process, I got a chance to interview with one of the largest software job applicant websites and was able to peel back the lid on how interviews look like from the other side. As part of my interview, I was given a sample of actual data the organization regarding job interviews and job hiring. Given a dataset of 700+ actual candidates, how many of them got a call back from a company? Rather, how many calls did the best candidates get vs anyone who "passed"?
+
+
+
+![]()
+
+
+
+
+
+
 
 \- Depending on the interviewer, you are rewarded little to no credit for communication, problem solving, or coach-ability -- just the results of your solution
 
