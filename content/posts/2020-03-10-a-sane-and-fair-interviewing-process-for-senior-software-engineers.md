@@ -48,7 +48,7 @@ Finally, there is a widely circulated belief that the engineers who can solve th
 
 #### They are an inaccurate proxy for everyday development.
 
-First and foremost, they are absolutely nothing like what you would be doing on the job. I can tell you with 100% certainty that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. These kinds of problems *don't exist* in modern day software engineering because the power and speed of recent computers make these performance tricks negligible.  It's a better use of someone's time if they spent the same effort solving more problems than optimizing a single problem.
+First and foremost, they are absolutely nothing like what you would be doing on the job. I can tell you with 100% certainty that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. These kinds of problems *don't exist* in modern day software engineering because the power and speed of recent computers make these performance tricks negligible.  It's a better use of someone's time if they spent the same effort solving more problems than optimizing a single problem. Not only that, my gained work experience do not transfer at all to my ability to LeetCode. Writing software for 6 years has not made me correspondingly better at LeetCode. It's just made me better at writing software.
 
 It's also worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. Thats not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of state-related bugs everywhere they go. 
 
@@ -151,7 +151,7 @@ The second interview is where things get interesting: It's a full day on-site as
    **NOTE: Every company that performed this kind of interview did it with *every* candidate, including the interviewers themselves. As such, they often were familiar the details, and it was easy to swap interviewers on short notice.** 
 6. The candidate is given a 15 minutes break, where the interviewers confer and decide whether to keep going. This is probably the most contentious part: If the candidate did not perform well satisfactorily on the programming project or the project review, then the interview would end there and the candidate leaves. If the candidate passes, then we jump into the final rounds of the interview.
 7. The next round(s) is either a system design or a technical communication interview. System design interviews are par for the course in terms of senior software engineering interviews -- not to mention that this is something that a candidate should be familiar with in the course of their everyday work. Technical Communication Interviews are a flavor of System Design Interviews where the candidate is asked to describe a past project they built in technical detail, discussing the trade-offs, the constraints, the solution, and their involvement with the project. 
-8.  The day would end with a behavioral interview, where a candidate's culture fit aligns with company values. Pretty standard.
+8. The day would end with a behavioral interview, where a candidate's culture fit aligns with company values. Pretty standard.
 
 Could one swap out the later interviews with another coding question? Sure. But one thing I've noticed is that doing a 3 hour project is *tiring.* Keeping yourself focused, efficient, and calm for that duration is pretty draining. You have to recognize that your candidates are humans too -- so expect that their interview performance will degrade over time. If you plan on doing coding questions in addition to the project, perhaps do those questions in the morning, saving the afternoon for the project, and making the project slightly easier or smaller in scope. 
 
@@ -174,7 +174,7 @@ Here is a slightly modified question I was given from a company.
 * Support TTLs (time-to-live) expiration for a given URL. The user can pass in an optional TTL in seconds in the POST request for how long they want the link to be "valid". Expired links do not redirect to the original destination, and are removed from the service. An appropriate error is returned. 
 * Phase 2 deliverables should include both documentation and tests
 
-#### Phase 3 (Only do this after finishing Phase 2): 
+#### Phase 3 (Only do this after finishing Phase 2):
 
 * Support a temporary number of "uses" per shortened link. The user can pass in an integer corresponding to the number of times the shortened url can be used before it is automatically expired.
 * Phase 3 deliverables should include both documentation and tests
@@ -185,8 +185,26 @@ Here is a slightly modified question I was given from a company.
 
 ### How to grade this kind of programming project
 
-How do we determine what is a fair, but rigorous question to implement in 3 hours? Make sure all your mid-level and senior engineers can implement Phase 1 in the three hour time period. While the question above looks simple, there are a bunch of gotchas to work through, and doing the setup + project + tests + documentation is already pretty tough. If **everyone** on the team can't get reasonably close to passing Phase I in 3 hours, then your question is too hard. Phase 1 should encapsulate an entire functioning project, where Phase 2 and beyond test refactoring, design, or other aspects of software engineering like deployment and infrastructure. Phase 1 is the meat of what is being evaluated, where Phase 2 onwards are supplementary. 
+How do we determine what is a fair, but rigorous question to implement in 3 hours? Make sure all your mid-level and senior engineers can implement Phase 1 in the three hour time period. While the question above looks simple, there are a bunch of gotchas to work through, and doing the setup + project + tests + documentation is already pretty tough. If **everyone** on the team can't get reasonably close to passing Phase I in 3 hours, then your question is too hard. Phase 1 should encapsulate an entire functioning project, where Phase 2 and beyond test refactoring, design, or other aspects of software engineering like deployment and infrastructure. Phase 1 is the meat of what is being evaluated, where Phase 2 onwards are supplementary. Review the candidate's git history for the project to see how they break up the work. 
 
 In one of the instances where I was given this kind of interview, I was only able to barely solve Phase 1 before my time was up. I thought I had failed it. During my one hour review with the interviewers, they had me implement the logic for phase 2 in front of them. Again, I thought I did poorly. At the end of the day, the recruiter told me that I did *really* well on the project. I found it so refreshing to be evaluated by the relative value of each phase. It wasn't a race to implement all the features -- but to pick and choose how to best solve the problem, how to structure your code in a way that would allow you to iterate, but overall, deliver the most important thing to your customer (a complete, demo-able software implementation).
 
 ## How this type of interview addresses the needs of both parties
+
+#### For candidates:
+
+* It provides the benefits of a take-home while minimizing the downsides. You are given a practical problem that allows you to take advantage of the skills and experience you've gained over time. You're not forced to process everything on the spot -- being given 3 hours means you can spend more than 10 minutes trying to understand everything and plan a solution. Doing the test on-premises means you can ask for clarifications and get a response on the order of minutes, not hours or days. And, the nature of on-site interviews means that you have a constrained time-box to do the project in. No unnecessarily long projects! After the interview, thats it! You don't need spend your valuable personal time at home working on a project.
+* You don't need to spin your wheels for weeks or months grinding LeetCode and studying for a test that has no bearing on your actual job performance. Doing the programming project knocks out the technical portion, allowing the rest of the interviewers to do system design or behavioral interviews -- which matter more as you become more senior in your role and are more relevant.
+
+#### For interviewers:
+
+* Companies can save time and effort on interviews because the first half of the day can be handled with minimal involvement by employees. If the interviewers decide that the project and walkthrough is insufficient, the company can decide to end the interview because they would be able to make a more informed decision of the candidate's skills at that point. The interviewers don't need to review the code asynchronously either, unlike take-homes. They ask the candidate to run the test suite, they ask the candidate to demo the app, and they work through the code together. It fits nicely into the slot of 1 interview that would have otherwise be spent doing LeetCode interviews anyway.
+* Instead of doing the 3-in-1 LeetCode interviews, where interviewers try to get signal on multiple aspects with very little time, each interview can be more focused on a specific aspect of the candidate's evaluation, and we can dismiss using the *law-of-averages* as a way to select candidates to hire. After the technical coding assessment, interviewers can spend time focusing on higher level skills like architecture and technical management.
+
+## Final Thoughts
+
+If there is one thing I'd like you to take away, its this: LeetCode interviews aren't inherently *bad,* but we've allowed it to become the end-all, be-all for software engineering interviews, even when it doesn't relate to the work that we are expected to perform as senior engineers. When you swing a hammer, everything looks a nail. As software engineers, we need to evaluate if there are better tools for the job.
+
+- - -
+
+If you got this far, hopefully you agree with some of these ideas I've presented in this article. Thanks for reading! If you have any questions, comments, or suggestions, feel free to tweet me: [@nudgemybody](https://twitter.com/nudgemybody)
