@@ -40,7 +40,9 @@ The world is not black and white; there are a few reasons why companies prefer L
 
 Companies are on a constrained timeline and budget to conduct interviews. Interviewing is costly, so companies look for ways in which they can maximize the signal of a potential candidate without wasting too many resources on a "dud".  Many companies believe that the most damaging thing that can happen to a company is hiring the wrong person. In this vein, interviewers are encouraged to pass over potential "good" candidates until they find their one "great" candidate. LC style interviews provide a quick and easy, binary decision making process. "Did the person solve the problem? No? Ok then, let's move on." 
 
-The second benefit is the widely circulated belief that the engineers who can solve these LC problems are either hard workers who take their career seriously and prepared adequately, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these guys (or gals) to show up so you can reap the benefits. 
+The second benefit is that for junior engineers, this type of interview is still the best. Most recent graduates have never been exposed to modern software development practices, because academia often lags a decade or two behind the industry. When I got my first software internship , I didn't even know how to use git. I had only coded in C and in Java; Python and JavaScript weren't taught at my university. My databases class taught me about B-trees, not about how to use Mongo. As for alternatives: Either you skip the technical portion altogether (which is uncommon), or you make the candidate do a take-home, which they will need to spend a disproportionate amount of time on reading basic documentation and understanding how asynchronous requests work for web servers. 
+
+Finally, there is a widely circulated belief that the engineers who can solve these LC problems are either hard workers who take their career seriously and prepared adequately, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these guys (or gals) to show up so you can reap the benefits. 
 
 ## What's wrong with these interviews
 
@@ -120,7 +122,7 @@ Finally, for the average joe or jane that gets into a company based on their LC 
 
 ## Current alternatives to LC interviews: Take-Homes
 
-On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Previously, I used to think of these assessments as the solution, but I've found the solution to be wonky at best, and actually worse than LeetCode interviews in the worst case. 
+On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Previously, I used to think of these assessments as the solution, but I've found the solution to be wonky at best, and actually worse than LeetCode interviews in the average case. 
 
  
 
