@@ -52,7 +52,7 @@ It's also worth noting that [one of the most popular problems on LeetCode](https
 
 Let's talk about the kinds of people who benefit from this kind of interview. Off the top of my head, I can think of two major groups: competitive programmers, and/or young, single candidates who have recently studied computer science in college. 
 
-Think about it; would someone have the same chance of success in these interviews if they didn't have the same amount of time to prepare as the groups listed above? Probably not. So what about the person who is starting a family? What about the bootcamp graduate who hasn't studied computer science theory? Or the engineer with 10+ years of experience? You have to put in a serious amount of work to learn or refresh these concepts. And people wonder [why ageism is such a large problem in the software industry](https://softwareengineering.stackexchange.com/questions/61980/is-ageism-in-software-development-based-on-anything-other-than-bias). Let me be explicit: companies that rely solely on LeetCode style interviews cannot be considered "diverse" if their recruiting practices disproportionally discriminate against certain kinds of candidates.  
+Think about it; would someone have the same chance of success in these interviews if they didn't have the same amount of time to prepare as the groups listed above? Probably not. So what about the person who is starting a family? What about the bootcamp graduate who hasn't studied computer science theory? Or the engineer with 10+ years of experience? What about the candidate who has adult-onset ADD / ADHD? You have to put in a serious amount of work to learn or refresh these concepts. And people wonder [why ageism is such a large problem in the software industry](https://softwareengineering.stackexchange.com/questions/61980/is-ageism-in-software-development-based-on-anything-other-than-bias). Let me be explicit: companies that rely solely on LeetCode style interviews cannot be considered "diverse" if their recruiting practices disproportionally discriminate against certain kinds of candidates.  
 
 Which points to an obvious problem: If people don't have the means to be able to work on these esoteric exercises in their personal time, how do they study? Here's an unspoken "dirty secret" -- they do it on the job. They practice LeetCode during their work hours, often putting off of work in order to train because [we are incentivized to jump across companies to get raises](https://daedtech.com/notes-on-job-hopping-you-should-probably-job-hop/) instead of trying to work our way up the ranks. This is something I've observed in the workplace in almost every job I've had, and something I've guilty of doing as well. If only there was a better way... 
 
@@ -80,9 +80,9 @@ Oh right. Clearly, we have a habit in this industry of over extending our resour
 
 #### Depending on the interviewer, you are rewarded little to no credit for communication, problem solving, or coach-ability -- just the results of your solution
 
-Just to throw another wrench into this whole process, many interviewers pay lip-service to the idea that candidates should be judged holistically, but then judge them by very strict standards. Its not enough to try and articulate your approach, try to code a strategy, and iterate to your solution in a real-life manner. If you get stuck and ask for hints, you get docked points. If you don't solve the problem the way your interviewer wants you to solve the problem, your solution is considered "messy" and "confusing". A sub-optimal solution? "Lacks Problem Solving Skills". 
+Just to throw another wrench into this whole process, many interviewers pay lip-service to the idea that candidates should be judged holistically, but then judge them by very strict standards. Its not enough to try and articulate your approach, code a solution, and iterate in a real-life manner. If you get stuck and ask for hints, you get docked points. If you don't solve the problem the way your interviewer wants you to solve the problem, your solution is considered "messy" and "confusing". A sub-optimal solution? "Lacks Problem Solving Skills". 
 
-Having someone coach you to a  workable solution means the highest score you can expect to get for the interview is a "Neutral". We don't observe the process of problem solving, we just reward people who already know the problem and get it right.
+Having someone coach you to a  workable solution means the highest score you can expect to get for the interview is a "Neutral". We don't observe the process of problem solving, we just reward people who already know the problem and get it right. Oh, you're supposed to show these steps to your interviewer, but you can't take too long on any one. 
 
 #### They disenfranchise the middle 60% of all applicants. 
 
@@ -110,17 +110,17 @@ This definitely threw me for a loop in the interview. When I was talking to the 
 
 ## How did these interviews get so popular?
 
-\- Google / FAANG companies 
+By this point, I hope we can agree that LC interviews are trash. But why are they so prevalent? All roads point to FAANG. Since the early days of the internet era, companies like Microsoft, Yahoo, and other FAANGs have been employing these kinds of interviews in order to screen out as many applicants as they could. Part of this is logistics -- hence why we believe in this assumption that good candidates aren't actually "good enough", and why we need to only hire "the best" and have "bar raisers" to continually set higher expectations for our applicants. The less obvious reason was that it was good for the brand. [Like McKinsey](https://www.theatlantic.com/ideas/archive/2020/02/how-mckinsey-destroyed-middle-class/605878/), companies could improve their own image by generating applications that it could then reject, to establish its own eliteness. And by golly, wouldn't you know it. Every fresh-faced grad wants to eventually work for a FAANG because we've all been conditioned to think that working at a company at that level represents the zenith; that we can really, finally, and truly shake off this imposter syndrome and call ourselves "good engineers". 
 
-\- Cracking the coding interview and the market for self-help guides
+Another reason is that this opened up a huge market for enterprising individuals: Cracking the Coding Interview, LeetCode, and the market for self-help guides began to boom. Not only did this add to the mystique of these FAANGS, it also meant that your original "hard" questions would become well-known given enough time. Now, we are in a rat race to "re-discover" new faces of computer science theory to test our candidates on. New questions means new editions of the book, renewed subscriptions for LeetCode and interviewcake.io and the like. It's not a coincidence that Dynamic Programming problems have become the new norm (which they teach in **grad school**). It's a self-perpetuating machine. 
 
-\- The facade of meritocracy, the toxic behavior of gate-keeping 
+Finally, for the average joe or jane that gets into a company based on their LC performance, some of them fall victim to their confirmation bias. Well, because *they* made it, everyone should make it to be considered "on the same level". They begin to view themselves as upholders of meritocracy, and pride themselves on being considered a "tough interviewer". Sadly, I think I fell into this camp for a long time. The toxic behavior of gate-keeping is very much enabled by this style of interview. It's important to clarify that this exists in other styles of interviews as well, but it seems especially rampant with LeetCode interviews.
 
 ## Current Alternatives to LC interviews: a comparison
 
-\- No whiteboard interviews
-
 \- Take Home projects
+
+\- No whiteboard interviews
 
 ## Introducing a new style of Engineering Interviews
 
