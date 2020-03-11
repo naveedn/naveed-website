@@ -34,7 +34,7 @@ Now imagine doing this 2-4 times in the process of interviewing with 1 company. 
 
 Interviewing with so many companies, however, provided me a very useful breadth of data points: I could observe the nuances and differences in the interviewing styles. Some companies have much better interview processes than others. But before we jump into potential alternatives, let's break down this interview into its individual components, so we can understand the motivations for why we continue this practice.
 
-## What are the (purported) benefits of LeetCode Interviews?
+## What are the benefits of LeetCode Interviews?
 
 The world is not black and white; there are a few reasons why companies prefer LeetCode interviews. 
 
@@ -134,8 +134,8 @@ However, for some people, this is still a great way to interview, and for the co
 
 # Introducing a new style of Engineering Interviews
 
-\- Remove Leetcode Mediums / Hard
+From my experiences interviewing, there were a few companies that stand out as having a great interview process. They were short and efficient, rigorous and challenging for the senior engineering role. Whats more interesting was that the interviews were structurally very similar to each other. 
 
-\- Don't schedule more than 2 interview periods
+They are only 2 interviews periods. One is an initial phone screen with the recruiter or hiring manager. These conversations would be anywhere from 30-60 minutes, where the company gets a feel for whether or not you are who you say you are. This isn't different from most interviews, so 'nuff said. 
 
-\- Do a full day interview assessment
+The second interview is a full day assessment, broken out into a few parts.
