@@ -5,9 +5,9 @@ slug: alternative-senior-engineer-interview-process
 draft: true
 date: 2020-03-10T22:15:40.358Z
 description: >-
-  Let's address the elephant in the room: Interviewing for (senior) software
+  Let's address the elephant in the room: Interviewing for senior software
   engineers is a terrible process that everyone admits is broken. Because of the
-  lack of alternatives presented to us, we are forced to use Leetcode style
+  lack of alternatives presented to us, we are forced to use LeetCode style
   interviews. But is there a better way? Read on to find out. 
 category: interviews
 tags:
@@ -125,7 +125,9 @@ On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Prev
 
 #### What they get wrong
 
-* They are higher effort for both parties. Because of the asynchronous nature of these projects, getting clarifications on ambiguous wording via email can take anywhere from a couple hours to a few days, throwing you off your groove if you're coding the assessment. Candidates are usually interviewing with a handful of companies at a time, and these take-homes take a disproportionate amount of time when compared a quick LeetCode style interview. For the engineers reviewing these projects, you generally have to review a candidates project alongside your other work, whereas with an interview, you have a concrete window in which to handle the interviewing task. And, if you work at a company where you might have a few hundred candidates, this process of individual code review does not scale -- you can't possibly review them all. 
+* They are higher effort for both parties. Because of the asynchronous nature of these projects, getting clarifications on ambiguous wording via email can take anywhere from a couple hours to a few days, throwing you off your groove if you're coding the assessment. Candidates are usually interviewing with a handful of companies at a time, and these take-homes take a disproportionate amount of time when compared a quick LeetCode style interview.
+
+   For the engineers reviewing these projects, you generally have to review a candidates project alongside your other work, whereas with an interview, you have a concrete window in which to handle the interviewing task. And, if you work at a company where you might have a few hundred candidates, this process of individual code review does not scale -- you can't possibly review them all. 
 * Because they take place over a longer period of time, they can often balloon in scope. Some companies give lengthy projects as a way to judge efficacy, and there isn't a good standard on what a candidate should and shouldn't accept. The ambiguity makes it difficult for a candidate to know how much to invest, especially if they are interviewing with a few companies at once. Whats the time frame? 3 hours? 6? Should I have a full test suite as well? Not having a clear time frame can muddle the results, making it difficult for interviewers to get a good litmus test, while making some candidates choose an "incorrect" amount of time on the project.
 
 In my own experience, I found myself actually wanting to do a LeetCode interview after getting rejected by a company after doing their take home. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens. It's just not a good use of my time. 
@@ -151,9 +153,7 @@ The second interview is where things get interesting: It's a full day on-site as
 7. The next round(s) is either a system design or a technical communication interview. System design interviews are par for the course in terms of senior software engineering interviews -- not to mention that this is something that a candidate should be familiar with in the course of their everyday work. Technical Communication Interviews are a flavor of System Design Interviews where the candidate is asked to describe a past project they built in technical detail, discussing the trade-offs, the constraints, the solution, and their involvement with the project. 
 8.  The day would end with a behavioral interview, where a candidate's culture fit aligns with company values. Pretty standard.
 
-Could one swap out the later interviews with another coding question? Sure. But one thing I've noticed is that doing a 3 hour project is *tiring.* Keeping yourself focused, efficient, and calm for that duration is pretty draining. You have to expect that your candidates are human too -- so expect that their interview performance will degrade over time. If you plan on doing coding questions in addition to the project, perhaps do those questions in the morning, saving the afternoon for the project, and making the project slightly easier. 
-
-
+Could one swap out the later interviews with another coding question? Sure. But one thing I've noticed is that doing a 3 hour project is *tiring.* Keeping yourself focused, efficient, and calm for that duration is pretty draining. You have to recognize that your candidates are humans too -- so expect that their interview performance will degrade over time. If you plan on doing coding questions in addition to the project, perhaps do those questions in the morning, saving the afternoon for the project, and making the project slightly easier or smaller in scope. 
 
 ## A Sample Programming Project
 
@@ -163,7 +163,7 @@ Here is a slightly modified question I was given from a company.
 
 #### Phase 1:
 
-* Your phase 1 deliverables should include a webserver listening on port 5000
+* Your phase 1 deliverables should include a webserver listening on port 5000, and a datastore of your choosing to store the URLs
 * The web server API should accept a POST request that allows the user to submit a URL, and returns a shortened link
 * The web server should accept a GET request with the shortened link in the request path, and redirects the browser to original URL
 * Implement a DELETE API, where given the original URL and the shortened link, the entry is removed from the service
@@ -185,8 +185,8 @@ Here is a slightly modified question I was given from a company.
 
 ### How to grade this kind of programming project
 
-How do we determine what is a fair, but rigorous question to implement in 3 hours? Make sure all your mid-level and senior engineers can implement Phase 1 in the three hour time period. While this question looks deceptively simple, there are a bunch of gotchas to work through, and doing the setup + project + tests + documentation is already pretty tough. If everyone on the team can't do Phase I in 3 hours, then your question is too hard. Phase 1 should encapsulate an entire functioning project, where Phase 2 and beyond test refactoring, design, or other aspects of software engineering like deployment and infrastructure. Phase 1 is the meat of what is being evaluated, where Phase 2 and beyond are supplementary. 
+How do we determine what is a fair, but rigorous question to implement in 3 hours? Make sure all your mid-level and senior engineers can implement Phase 1 in the three hour time period. While the question above looks simple, there are a bunch of gotchas to work through, and doing the setup + project + tests + documentation is already pretty tough. If **everyone** on the team can't get reasonably close to passing Phase I in 3 hours, then your question is too hard. Phase 1 should encapsulate an entire functioning project, where Phase 2 and beyond test refactoring, design, or other aspects of software engineering like deployment and infrastructure. Phase 1 is the meat of what is being evaluated, where Phase 2 onwards are supplementary. 
 
-In one of the instances where I was given this kind of interview, I was only able to barely solve Phase 1 before my time was up. I thought I had failed it. During my one hour review with the interviewers, they had me implement the logic for phase 2 in front of them. Again, I thought I did poorly. At the end of the day, the recruiter told me that I did *really* well on the project. I found it so refreshing to be evaluated by the relative value of each phase. It wasn't a race to implement all the features -- but to pick and choose how to best solve the problem, how to structure your code in a way that would allow you to iterate, but overall, deliver the most important thing to your customer (phase 1 - a complete, demo-able software implementation).
+In one of the instances where I was given this kind of interview, I was only able to barely solve Phase 1 before my time was up. I thought I had failed it. During my one hour review with the interviewers, they had me implement the logic for phase 2 in front of them. Again, I thought I did poorly. At the end of the day, the recruiter told me that I did *really* well on the project. I found it so refreshing to be evaluated by the relative value of each phase. It wasn't a race to implement all the features -- but to pick and choose how to best solve the problem, how to structure your code in a way that would allow you to iterate, but overall, deliver the most important thing to your customer (a complete, demo-able software implementation).
 
 ## How this type of interview addresses the needs of both parties
