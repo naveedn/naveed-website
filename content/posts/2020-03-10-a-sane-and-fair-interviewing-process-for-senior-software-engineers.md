@@ -2,7 +2,7 @@
 template: post
 title: A sane and fair process for conducting Senior Software Engineering interviews
 slug: alternative-senior-engineer-interview-process
-draft: true
+draft: false
 date: 2020-03-10T22:15:40.358Z
 description: >-
   Let's address the elephant in the room: Interviewing for senior software
