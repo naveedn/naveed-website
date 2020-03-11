@@ -28,7 +28,9 @@ For the uninitiated, these LeetCode interviews are designed to test an engineer'
    * Explain their answer to the interviewers, and modify their solution to solve additional constraints by their interviewers
 4. Interviewers allow the programmer to ask the interviewers questions about the company \[~5-10 minutes]
 
-Now imagine doing this 2-4 times in the process of interviewing with 1 company. You may be thinking, "its not so bad", consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30+ companies. Thats a **lot** of interviews, all following the same routine. With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve these problems fast enough.
+Now imagine doing this 2-4 times in the process of interviewing with 1 company. You may be thinking, "its not so bad", consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. Thats a **lot** of interviews, all following the same routine. With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve these problems fast enough.
+
+![A screenshot of my most recent interview cycle](/media/screen-shot-2020-03-10-at-9.15.29-pm.png "C's get Degrees, amirite hahaha? *nudge nudge*")
 
 Interviewing with so many companies, however, provided me a very useful breadth of data points: I could observe the nuances and differences in the interviewing styles. Some companies have much better interview processes than others. But before we jump into potential alternatives, let's break down this interview into its individual components, so we can understand the motivations for why we continue this practice.
 
