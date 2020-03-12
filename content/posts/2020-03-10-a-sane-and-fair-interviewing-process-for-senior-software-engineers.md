@@ -13,6 +13,8 @@ tags:
   - interviewing
   - technical
 ---
+_For those reading, the first half of this essay can be found here: [Part 1: Interviews for Senior Software Engineers are F*cking Broken](https://www.naveed.dev/posts/senior-engineer-interviews-broken)_
+
 # Introducing a new style of Engineering Interviews
 
 From my experiences interviewing, there were a few companies that stand out as having a novel and great interview process. They were short and efficient, thorough and challenging for the senior engineering role. Whats more interesting was that the interviews were structurally very similar to each other, albeit some details are different. Essentially, you try to take the best aspects of both styles of interviewing while minimizing each solutions downfalls. I've adapted some of the common ideas into the format below.
