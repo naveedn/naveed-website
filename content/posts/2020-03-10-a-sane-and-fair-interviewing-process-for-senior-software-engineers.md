@@ -5,10 +5,10 @@ slug: alternative-senior-engineer-interview-process
 draft: false
 date: 2020-03-10T22:15:40.358Z
 description: >-
-  Let's address the elephant in the room: Interviewing for senior software
-  engineers is a terrible process that everyone admits is broken. Because of the
-  lack of alternatives presented to us, we are forced to use LeetCode style
-  interviews. But is there a better way? Read on to find out. 
+  Let's agree to one point: LeetCode Interviews aren't the best gauge of a
+  Senior Software Engineer's skill. But despite the numerous problems, we still
+  use this interview format almost exclusively. Is there a better way? Read on
+  to find out. 
 category: interviews
 tags:
   - interviewing
