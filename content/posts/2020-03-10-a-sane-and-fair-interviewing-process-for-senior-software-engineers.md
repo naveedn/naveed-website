@@ -5,10 +5,9 @@ slug: alternative-senior-engineer-interview-process
 draft: false
 date: 2020-03-10T22:15:40.358Z
 description: >-
-  Let's agree to one point: LeetCode Interviews aren't the best gauge of a
-  Senior Software Engineer's skill. But despite the numerous problems, we still
-  use this interview format almost exclusively. Is there a better way? Read on
-  to find out. 
+  Despite the numerous problems, we still use LeetCode style interviews almost
+  exclusively in our hiring process. Is there a better way? Read on to find
+  out. 
 category: interviews
 tags:
   - interviewing
