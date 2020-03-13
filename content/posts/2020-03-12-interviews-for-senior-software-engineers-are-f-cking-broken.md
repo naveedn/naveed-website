@@ -8,7 +8,7 @@ description: >-
   Let's address the elephant in the room: Interviewing for senior software
   engineers is a terrible process that everyone admits is broken. Because of the
   lack of alternatives presented to us, we are forced to use LeetCode style
-  interviews. 
+  interviews. But does it have to stay this way?
 category: interviews
 tags:
   - interviewing
