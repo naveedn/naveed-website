@@ -30,28 +30,29 @@ Essentially, you try to take the best aspects of the Pragmatic Practical, Take-H
 
 ### The interviewing schedule
 
-* Part 1: A recruiter and a candidate connect, and the interview conversation begins
+* Part 1: A recruiter and a candidate connect, and the interview conversation kicks off
 * Part 2: A hiring manager connects with the candidate, doing a 30 minute or 1-hour long phone screen to review candidate experience and determine fit within the team
 * Part 3:  The candidate is brought on-site for a full-day assessment
-* Part 4: The team meets about a candidate at the end of the day, and makes a go / no-go decision
+* Part 4: After the assessment, the team meets at the end of the day, and makes a go / no-go decision for the candidate.
 * Part 5: A recruiter reaches out within 24-48 hours, and relays the decision to the candidate
 
 ### The on-site schedule
 
 1. The candidate arrives and is brought into a conference room. The recruiter provides the candidate with a written spec for the programming project
-2. After 15 minutes, an engineer steps into the room, and provides clarifications to any questions the candidate has after reading the spec. The engineer provides a phone number for the candidate to text if they need the engineer to come back
-3. The candidate is then left alone and given 3 hours from that point to implement the spec as best as they can. The test is open-book, and they can use whatever IDE, language, framework or tools they want. The programming project is composed of multiple logical phases, with the goal being to complete the requirements of each phase before moving onto the next one. Each phase tests a different aspect of the project or becomes more difficult than the previous.
+2. After 15 minutes, an engineer steps into the room, and provides clarifications to any questions the candidate has after reading the spec. The engineer provides a phone number for the candidate to text if they need the engineer to come back and explain something. 
+3. The candidate is then left alone and given 3 hours from that point to implement the spec as best as they can. The test is open-book, and they can use whatever IDE, language, framework or tools they want. The programming project is composed of multiple logical phases, with the goal being to complete the requirements of each phase before moving onto the next one. Each phase tests a different aspect of the project and becomes more difficult than the previous phase.
 4. At the 3 hour mark, the candidate zips up their project, and sends it to a predetermined destination like a dropbox folder or email
-5. The candidate is then given a 30 - 60 minute lunch break with a "buddy". This informal interview is where they get the chance to talk to an engineer that currently works at teh company and can provide answers to any questions about company culture the candidate has
-6. After lunch, 2 engineers come into the room and do a technical deep dive with the candidate for an hour. The candidate will demo the project, run the test suite (if part of the spec), and walk through their code solution. Along the way, they will field questions from the interviewers. Afterwards, the interviewers canask questions regarding architecture or design decisions, have the candidate implement a later part of the spec (if they did not finish), and / or discuss some of the challenges they faced when building the project.
+5. The candidate is then given a 30 - 60 minute lunch break with a "buddy". This informal interview is where they get the chance to talk to an engineer that currently works at the company and can provide answers to any questions about company culture the candidate has
+6. After lunch, 2 engineers come into the room and do a technical deep dive with the candidate for an hour. The candidate will demo the project, run the test suite (if part of the spec), and walk through their code solution. Along the way, they will field questions from the interviewers. Afterwards, the interviewers can ask questions regarding architecture or design decisions, have the candidate implement a later part of the spec (if they did not finish), and / or discuss some of the challenges they faced when building the project.
 
-   **NOTE: Every company that performed this kind of interview did it with *every* candidate, including the interviewers themselves. As such, they often were familiar the details, and it was easy to swap interviewers on short notice.** 
+   **NOTE: Every company that performed this kind of interview did it with *every* candidate, including the interviewers themselves. As such, they often were intimately familiar the details, and it was easy to swap interviewers on short notice.** 
 7. The candidate is given a 15 minutes break while the interviewers confer and decide whether or not to keep going. This is probably the most contentious part of the interview: If the candidate did not perform satisfactorily on the programming project or the project review, then the interview would end there and the candidate leaves. If the candidate passes, then they proceed into the final rounds of the interview.
 8. The next round(s) could fit any of the 1-hour interview styles we have previously covered in this blog: Behavioral Interviews, System Designs, Pragmatic Practicals, or LeetCode interviews. 
 
    * System Design interviews are par for the course for senior software engineering interviews -- this is something that a candidate should be familiar with in the course of their everyday work. 
    * Technical Communication Interviews are a flavor of System Design Interviews where the candidate is asked to describe a past project they built in technical detail, discussing the trade-offs, the constraints, the solution, and their involvement with the project
-   * It's worth noting that the programming project is an *intense* exercise. While one could do a pragmatic practical or a LeetCode style interview, it would not add more signal and the interviewer expect that a candidates performance would realistically decrease as the day wears on.
+   * It's worth noting that the programming project is an *intense* exercise. While one could do a pragmatic practical or a LeetCode style interview, it would not add much more signal and the interviewer should expect that a candidate's performance realistically will decrease as the day wears on.
+9. After the interviews are done for the day, the candidate meets with the recruiter for a 15 minute sync, describing their experience interviewing with the company. They leave, and the team makes a final decision on the candidate. 
 
 ## How this type of interview addresses the needs of both parties
 
