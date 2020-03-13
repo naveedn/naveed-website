@@ -99,7 +99,7 @@ Having someone coach you to a workable solution means the highest score you can 
 
 #### They benefit only a small class of software engineers
 
-Let's talk about the kinds of people who benefit from this kind of interview. Off the top of my head, I can think of two major groups: competitive programmers, and/or young, single candidates who have recently studied computer science in college. 
+Let's talk about the kinds of people who benefit from this kind of interview. Off the top of my head, I can think of two major groups: [competitive programmers](https://en.wikipedia.org/wiki/Competitive_programming), and/or young, single candidates who have recently studied computer science in college. 
 
 Think about it; would someone have the same chance of success if they didn't have the same amount of time to prepare as the groups listed above? Probably not. So what about the person who is starting a family? What about the bootcamp graduate who hasn't studied computer science theory? Or the engineer with 10+ years of experience? What about the candidate who has adult-onset ADD / ADHD? You have to put in a serious amount of work to learn or refresh these concepts. And people wonder [why ageism is such a large problem in the software industry](https://softwareengineering.stackexchange.com/questions/61980/is-ageism-in-software-development-based-on-anything-other-than-bias). Let me be explicit: companies that rely solely on LeetCode style interviews cannot be considered "diverse" if their recruiting practices disproportionately discriminate against certain kinds of candidates.  
 
