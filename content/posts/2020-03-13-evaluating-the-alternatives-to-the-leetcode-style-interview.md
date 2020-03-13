@@ -14,7 +14,17 @@ category: interviews
 tags:
   - interviewing
 ---
-In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Let's look at some alternatives.  
+In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers.  
+
+## A refresher: What should the Technical Interview evaluate a candidate on?
+
+* **Problem Solving**: Given a problem, can the candidate think on their feet and come up with a solution? Are their proposed solutions reasonable, and can they leverage their experiences effectively? Are they coachable, and can they work well with feedback?
+* **Raw Technical Chops**: Can this person actually code at a reasonable speed? Are they familiar with the language’s standard API? Are they familiar with Data Structures and Algorithms?
+* **Design Patterns / Coding “Style”:**Does this person write clean code? Do they use descriptive variable names, and appropriately sized functions? Do they display other hallmarks of maintainable software?
+* **Communication / Behavioral**: Is this person effective at explaining what they are thinking about, and describing a solution that can be understood by others?
+* **Attitude / Demeanor**: Is this person a brilliant jerk? Are they stand-offish? Cocky? Are they independent? Are they low-energy? Is this someone I can see myself working with? Does their values align with our company credos?
+
+Ok, so now that we've gotten that taken care of, let's look at some alternatives in practice today.
 
 ## Alternative #1: Take-Home Assessments
 
@@ -47,13 +57,13 @@ That being said, they're too expensive in terms of time and effort. Lots of cand
 
 In my own experience, I found myself actually wanting to do a LeetCode interview after getting rejected by a company after doing their take home. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens. It's just not a good use of my time when I'm hunting for jobs. Would I do one if I had to? Absolutely. But would I jump for the opportunity?
 
-<iframe src="https://giphy.com/embed/lokUlZaZgMAQlI05pu" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chef-key-and-peele-keyandpeele-lokUlZaZgMAQlI05pu">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/lokUlZaZgMAQlI05pu" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chef-key-and-peele-keyandpeele-lokUlZaZgMAQlI05pu"></a></p>
 
-However, for some people, I know this is still a great way to interview, and for the companies offering it, I applaud you for not cargo-culting. If this is your jam, I would highly recommend taking a look at [the list of companies that don't do whiteboard interviews.](https://github.com/poteto/hiring-without-whiteboards)
+However, for some people, I know this is still a great way to interview, and for the companies offering it, I applaud you for not cargo-culting.
 
-## Alternative #2: Behavioral & System Design Interviews only
+## Alternative #2: Behavioral & System Design Interviews ONLY
 
-A few of the companies I had interviewed with relied on behavioral and system design interviews as the sole determinant of a candidate's skill. Let's discuss the pros and cons. 
+A few of the companies I had interviewed with (small startups) relied on behavioral and system design interviews as the sole determinant of a candidate's skill. Let's discuss the pros and cons. 
 
 #### What they get right
 
@@ -80,10 +90,40 @@ The best thing about this approach is that it is quick, easy, and scalable, whil
 
 ## Alternative #3: The Pragmatic Practical
 
-
+This is a pretty new kind of assessment, and it was offered by one company via the coding platform [Codility](https://www.codility.com/). This interview style was very straightforward -- 4 small, pragmatic tests which would test a specific subject, technology, or skill. One example was a "refactoring test", where you were given a function that was 80 lines long and asked to refactor it and clean up the logic. Another test might be how to build a simple program with a framework or tool. Stuff like that. 
 
 #### What they get right
 
+* It is a realistic proxy for everyday development, and tests whether you can actually code
+* The assessment leverages the actual experience engineers may have accrued in their career
+* They are not cramming multiple types of interviews into 1 session
+* They fit into the hour long timeframe taken by LeetCode, System Design, and Behavioral Interviews
+* They have defined and concrete deliverables, like LeetCode and unlike System Design
+
 #### What they get wrong
 
+* The bite-sized length of each assessment would make it hard to differentiate a mid-level engineer from a senior-level engineer. 
+* The assessments were often testing the fluency of a language or tool more than the problem solving skills.
+* The assessment heavily slanted in engineering breadth vs depth
+
 #### Conclusions
+
+This assessment is a ***HUGE*** step in the right direction. The "Pragmatic Practical" combines the speed and scalability of LeetCode interviews with the pragmatism and efficacy of System Design & Take Homes. We've successfully crossed over into territory where we can evaluate a candidate based on their technical chops, while allowing them to leverage their  prior experience in a time efficient manner!  Woo-hoo!
+
+But... (There's always a but), there is something left to be desired. It feels to me that I wasn't able to demonstrate *how much* of a given topic I knew. Once you could demonstrate that you could navigate the API and understand the concepts behind a technology, the assessment was trivial. Being constrained to the 1 hour time-box meant simplifying problems down to a point that feels reductive. While definitely harder to fake than the system design or behavioral assessment, it doesn't seem like an effective test to separate a good mid-level engineer from a senior one. We need some criteria to be able to distinguish engineers of different ranks, and that is missing from this kind of assessment.
+
+All in all though, I would endorse this style of test over a LeetCode. You could pair this style of assessment with System Design and Behavioral Tests, and get a pretty good read on a candidate. Is this the best style of interviewing? Actually, I found another exercise that I think is even better.
+
+## What is the criteria for a sane, but fair interview process for Senior Software Engineers?
+
+1. It needs to scale in terms of cost / time / effort. It respects the candidate's time, and can work for engineering teams of 10 or 1000.
+2. It should be a realistic proxy for everyday development, and lets a candidate leverage their prior work experience in demonstrating tech skills
+3. They should be of sufficient technical complexity to allow a candidate to demonstrate the depth of their knowledge, distinguishing them from mid-level engineers (while also respecting rule 1)
+
+The solutions above, while close, don't fully satisfy the criteria for a sane and rigorous interview process. In my experience, there was a certain class of interview that did meet all the criteria above, one that hasn't been discussed yet.  So, without further ado, check out [](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process)[a sane and fair process for conducting senior software engineering interviews](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process).
+
+However, like I alluded to earlier, there is no one-size-fits all. If the current non-LeetCode based assessments are your jam, then more power to you! I would recommend taking a look at [Hiring Without Whiteboards](<https://github.com/poteto/hiring-without-whiteboards>) so you can find your next company! <3
+
+- - -
+
+Thanks for reading! If you have any suggestions, feel free to tweet me: [@nudgemybody](https://twitter.com/nudgemybody)
