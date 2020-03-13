@@ -17,15 +17,15 @@ The bane of every software engineer's existence (if there is one) has got to be 
 
 For the uninitiated, these LeetCode interviews are designed to test an engineer's "fundamentals". They place a particular emphasis on using less common data structures or algorithms -- stuff most programmers haven't studied since college --  usually paired with a "trick" to make the problem more difficult. Here's the breakdown of a typical 1 hour long interview:
 
-1. The interviewers introduce themselves, and ask the applicant to introduce themselves \[~5-10 minutes]
-2. The interviewers may engage in a few behavioral questions \[~10-15 minutes, often skipped or done at the end]
+1. The interviewers spend 5-10 minutes introducing themselves, and asking the candidate to do the same
+2. The interviewers may engage in a few behavioral questions, taking ~10-15 minutes. This is often skipped or done at the end.
 3. A programmer is presented with a logic / programming problem.  They are usually given anywhere from 25-40 minutes to:
 
    * Understand the problem 
    * Determine the optimal solution (by figuring out the trick, correct data structure, and algorithm)
    * Write it up on a whiteboard
    * Explain their answer to the interviewers, and modify their solution to solve additional constraints by their interviewers
-4. Interviewers allow the programmer to ask the interviewers questions about the company \[~5-10 minutes]
+4. Interviewers allow anywhere from 0-10 minutes for the programmer to ask the interviewers questions about the company.
 
 Now imagine doing this 2-4 times in the process of interviewing with 1 company. You may be thinking, "its not so bad", consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. Thats a **lot** of interviews, all following the same routine. With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve these problems fast enough.
 
@@ -47,17 +47,20 @@ Finally, there is a widely circulated belief that the engineers who can solve th
 
 #### They are an inaccurate proxy for everyday development.
 
-First and foremost, they are absolutely nothing like what you would be doing on the job. I can tell you with 100% certainty that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. These kinds of problems *don't exist* in modern day software engineering because the power and speed of recent computers make these performance tricks negligible.  It's a better use of someone's time if they spent the same effort solving more problems than optimizing a single problem. Furthermore, the work experience I gained in my career does not transfer at all to my ability to LeetCode. Writing software for 6 years has not made me correspondingly better at LeetCode, it's just made me better at writing software.
+First and foremost, they are absolutely nothing like what you would be doing on the job. I can tell you with 100% certainty that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. The one time i had to implement a distributed LRU cache for the company, I used [a library](https://github.com/isaacs/node-lru-cache). These kinds of problems *don't exist* in modern day software engineering because the power and speed of recent computers make these performance tricks negligible. 
 
-It's also worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. Thats not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of state-related bugs everywhere they go. 
+The opposing argument is that while developers nowadays have a cornucopia of libraries and tools at their disposal, it is still critical to know how these tools ** actually work** under the hood so that the engineer can make judicious decisions about what tool is appropriate for the job, and in what capacity. Fair -- I concede that knowing the nuts & bolts of how an algorithm or data structure works allows you to make better informed decisions in your work, and that being good at abstract thinking makes concrete tasks easier. I also concede that people naturally gifted in this category generally write clean code, which is critical to the maintainability of the software systems we're employed to manage. 
 
-#### They benefit only a small class of software engineers.
+But then, why do we insist on adding "tricks" to our programming problems? If we really only cared about knowledge of data structures, shouldn't we just ask someone to implement a Binary Search Tree in front of us, talk about the characteristics and runtime properties of that tree vs other data structures, and then call it a day? 
 
-Let's talk about the kinds of people who benefit from this kind of interview. Off the top of my head, I can think of two major groups: competitive programmers, and/or young, single candidates who have recently studied computer science in college. 
+It's worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. Thats not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of state-related bugs everywhere they go.
 
-Think about it; would someone have the same chance of success in these interviews if they didn't have the same amount of time to prepare as the groups listed above? Probably not. So what about the person who is starting a family? What about the bootcamp graduate who hasn't studied computer science theory? Or the engineer with 10+ years of experience? What about the candidate who has adult-onset ADD / ADHD? You have to put in a serious amount of work to learn or refresh these concepts. And people wonder [why ageism is such a large problem in the software industry](https://softwareengineering.stackexchange.com/questions/61980/is-ageism-in-software-development-based-on-anything-other-than-bias). Let me be explicit: companies that rely solely on LeetCode style interviews cannot be considered "diverse" if their recruiting practices disproportionally discriminate against certain kinds of candidates.  
 
-Which points to an obvious problem: If people don't have the means to be able to work on these esoteric exercises in their personal time, how do they study? One way is to quit your current company, take a small break, and then "grind LeetCode" full time until you are ready to interview. In fact, for senior engineers who are considering job hopping, this is currently the best way to get your next job. Well, what about the people who aren't willing to forego their paycheck in order to study? Here's an unspoken "dirty secret" -- they do it on the job. They practice LeetCode during their work hours, often putting off actual work in order to train. This is something I've observed in the workplace in almost every job I've had. 
+#### The difficulty of an assessment does not scale co-linearly with actual experience
+
+Furthermore, the work experience I gained in my career does not transfer at all to my ability to LeetCode. Writing software for 6 years has not made me correspondingly better at LeetCode, it's just made me better at writing software.
+
+
 
 #### They cram too much into too small of a timeframe.
 
@@ -85,6 +88,14 @@ Oh right. Clearly, we have a habit in this industry of over extending our resour
 Just to throw another wrench into this whole process, many interviewers pay lip-service to the idea that candidates should be judged holistically, but then judge them by very strict standards. Its not enough to try and articulate your approach, code a solution, and iterate in a real-life manner. If you get stuck and ask for hints, you get docked points. If you don't solve the problem the way your interviewer wants you to solve the problem, your solution is considered "messy" and "confusing". A sub-optimal solution? "Lacks Problem Solving Skills". 
 
 Having someone coach you to a workable solution means the highest score you can expect to get for the interview is a "Neutral". We don't observe the process of problem solving and judge based on that -- we only reward people who get it right.    
+
+#### They benefit only a small class of software engineers
+
+Let's talk about the kinds of people who benefit from this kind of interview. Off the top of my head, I can think of two major groups: competitive programmers, and/or young, single candidates who have recently studied computer science in college. 
+
+Think about it; would someone have the same chance of success in these interviews if they didn't have the same amount of time to prepare as the groups listed above? Probably not. So what about the person who is starting a family? What about the bootcamp graduate who hasn't studied computer science theory? Or the engineer with 10+ years of experience? What about the candidate who has adult-onset ADD / ADHD? You have to put in a serious amount of work to learn or refresh these concepts. And people wonder [why ageism is such a large problem in the software industry](https://softwareengineering.stackexchange.com/questions/61980/is-ageism-in-software-development-based-on-anything-other-than-bias). Let me be explicit: companies that rely solely on LeetCode style interviews cannot be considered "diverse" if their recruiting practices disproportionally discriminate against certain kinds of candidates.  
+
+Which points to an obvious problem: If people don't have the means to be able to work on these esoteric exercises in their personal time, how do they study? One way is to quit your current company, take a small break, and then "grind LeetCode" full time until you are ready to interview. In fact, for senior engineers who are considering job hopping, this is currently the best way to get your next job. Well, what about the people who aren't willing to forego their paycheck in order to study? Here's an unspoken "dirty secret" -- they do it on the job. They practice LeetCode during their work hours, often putting off actual work in order to train. This is something I've observed in the workplace in almost every job I've had. 
 
 ## How did these interviews get so popular?
 
