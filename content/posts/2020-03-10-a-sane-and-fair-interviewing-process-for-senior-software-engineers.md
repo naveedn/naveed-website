@@ -13,32 +13,45 @@ tags:
   - interviewing
   - technical
 ---
-_For those just jumping in, the previous parts of this essay can be found here:_
+*For those just jumping in, the previous parts of this essay can be found here:*
+
 * [Part 1: Interviews for Senior Software Engineers are F*cking Broken](https://www.naveed.dev/posts/senior-engineer-interviews-broken)
-
 * [Part 2: Evaluating the alternatives to the LeetCode Style Interview](https://www.naveed.dev/posts/leetcode-alternatives-compared)
-
 
 # Introducing a new style of Engineering Interviews
 
-From my experiences interviewing, there were a few companies that stand out as having a novel and great interview process. They were short and efficient, thorough and challenging for the senior engineering role. Whats more interesting was that the interviews were structurally very similar to each other, albeit some details are different. Essentially, you try to take the best aspects of both styles of interviewing while minimizing each solutions downfalls. I've adapted some of the common ideas into the format below.
+From my experiences interviewing, there were a few companies that stand out as having a novel and great interview process. They were short and efficient, thorough and challenging for the senior engineering role. Whats more interesting was that the interviews followed a very similar routine to each other. The title of this post is a bit of misnomer -- while this interview style already exists, it doesn't get NEARLY enough credit.
 
-They are only 2 interviews periods. One is an initial phone screen with the recruiter or hiring manager. These conversations would be anywhere from 30-60 minutes, where the company gets a feel for you and whether or not they are interested. This isn't different from most interviews currently, so I'll move on. 
+## The 3-hour on-site, unsupervised coding challenge
 
-The second interview is where things get interesting: It's a full day on-site assessment, broken out into a few parts. It goes something like this:
+##### Followed by a 1-hour technical deep dive afterwards
 
-1. The candidate arrives, and is brought to a conference room. The recruiter provides the candidate with a written spec for a programming project. After 15 minutes, an engineer steps into the room, and provides any clarifications and answers any question the candidate has.
-2. The candidate is then left alone and given 3 hours to implement the spec as best as they can. The test is open-book, open everything. They can use whatever IDE, language, or framework they want. The programming project is composed of multiple logical phases, with the goal being to complete the requirements for one phase before moving onto the next one. Each phase tests a different aspect of the project or becomes more difficult than the previous. *I will provide an example below.*
-3. At the 3 hour mark, the candidate zips up their project, and sends it to a predetermined destination.
-4. The candidate is given a 30-60 minute lunch break / informal interview, where they can talk to an engineer that currently works at the company and get answers to any questions they may have, while getting some food.  
-5. After lunch, 2 interviewers come into the room for a 1 hour interview where the candidate will demo their project, walk through their code solution, and field any questions from the stakeholders. The interviewers can ask questions regarding architecture or design decisions, ask the candidate to implement a later phase, and/or modify some of their code due to a changing scaling requirement.
+Essentially, you try to take the best aspects of the Pragmatic Practical, Take-Homes, and System Design while minimizing each solution's downsides. Before we break down why this is an efficient method for Technical Interviewing, lets walk through a hypothetical interview day for both the candidate and the company.
+
+### The interviewing schedule
+
+* Part 1: A recruiter and a candidate connect, and the interview conversation begins
+* Part 2: A hiring manager connects with the candidate, doing a 30 minute or 1-hour long phone screen to review candidate experience and determine fit within the team
+* Part 3:  The candidate is brought on-site for a full-day assessment
+* Part 4: The team meets about a candidate at the end of the day, and makes a go / no-go decision
+* Part 5: A recruiter reaches out within 24-48 hours, and relays the decision to the candidate
+
+### The on-site schedule
+
+1. The candidate arrives and is brought into a conference room. The recruiter provides the candidate with a written spec for the programming project
+2. After 15 minutes, an engineer steps into the room, and provides clarifications to any questions the candidate has after reading the spec. The engineer provides a phone number for the candidate to text if they need the engineer to come back
+3. The candidate is then left alone and given 3 hours from that point to implement the spec as best as they can. The test is open-book, and they can use whatever IDE, language, framework or tools they want. The programming project is composed of multiple logical phases, with the goal being to complete the requirements of each phase before moving onto the next one. Each phase tests a different aspect of the project or becomes more difficult than the previous.
+4. At the 3 hour mark, the candidate zips up their project, and sends it to a predetermined destination like a dropbox folder or email
+5. The candidate is then given a 30 - 60 minute lunch break with a "buddy". This informal interview is where they get the chance to talk to an engineer that currently works at teh company and can provide answers to any questions about company culture the candidate has
+6. After lunch, 2 engineers come into the room and do a technical deep dive with the candidate for an hour. The candidate will demo the project, run the test suite (if part of the spec), and walk through their code solution. Along the way, they will field questions from the interviewers. Afterwards, the interviewers canask questions regarding architecture or design decisions, have the candidate implement a later part of the spec (if they did not finish), and / or discuss some of the challenges they faced when building the project.
 
    **NOTE: Every company that performed this kind of interview did it with *every* candidate, including the interviewers themselves. As such, they often were familiar the details, and it was easy to swap interviewers on short notice.** 
-6. The candidate is given a 15 minutes break, where the interviewers confer and decide whether to keep going. This is probably the most contentious part: If the candidate did not perform well satisfactorily on the programming project or the project review, then the interview would end there and the candidate leaves. If the candidate passes, then we jump into the final rounds of the interview.
-7. The next round(s) is either a system design or a technical communication interview. System design interviews are par for the course in terms of senior software engineering interviews -- not to mention that this is something that a candidate should be familiar with in the course of their everyday work. Technical Communication Interviews are a flavor of System Design Interviews where the candidate is asked to describe a past project they built in technical detail, discussing the trade-offs, the constraints, the solution, and their involvement with the project. 
-8. The day would end with a behavioral interview, where a candidate's culture fit aligns with company values. Pretty standard.
+7. The candidate is given a 15 minutes break while the interviewers confer and decide whether or not to keep going. This is probably the most contentious part of the interview: If the candidate did not perform satisfactorily on the programming project or the project review, then the interview would end there and the candidate leaves. If the candidate passes, then they proceed into the final rounds of the interview.
+8. The next round(s) could fit any of the 1-hour interview styles we have previously covered in this blog: Behavioral Interviews, System Designs, Pragmatic Practicals, or LeetCode interviews. 
 
-Could one swap out the later interviews with another coding question? Sure. But one thing I've noticed is that doing a 3 hour project is *tiring.* Keeping yourself focused, efficient, and calm for that duration is pretty draining. You have to recognize that your candidates are humans too -- so expect that their interview performance will degrade over time. If you plan on doing coding questions in addition to the project, perhaps do those questions in the morning, saving the afternoon for the project, and making the project slightly easier or smaller in scope. 
+   * System Design interviews are par for the course for senior software engineering interviews -- this is something that a candidate should be familiar with in the course of their everyday work. 
+   * Technical Communication Interviews are a flavor of System Design Interviews where the candidate is asked to describe a past project they built in technical detail, discussing the trade-offs, the constraints, the solution, and their involvement with the project
+   * It's worth noting that the programming project is an *intense* exercise. While one could do a pragmatic practical or a LeetCode style interview, it would not add more signal and the interviewer expect that a candidates performance would realistically decrease as the day wears on.
 
 ## How this type of interview addresses the needs of both parties
 
