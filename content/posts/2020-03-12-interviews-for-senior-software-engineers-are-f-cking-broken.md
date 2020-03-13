@@ -17,7 +17,7 @@ The bane of every software engineer's existence (if there is one) has got to be 
 
 For the uninitiated, these LeetCode interviews are designed to test an engineer's "fundamentals". They place a particular emphasis on using less common data structures or algorithms -- stuff most programmers haven't studied since college --  usually paired with a "trick" to make the problem more difficult. Here's the breakdown of a typical 1 hour long interview:
 
-1. The interviewers spend 5-10 minutes introducing themselves, and asking the candidate to do the same
+1. The interviewers spend 5-10 minutes introducing themselves, and ask the candidate to do the same
 2. The interviewers may engage in a few behavioral questions, taking ~10-15 minutes. This is often skipped or done at the end.
 3. A programmer is presented with a logic / programming problem.  They are usually given anywhere from 25-40 minutes to:
 
