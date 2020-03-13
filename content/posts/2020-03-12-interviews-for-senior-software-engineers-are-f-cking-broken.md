@@ -31,7 +31,9 @@ For the uninitiated, these LeetCode interviews are designed to test an engineer'
 4. Interviewers allow anywhere from 0-10 minutes for the programmer to ask the interviewers questions about the company.
 
 
-Having interviewed a good number of candidates myself, it makes sense what is being tested in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, interviewers look for answers that present insightful views of a candidate's decision making process, and their ability to communicate / gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
+Having interviewed a good number of candidates myself, it makes sense what is being tested in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, interviewers look for answers that present insightful views of a candidate's decision making process, and their ability to communicate / gel with the team.
+
+Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
 
 * ability to code in a language of their (or our) choosing,
 * analyze and solve a problem
