@@ -120,7 +120,7 @@ All in all though, I would endorse this style of test over a LeetCode. You could
 
 The solutions above, while close, don't fully satisfy my criteria for a sane and rigorous interview process -- although if I saw more of Alternative 1 or 3, I'd be happy. 
 
-In my experience, there was a certain class of interview that met all the criteria above and hasn't been discussed yet. However, I'm still writing that piece, so check back next week! 
+In my experience, there was a certain class of interview that met all the criteria above and hasn't been discussed yet. So, without further ado, check out a [sane and fair process for conducting senior software engineering interviews](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process). 
 
 **NOTE:** As I alluded to earlier, there is no one-size-fits all. If the current non-LC based assessments are your jam, then more power to you! I would recommend taking a look at [Hiring Without Whiteboards](https://github.com/poteto/hiring-without-whiteboards) so you can find your next company! <3
 
