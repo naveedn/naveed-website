@@ -7,9 +7,9 @@ date: 2020-03-10T22:25:07.743Z
 description: >-
   There is no one-size-fits-all approach to interviewing, but at least we have
   some common criteria now. Let's look at some alternative approaches to
-  interviewing and highlight the aspects in which they do well or address the
-  problems caused by LC interviews.  Let's also determine where they still fall
-  short, and why they aren't adopted by more companies. 
+  interviewing and highlight the aspects in which they address the problems
+  caused by LC interviews.  Let's also determine where they still fall short,
+  and why they aren't adopted by more companies. 
 category: interviews
 tags:
   - interviewing
