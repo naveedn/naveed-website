@@ -16,7 +16,7 @@ tags:
 The bane of every software engineer's existence (if there is one) has got to be interviewing. For reasons unbeknownst to me, scores of engineers every day are subjected to draconian LeetCode style interviews, for which nothing short of a smashing success means failure, and eventual rejection from the company. 
 
 
-## The breakdown
+## The Interview, explained
 
 For the uninitiated, these LeetCode interviews are designed to test an engineer's "fundamentals". They place a particular emphasis on using less common data structures or algorithms -- stuff most programmers haven't studied since college --  usually paired with a "trick" to make the problem more difficult. Here's the breakdown of a typical 1 hour long interview:
 
@@ -31,7 +31,7 @@ For the uninitiated, these LeetCode interviews are designed to test an engineer'
 4. Interviewers allow anywhere from 0-10 minutes for the programmer to ask the interviewers questions about the company.
 
 
-Having interviewed a good number of candidates myself, it makes sense what is being tested in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, we are looking for answers that present insightful views into their decision making process, and their ability to communicate and gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
+Having interviewed a good number of candidates myself, it makes sense what is being tested in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, interviewers look for answers that present insightful views of a candidate's decision making process, and their ability to communicate / gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
 
 * ability to code in a language of their (or our) choosing,
 * analyze and solve a problem
@@ -39,7 +39,7 @@ Having interviewed a good number of candidates myself, it makes sense what is be
 * familiarity with data structures, algorithms of the problem
 * technical communication skills and coach-ability if they are stuck
 
-And the last part of the interview is designed so we can allow the candidate some time to ask us questions so we can pitch the company favorably to them (aka make them drink the kool-aid). 
+And the last part of the interview is designed to give the candidate some time to ask us questions so the interviewer can pitch the company favorably to them (aka make them drink the kool-aid). 
 
 Now, imagine a candidate doing this 2-6 times in the process of interviewing with 1 company. You may be thinking, "that's not so bad", consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. Thats a **lot** of interviews, all following the same routine. With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve every variant of these problems fast enough.
 
