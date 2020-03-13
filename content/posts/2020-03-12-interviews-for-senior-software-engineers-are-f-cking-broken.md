@@ -45,25 +45,23 @@ Finally, there is a widely circulated belief that the engineers who can solve th
 
 ## What's wrong with these interviews
 
-#### They are a terrible proxy for everyday development.
+#### They are an unrealistic proxy for everyday development
 
 First and foremost, they are absolutely nothing like what you would be doing on the job. I can tell you with 100% certainty that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. The one time i had to implement a distributed LRU cache for the company, I used [a library](https://github.com/isaacs/node-lru-cache) for the bulk of the work. These kinds of problems *don't exist* in modern day software engineering because the power and speed of recent computers make these performance tricks negligible. 
 
-The opposing argument is that while developers nowadays have a cornucopia of libraries and tools at their disposal, it is still critical to know how these tools ** actually work** under the hood so that the engineer can make judicious decisions about what tool is appropriate for the job, and in what capacity. Fair -- I concede that knowing the nuts & bolts of how an algorithm or data structure works allows you to make better informed decisions in your work, and that being good at abstract thinking makes concrete tasks easier.
+The opposing argument is that while developers nowadays have a cornucopia of libraries and tools at their disposal, it is still critical to know how these tools  **actually work** under the hood so that the engineer can make judicious decisions about what tool is appropriate for the job, and in what capacity. Fair -- I concede that knowing the nuts & bolts of how an algorithm or data structure works allows you to make better informed decisions in your work, and that being good at abstract thinking makes concrete tasks easier.
 
 But then, why do we insist on adding "tricks" to our programming problems? If we really only cared about knowledge of data structures, shouldn't we just ask someone to implement a Binary Search Tree in front of us, talk about the characteristics and runtime properties of that tree vs other data structures, and then call it a day? Couldn't we judge their knowledge via a behavioral interview, asking them about a time where they used a few design patterns and data structures in concert to model a problem effectively? 
 
 It's also worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. Thats not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of state-related bugs everywhere they go.
 
+#### The difficulty of the assessment does not scale co-linearly with actual experience
 
-#### The difficulty of an assessment does not scale co-linearly with actual experience
+The most frustrating thing about LeetCode interviews, and potentially the most damning, is that an individual's accrued work experience does not transfer at all into their ability to LeetCode. It's not like I'm able to breeze through Medium and Hard difficulty assessments now that I've spent some time in the industry. This is the most disingenuous part of the interview process -- that we tie the expected rigor of the role to the difficulty of the LeetCode assessment. Someone who has spent 5+ years in the industry should be judged by criteria that determines the value of their years of experience. Senior Engineers need to know how to code and be *damn good at it,* so the coding assessment needs to reflect that.  This is easier said than done (of course), and because this is nearly impossible to test within an hour timeframe, we stick to LeetCode. 
 
-The most frustrating thing about LeetCode interviews, and potentially the most damning, is that the work experience accrued does not transfer at all to the ability to LeetCode. It's not like I'm suddenly able to breeze through Medium and Hard difficulty assessments now that I've solved problems in different architectures, languages, and programming paradigms -- it makes no difference. 
+However, being good at LeetCode assessments feels like an *adjacent* skill to writing software. You still need to be good at both in order to have upwards mobility in this industry, but you won't actually get better at it by accruing experience on the job. 
 
-Being good at LeetCode assessments feels like an *adjacent* skill to writing software; you still need to be good at both in order to have mobility in this industry, but you won't actually get better at it by accruing experience on the job. 
-
-
-#### They cram too much into too small of a timeframe.
+#### They cram too much into too small of a timeframe
 
 So, enough with the moral qualms about the interview; let's discuss the structure. I noted above how the typical interviewing process works. Having interviewed a few hundred candidates myself, it makes sense what people are testing for in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, we are looking for answers that present insightful views into their decision making process, and their ability to communicate and gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
 
@@ -79,14 +77,13 @@ While its admirable to try and evaluate each of these important aspects, it's un
 
 We are trying to cram 3 interviews into 1. How's that old, tired joke about project managers go? 
 
-> Definition of Project Manager: 
-> A person who thinks 9 women can deliver a baby in 1 month.
+> Definition of Project Manager:  A person who thinks 9 women can deliver a baby in 1 month.
 
 Oh right. Clearly, we have a habit in this industry of over extending our resources and delivering suboptimal solutions. It's no wonder why Fred Brooks is quoted as saying that "adding manpower to a late software project makes it later". We're doing the same thing with our interviews. 
 
 #### Depending on the interviewer, you are rewarded little to no credit for communication, problem solving, or coachability
 
-Just to throw another wrench into this whole process, many interviewers pay lip-service to the idea that candidates should be judged holistically, but then judge them by very strict standards. Its not enough to try and articulate your approach, code a solution, and iterate in a real-life manner. If you get stuck and ask for hints, you get docked points. If you don't solve the problem the way your interviewer wants you to solve the problem, your solution is considered "messy" and "confusing". A sub-optimal solution? "Lacks Problem Solving Skills". 
+Just to throw another wrench into this whole process, many interviewers pay lip-service to the idea that candidates should be judged holistically, but then judge them by very strict standards. It's not enough to try and articulate your approach, code a solution, and iterate in a real-life manner. If you get stuck and ask for hints, you get docked points. If you don't solve the problem the way your interviewer wants you to solve the problem, your solution is considered "messy" and "confusing". A sub-optimal solution? "Lacks Problem Solving Skills". 
 
 Having someone coach you to a workable solution means the highest score you can expect to get for the interview is a "Neutral". We don't observe the process of problem solving and judge based on that -- we only reward people who get it right.    
 
@@ -108,22 +105,22 @@ Finally, for the average joe or jane that gets into a company based on their LC 
 
 ## What should we be testing for to satisfy our goals when interviewing?
 
-## Current alternatives to LC interviews: Take-Homes
+Let's take a step back, and consider what our goals are (as interviewers) when we do this type of interview. [Many companies](https://amazon.jobs/en/landing_pages/interviewing-at-amazon) offer a rubric to their potential candidates in order to help them perform well on the upcoming assessments (by the way, if your company does this, kudos to you!). From this, its pretty straightforward to glean what criteria is used to judge candidates:
 
-On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Previously, I used to think of these assessments as a superior solution, but after this last round of interviews, I've found it to have mixed results.
+* **Problem Solving**: Given a problem, can the candidate think on their feet and come up with a solution? Are their proposed solutions reasonable, and can they leverage their experiences effectively? Are they coachable, and can they work well with feedback?   
+* **Raw Technical Chops**: Can this person actually code at a reasonable speed? Are they familiar with the language's standard API? Are they familiar with Data Structures and Algorithms?
+* **Design Patterns / Coding "Style":** Does this person write clean code? Do they use descriptive variable names, and appropriately sized functions? Do they display other hallmarks of maintainable software? 
+* **Communication / Behavioral**: Is this person effective at explaining what they are thinking about, and describing a solution that can be understood by others?
+* **Attitude / Demeanor**: Is this person a brilliant jerk? Are they stand-offish? Cocky? Are they independent? Are they low-energy? Is this someone I can see myself working with? Does their values align with our company credos?
 
-#### What they get right
+For different companies, the weights we associate with each of these categories might be different, but ultimately, if a candidate gets a pass on all these categories, they would most likely be extended an offer. And these are all fine criteria -- it's just that our current process for evaluating this criteria is a little flawed.
 
-* They allow the interviewee the flexibility to do the interview over a longer period of time, so the "time crunch" isn't a factor. Given the amount of time, a candidate can usually build and present a higher quality solution, which is analogous to the work they would do on the job.
-* They are usually more pragmatic in nature, testing a coder's ability to demonstrate knowledge in areas that are analogous to their everyday work (like design patterns, documentation, testing, architecture decisions) -- stuff that would be hard to communicate effectively in the span of an hour long interview.
+- - -
 
-#### What they get wrong
+So what's an engineer supposed to do? Despite all this LeetCode hate, I still believe there is a time and place for them, but not in the way we currently use it (and not nearly as much). What are our alternatives? Well, I'm glad you asked! Read on to find out:
 
-* They are higher effort for both parties. Because of the asynchronous nature of these projects, getting clarifications on ambiguous wording via email can take anywhere from a couple hours to a few days, throwing you off your groove if you're coding the assessment. Candidates are usually interviewing with a handful of companies at a time, and these take-homes take a disproportionate amount of time when compared a quick LeetCode style interview.
+[Part 2: Evaluating the Current Alternatives to LeetCode](https://www.naveed.dev/posts/leetcode-alternatives-compared)
 
-  For the engineers reviewing these projects, you generally have to review a candidates project alongside your other work, whereas with an interview, you have a concrete window in which to handle the interviewing task. And, if you work at a company where you might have a few hundred candidates, this process of individual code review does not scale -- you can't possibly review them all. 
-* Because they take place over a longer period of time, they can often balloon in scope. Some companies give lengthy projects as a way to judge efficacy, and there isn't a good standard on what a candidate should and shouldn't accept. The ambiguity makes it difficult for a candidate to know how much to invest, especially if they are interviewing with a few companies at once. Whats the time frame? 3 hours? 6? Should I have a full test suite as well? Not having a clear time frame can muddle the results, making it difficult for interviewers to get a good litmus test, while making some candidates choose an "incorrect" amount of time on the project.
+- - -
 
-In my own experience, I found myself actually wanting to do a LeetCode interview after getting rejected by a company after doing their take home. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens. It's just not a good use of my time. 
-
-However, for some people, this is still a great way to interview, and for the companies offering it, I applaud you for not cargo culting. If this is your jam, I would highly recommend taking a look at [the list of companies that don't do whiteboard interviews.](https://github.com/poteto/hiring-without-whiteboards)
+Thanks for reading! If you have any suggestions, feel free to tweet me: @nudgemybody
