@@ -32,8 +32,8 @@ On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Prev
 
 #### What they get right
 
-* They allow the interviewee the flexibility to do the interview over a longer period of time, so the "time crunch" isn't a factor. Given the amount of time, a candidate can usually analyze the problem more deeply. With a clearer understanding of the problem, they can build and present a higher quality solution, which is more analogous to their work output on the job.
-* They are more pragmatic in nature, testing a coder's ability to demonstrate depth of knowledge in areas that are analogous to their everyday work (like design patterns, documentation, testing, architecture decisions) -- stuff that would be hard to communicate effectively in the span of an hour long interview.
+* They allow the interviewee the flexibility to do the interview over a longer period of time, so the "time crunch" isn't a factor. Given the amount of time, a candidate can usually analyze the problem more deeply. With a clearer understanding of the problem, they can build and present a higher quality solution, which is more representative to their work output on the job.
+* They are more pragmatic in nature, testing a coder's ability to demonstrate depth of knowledge in areas that are relevant to their everyday work (like design patterns, documentation, testing, architecture decisions) -- stuff that would be hard to communicate effectively in the span of an hour long interview.
 
   This is especially valuable for specific roles. For example, being asked to build a program to parse log messages and determine potential intrusion attempts is a pretty solid test for a Security Engineer. Likewise, being asked to build a scraper for an e-commerce website is reasonable as a take-home project if you are applying for an engineering integration team. For specialized roles, take-homes allow you to test for distinct skills that matter in that role. 
 
@@ -55,7 +55,7 @@ The benefits of a take home are undeniable:
 
 That being said, they're too expensive in terms of time and effort. Lots of candidates don't like them, and companies can't scale that kind of interview once you have over 200 engineers because of the out-sized effort in reviewing all the projects. (I totally made that number up, but you get the point).
 
-In my own experience, I found myself preferring to do a LeetCode interview after getting rejected by a company that offered take-home assessments. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens. It's just not a good use of my time when I'm hunting for jobs. Would I do one if I had to? Absolutely. But would I jump for the opportunity?
+In my own experience, I found myself reluctantly preferring to do a LeetCode interview after getting rejected by a company that gave me a take-home assessment. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens -- it just wasn't a good use of my time when I was hunting for jobs. Would I do one if I had to? Absolutely. But would I jump for the opportunity?
 
 <iframe src="https://giphy.com/embed/lokUlZaZgMAQlI05pu" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chef-key-and-peele-keyandpeele-lokUlZaZgMAQlI05pu"></a></p>
 
@@ -76,13 +76,13 @@ A few of the companies I had interviewed with (small startups) relied on behavio
 
 * It doesn't test whether you can actually code. You could be great at discussing high level architecture and terrible at actually building things; these interviews by themselves can't screen out the latter
 * For an interviewer, it's hard to screen out bullshit. The interviewers are susceptible to [getting overwhelmed](https://rationalwiki.org/wiki/Gish_Gallop) by a slick-talking candidate. 
-* the lack of defined criteria for this interview style makes it more subjective than the LeetCode style interview. When there are multiple interviewers, one interviewer may focus on specific topic or level of granularity they care about, making this a difficult interview to do with another person. 
-* ESL engineers are at a disadvantage when being interviewed here. People who can speak the language fluently have an advantage over the candidate with a thick accent, and the results of a System Design interview can be skewed by a candidate's communication skills, even if that isn't the aspect being tested directly.
+* the lack of defined criteria for this interview style makes it more subjective than the LeetCode style interview. When there are multiple interviewers, one interviewer may focus on specific topic or level of granularity they care about, making this a difficult interview to coordinate with another person. 
+* ESL engineers are at a disadvantage when being interviewed. People who can speak the language fluently have an advantage over the candidate with an accent, and the results of a System Design interview can be skewed by a candidate's communication skills, even though that isn't the aspect being tested directly.
 * Most of the system design questions available online only focus on web based architectures, which present a real challenge to senior engineers that focus on a particular part of the stack, like front-end or mobile engineers. When I was practicing these questions on [Pramp](https://www.pramp.com/), I felt guilty for asking my peer to "design a scalable web architecture for Uber" when they had been an android engineer for the past 5 years. 
 
 #### Conclusions
 
-Both the Behavioral Interview and the System Design have rightfully earned their place in the roster of interview assessments for Senior Engineers. However, a company who only employs these 2 kinds of interviews does not insure themselves adequately against "duds" -- people who lack the raw technical coding chops to be effective at the Senior Engineer level. 
+Both the Behavioral Interview and the System Design have rightfully earned their place in the roster of interview assessments for Senior Engineers. However, a company who only employs these 2 kinds of interviews does not insure themselves adequately against people who lack the raw technical coding chops to be effective at the Senior Engineer level. 
 
 The best thing about this approach is that it is quick, easy, and scalable, while also being a fair measure of higher-level problem solving and software architecture skills. The worst thing is that you still can't determine whether a candidate is as good as they say they are -- which is why we need to pair them with a coding assessment to see if a candidate can walk the walk after talking the talk. 
 
@@ -119,7 +119,9 @@ All in all though, I would endorse this style of test over a LeetCode. You could
 3. It needs to scale in terms of cost / time / effort. It respects the candidate's time, and can work for engineering teams of 10 or 10,000. 
 4. It should be a realistic proxy for everyday development, and is designed so a candidate can leverage prior experience in demonstrating tech skills
 
-The solutions above, while close, don't fully satisfy my criteria for a sane and rigorous interview process -- although if I saw more of Alternative 1 or 3, I'd be happy. In my experience, there was a certain class of interview that met all the criteria above and hasn't been discussed yet. I'm still writing that piece, so check back next week! 
+The solutions above, while close, don't fully satisfy my criteria for a sane and rigorous interview process -- although if I saw more of Alternative 1 or 3, I'd be happy. 
+
+In my experience, there was a certain class of interview that met all the criteria above and hasn't been discussed yet. However, I'm still writing that piece, so check back next week! 
 
 **NOTE:** As I alluded to earlier, there is no one-size-fits all. If the current non-LC based assessments are your jam, then more power to you! I would recommend taking a look at [Hiring Without Whiteboards](https://github.com/poteto/hiring-without-whiteboards) so you can find your next company! <3
 
