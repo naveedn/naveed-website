@@ -18,13 +18,13 @@ tags:
 * [Part 1: Interviews for Senior Software Engineers are F*cking Broken](https://www.naveed.dev/posts/senior-engineer-interviews-broken)
 * [Part 2: Evaluating the alternatives to the LeetCode Style Interview](https://www.naveed.dev/posts/leetcode-alternatives-compared)
 
-# Introducing a new style of Engineering Interviews
+## Introducing a new style of Engineering Interviews
 
 From my experiences interviewing, there were a few companies that stand out as having a novel and great interview process. They were short and efficient, thorough and challenging for the senior engineering role. Whats more interesting was that the interviews followed a very similar routine to each other. The title of this post is a bit of misnomer -- while this interview style already exists, it doesn't get NEARLY enough credit.
 
 ## The 3-hour on-site, unsupervised coding challenge
 
-##### Followed by a 1-hour technical deep dive afterwards
+**(Followed by a 1-hour technical deep dive afterwards)**
 
 Essentially, you try to take the best aspects of the Pragmatic Practical, Take-Homes, and System Design while minimizing each solution's downsides. Before we break down why this is an efficient method for Technical Interviewing, lets walk through a hypothetical interview day for both the candidate and the company.
 
@@ -60,7 +60,7 @@ This interview style matches [all the criteria we laid out in the last blog post
 
 #### For candidates:
 
-* A candidate is not forced to process everything on the spot during the interview -- having 3 hours for the assignment means you can spend more than 10 minutes trying to understand everything and plan a solution. The time given also allows interviewers to give a more technically rigorous challenge than what can be served in a 1 hour time slot. 
+* A candidate is not forced to process everything on the spot during the interview -- having 3 hours for the assignment means you can spend more than 10 minutes trying to understand everything and plan a solution. The time given also allows interviewers to give a more technically rigorous challenge than what can be served in a 1 hour time slot (unlike [Pragmatic Practicals](https://www.naveed.dev/posts/leetcode-alternatives-compared#what-they-get-wrong-2) and LeetCode interviews). 
 * The 1 hour deep dive afterwards provides meaningful feedback for the candidate. A huge problem with interviews is that companies are cagey about giving feedback lest they get sued -- this makes it difficult for a candidate to figure out what they did wrong and how they can improve for the next company. Hearing an interviewer say "that's a nice solution" makes all the difference!
 * Doing the test on-premises means you can ask for clarifications and get a response on the order of minutes, not hours or days (unlike [take-homes](https://www.naveed.dev/posts/leetcode-alternatives-compared#what-they-get-wrong)). 
 * the nature of on-site interviews means that you have a constrained time-box to do the project in. You don't need spend your valuable personal time at home working on a project -- after the on-site, you're done. 
@@ -70,13 +70,11 @@ This interview style matches [all the criteria we laid out in the last blog post
 #### For interviewers:
 
 * Companies can save time and effort on interviews because the first half of the day can be handled with minimal involvement by employees. If the interviewers decide that the project and walk-through is insufficient, the company can decide to end the interview early, while still having a decent signal on a candidate's coding, problem-solving, and technical communication skills.
-* Unlike the Take-Home or the System Design, you are putting pressure on the candidate to *prove that* *they can actually code in the timeframe provided.* We're often given the advice to "show, don't tell" when creating a resume for a potential employer -- and this test is a great example of that.
+* Unlike the Take-Home or the System Design, you are putting pressure on the candidate to *prove that* *they can actually code in the timeframe provided.* We can be reasonably sure they didn't get outside help. We're often given the advice to "show, don't tell" when creating a resume for a potential employer -- and this test is a great example of that.
 * Multiple phases in the project allow for very skilled senior candidates to demonstrate their skill and speed, while setting a reasonable bar for most candidates. 
 * It provides a grounded, focused conversation for the System Design Question. The problem is well known, the candidate has spent 3 hours iterating and trying to solve the problem -- so both sides would have plenty of topics to discuss
 * The interviewers don't need to review the code asynchronously, unlike take-homes. They ask the candidate to demo the app and run the test suite (if it exists), and then they ask the candidate to present a walk-through of their code and they work through it together. It fits nicely into the slot of 1 interview that would have otherwise be spent doing LeetCode interviews anyway.
 * Doing the programming project knocks out the technical portion, allowing the rest of the interviewers to focus on system design or behavioral interviews -- which are also very relevant in a senior role. We skip the suite of 2-in-1 LeetCode interviews, and we can dismiss using the *law-of-averages* as a way to select candidates to hire.
-
-
 
 ## A Sample Programming Project
 
@@ -103,14 +101,14 @@ I plan on creating a github repo where I can post sample projects, but until the
 
 How do we determine what is a fair, but rigorous question to implement in 3 hours? I'll refer back to the criteria I laid out in the [first](https://www.naveed.dev/posts/senior-engineer-interviews-broken#what-should-we-be-testing-for-to-satisfy-our-goals-when-interviewing) and [second](https://www.naveed.dev/posts/leetcode-alternatives-compared#what-is-the-criteria-for-a-sane-but-fair-interview-process-for-senior-software-engineers) blog posts. 
 
-* Make sure the project is tough, but doable. Some candidates may not get past phase 1, and thats OK. 
+* Make sure the project is tough, but doable. Some candidates may not get past phase 1, and that's OK. 
 
   * Make every mid-level and senior engineer on your team actually do the project in the same 3 hour window. Do not tell them before hand. See how far each person gets. Establish a baseline working proficiency for the members of your team, and use that to judge the candidate. 
   * the question should be simple enough to understand that a candidate can understand the goal in about 5-10 minutes
-  *  Keep in mind that while the sample question provided looks simple, there are a bunch of gotchas to work through, and doing the project (setup | code | tests | documentation | deployment) in one sitting is pretty tough.
+  * Keep in mind that while the sample question provided looks simple, there are a bunch of gotchas to work through, and doing the project (setup | code | tests | documentation | deployment) in one sitting is pretty tough.
   * The candidate should be expected to provide a working demo of their project (and run their test suite, if applicable) to the interviewers -- this is how we verify the "hard" requirements.
 * If there are any gaps in the candidate project, or if the candidate did not finish the project, the interviewers can use the 1 hour time slot to pair-program with the candidate, discuss any difficulties the candidate faced, come up with ways to determine if the candidate can be coached to a solution, or ask questions that would solve any lingering doubts in the interviewer.
-*  Phase 1 should encapsulate an entire functioning project, where Phase 2 and beyond evaluate refactoring, design, increased scope, or deployments. Phase 1 is the meat of what is being evaluated, where Phase 2 onwards are supplementary. Review the candidate's git history for the project to see how they break up their work. 
+* Phase 1 should encapsulate an entire functioning project, where Phase 2 and beyond evaluate refactoring, design, increased scope, or deployments. Phase 1 is the meat of what is being evaluated, where Phase 2 onwards are supplementary. Review the candidate's git history for the project to see how they break up their work. 
 
 Make sure all your mid-level and senior engineers can implement Phase 1 in the three hour time period. If **everyone** on the team can't get reasonably close to passing Phase I in 3 hours, then your question is too hard. 
 
