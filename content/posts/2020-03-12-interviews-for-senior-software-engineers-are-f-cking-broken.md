@@ -57,13 +57,15 @@ It's also worth noting that [one of the most popular problems on LeetCode](https
 
 #### The difficulty of the assessment does not scale co-linearly with actual experience
 
-The most frustrating thing about LeetCode interviews, and potentially the most damning, is that an individual's accrued work experience does not transfer at all into their ability to LeetCode. It's not like I'm able to breeze through Medium and Hard difficulty assessments now that I've spent some time in the industry. This is the most disingenuous part of the interview process -- that we tie the expected rigor of the role to the difficulty of the LeetCode assessment. Someone who has spent 5+ years in the industry should be judged by criteria that determines the value of their years of experience. Senior Engineers need to know how to code and be *damn good at it,* so the coding assessment needs to reflect that.  This is easier said than done (of course), and because this is nearly impossible to test within an hour timeframe, we stick to LeetCode. 
+The most frustrating thing about LeetCode interviews, and potentially the most damning, is that an individual's accrued work experience does not transfer at all into their ability to LeetCode. It's not like I'm able to breeze through Medium and Hard problems now that I've spent some time in the industry. This is the most disingenuous part of the interview process -- that we tie the expected rigor of the role to the difficulty of the LeetCode assessment. Without exaggeration, I was given [a LeetCode hard question](https://leetcode.com/problems/text-justification/) during the *phone screen* for Brex's Data Engineering position. 
+
+Someone who has spent 5+ years in the industry should be judged by criteria that determines the value of their experience. Senior Engineers need to know how to code and be *damn good at it,* so the coding assessment needs to reflect that. This is easier said than done (of course), and because this is nearly impossible to test within an hour timeframe, we stick to LeetCode. 
 
 However, being good at LeetCode assessments feels like an *adjacent* skill to writing software. You still need to be good at both in order to have upwards mobility in this industry, but you won't actually get better at it by accruing experience on the job. 
 
 #### They cram too much into too small of a timeframe
 
-So, enough with the moral qualms about the interview; let's discuss the structure. I noted above how the typical interviewing process works. Having interviewed a few hundred candidates myself, it makes sense what people are testing for in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, we are looking for answers that present insightful views into their decision making process, and their ability to communicate and gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
+So, enough with the moral qualms about the interview; let's discuss the structure. I noted above how the typical interviewing process works. Having interviewed a good number of candidates myself, it makes sense what people are testing for in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, we are looking for answers that present insightful views into their decision making process, and their ability to communicate and gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
 
 * ability to code in a language of their (or our) choosing,
 * analyze and solve a problem
@@ -73,13 +75,18 @@ So, enough with the moral qualms about the interview; let's discuss the structur
 
 And the last part of the interview is designed so we can allow the candidate some time to ask us questions so we can pitch the company favorably to them (aka make them drink the kool-aid). 
 
-While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that 1 or 2 interviewers can accurately glean this information in a single 1 hour interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. Whats the common solution? Let's introduce a tool like greenhouse, and have a whole suite of engineers take time out of their day and rapid-fire interview the poor candidate (who is probably sweating profusely right now in the conference room you left them in). The law of averages will save us! If we all agree we *like* this candidate, then let's let her pass. But if one of us didn't get a good vibe? Well, "its better to pass on a good candidate than hire a bad one", so it's sayonara and good luck to you.
+While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that 1 or 2 interviewers can accurately glean this information in a single 1 hour interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. 
 
-We are trying to cram 3 interviews into 1. How's that old, tired joke about project managers go? 
+Whats the accepted solution? Let's introduce a tool like greenhouse, and have a whole suite of engineers take time out of their day and rapid-fire interview the poor candidate (who is probably sweating profusely right now in the conference room you left them in). The law of averages will save us! If we all agree we *like* this candidate, then let's let her pass. But if one of us didn't get a good vibe? Well, "its better to pass on a good candidate than hire a bad one", so it's sayonara and good luck to you.
+
+There's no clearer example of this than Amazon. Amazon interviews are notably different than other FAANG companies because they cram both technical and behavioral components in the same 1 hour interview. Before the interview, you're asked to memorize the [Amazon Leadership Principles](https://www.amazon.jobs/en/principles), and during the interview, you're asked to regurgitate them in some pre-fabricated story using the [STAR format](https://en.wikipedia.org/wiki/Situation,_task,_action,_result). Most online forums agree that this is the easiest FAANG interview to game, comparatively. Because there is a time crunch for interviewers, and the technical aspect is already time consuming, the interviewers race through the behavioral part. You can make up whatever answers you want (as long as they fit the mold); they won't have time to ask legitimate follow ups anyways. The moment you say the buzzword for the Leadership characteristic they are scanning for, you can see them check off that box in real-time.
+  
+Fred Brooks is famous for saying that "Adding manpower to a late software project makes it later". How's that old, tired joke about project managers go? 
 
 > Definition of Project Manager:  A person who thinks 9 women can deliver a baby in 1 month.
 
-Oh right. Clearly, we have a habit in this industry of over extending our resources and delivering suboptimal solutions. It's no wonder why Fred Brooks is quoted as saying that "adding manpower to a late software project makes it later". We're doing the same thing with our interviews. 
+Oops. In our industry, we have a habit of over-extending our resources and delivering suboptimal solutions. We're doing the same thing when we compress 2 interviews into a single 1 hour slot.
+
 
 #### Depending on the interviewer, you are rewarded little to no credit for communication, problem solving, or coachability
 
