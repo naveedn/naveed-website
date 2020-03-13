@@ -45,6 +45,8 @@ Now, imagine a candidate doing this 2-6 times in the process of interviewing wit
 
 ![A screenshot of my most recent interview cycle](/media/job-prospects-screenshot.png "C's get Degrees, amirite hahaha? *nudge nudge*")
 
+*A screenshot of my most recent interview cycle* 
+
 Interviewing with so many companies, however, provided me a wealth of data points: I could observe the nuances and differences in the interviewing styles. Some companies have much better interview processes than others. But before we jump into potential alternatives, let's break down this interview type into its individual components, so we can understand the motivations for why we continue this practice.
 
 ## What are the benefits of LeetCode Interviews?
@@ -114,6 +116,10 @@ Here's an unspoken "dirty secret" -- they do it on the job. They practice LeetCo
 By this point, I hope we can agree that LC interviews are not the panacea we make them out to be. But why are they so prevalent? All roads point to FAANG. Since the early days of the internet era, companies like Microsoft, Yahoo, and other FAANGs have been employing these kinds of interviews in order to screen out as many applicants as they could. Part of this is logistics -- the harder the interviews, the smaller the pool of contenders, which allow companies to make hiring decisions more quickly. 
 
  The less obvious reason was that it was good for the brand. [Like McKinsey](https://www.theatlantic.com/ideas/archive/2020/02/how-mckinsey-destroyed-middle-class/605878/), companies could improve their own image by generating applications that it could then reject, to establish its own eliteness. Hence why we believe in this assumption that good candidates aren't actually "good enough", and why we need to only hire "the best" and have "bar raisers" to continually set higher expectations for our applicants. And by golly, wouldn't you know it. Every fresh-faced grad wants to eventually work for a FAANG because we've all been conditioned to think that working at a company at that level represents the apex; that we can really, finally shake off this imposter syndrome and call ourselves "good engineers". 
+
+
+
+<iframe src="https://giphy.com/embed/3o85xnoIXebk3xYx4Q" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/idiot-sandwich-3o85xnoIXebk3xYx4Q"></a></p>
 
 Another reason is that this opened up a huge market for enterprising individuals: Cracking the Coding Interview, LeetCode, and the market for self-help guides began to boom. Not only did this add to the mystique of these FAANGS, it also meant that your original "hard" questions would become well-known given enough time. Now, we are in a rat race to "re-discover" new facets of computer science theory to test our candidates on. New questions means new editions of the book, renewed subscriptions for LeetCode, [interviewcake.io](https://www.interviewcake.com/) and the like. It's not a coincidence that Dynamic Programming problems have become more popular recently (which they teach as a class at Georgia Tech's **grad school program**, no joke). It's a self-perpetuating machine. 
 
