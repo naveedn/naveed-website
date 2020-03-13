@@ -12,7 +12,9 @@ category: interviews
 tags:
   - interviewing
 ---
-## Current alternatives to LC interviews: Take-Homes
+In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Let's look at some alternatives.  
+
+## Current alternative #1: Take-Home Assessments 
 
 On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Previously, I used to think of these assessments as a superior solution, but after this last round of interviews, I've found it to have mixed results.
 
@@ -28,6 +30,7 @@ On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Prev
   For the engineers reviewing these projects, you generally have to review a candidates project alongside your other work, whereas with an interview, you have a concrete window in which to handle the interviewing task. And, if you work at a company where you might have a few hundred candidates, this process of individual code review does not scale -- you can't possibly review them all. 
 * Because they take place over a longer period of time, they can often balloon in scope. Some companies give lengthy projects as a way to judge efficacy, and there isn't a good standard on what a candidate should and shouldn't accept. The ambiguity makes it difficult for a candidate to know how much to invest, especially if they are interviewing with a few companies at once. Whats the time frame? 3 hours? 6? Should I have a full test suite as well? Not having a clear time frame can muddle the results, making it difficult for interviewers to get a good litmus test, while making some candidates choose an "incorrect" amount of time on the project.
 
+#### Conclusions
 In my own experience, I found myself actually wanting to do a LeetCode interview after getting rejected by a company after doing their take home. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens. It's just not a good use of my time. 
 
 However, for some people, this is still a great way to interview, and for the companies offering it, I applaud you for not cargo culting. If this is your jam, I would highly recommend taking a look at [the list of companies that don't do whiteboard interviews.](https://github.com/poteto/hiring-without-whiteboards)
