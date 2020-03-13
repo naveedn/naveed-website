@@ -41,7 +41,7 @@ On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Prev
 
 * They are higher effort for the candidate. Because of the asynchronous nature of these projects, getting clarifications on ambiguous wording via email can take anywhere from a couple hours to a few days, throwing you off your groove if you're coding the assessment. Candidates are usually interviewing with a handful of companies at a time, and these take-homes take a disproportionate amount of time and effort when compared a quick LeetCode style interview. This is the real reason why this interview type isn't more widespread. Many candidates would simply prefer to skip and work with companies where the interview timeline is tighter to maximize their chances of success. This is especially true for Senior Engineers -- "why should I work off the clock if I'm not getting paid for it?"  
 * They are also higher effort for the company. For the engineers reviewing these projects, you have to code review a candidates project alongside your other work, whereas with an interview, you have a concrete window in which to handle the interviewing task. And, if you work at a company where you might have a few hundred candidates, this process of individual code review does not scale -- you can't possibly review them all as well as you'd like. 
-* Take Homes can balloon in scope. Some companies give lengthy projects as a way to judge efficacy, and there isn't an agreed upon standard on what a candidate should and shouldn't accept. The ambiguity makes it difficult for the candidate to know how much effort to invest, especially if they are interviewing with a few companies at once. Whats the time frame? 3 hours or 6? Should I have a full test suite as well? Not having clear expectations can muddle the results, making it difficult for candidates to choose an appropriate amount of time on the project, or commit to it altogether.
+* Take-homes can balloon in scope. Some companies give lengthy projects as a way to judge efficacy, and there isn't an agreed upon standard on what a candidate should and shouldn't accept. The ambiguity makes it difficult for the candidate to know how much effort to invest, especially if they are interviewing with a few companies at once. Whats the time frame -- 3 hours or 6? Should I write a full test suite as well? Not having clear expectations can muddle the results, making it difficult for candidates to choose an appropriate amount of time on the project, or commit to it altogether.
 * It's hard to gauge a candidate's problem solving speed, or whether they did the assignment independently. A really committed candidate wouldn't hesitate to ask their friends for a "spare set of eyes", or spend all night tinkering with the project to make sure it's perfect. While it is is awesome that a candidate has the  drive to succeed at all costs -- they might be falsely advertising their skills when you look at the project at face value. 
 
 #### Conclusions
@@ -79,14 +79,14 @@ A few of the companies I had interviewed with (small startups) relied on behavio
 * For an interviewer, it's hard to screen out bullshit. The interviewers are susceptible to getting overwhelmed by [a slick-talking candidate](https://rationalwiki.org/wiki/Gish_Gallop). 
 
   True story: I worked with a guy who used the gish-gallop **ALL THE TIME**. When you first met him, he would be spewing technology X, design pattern Y, architecture Z, machine learning term foo-bar at such a confident, fast clip that by the time he finished, your head would be ringing. At the time, what he said *kinda sorta* made sense, and some of the tech he mentioned I was unfamiliar with, so I didn't call him out. I gave him the benefit of the doubt; something that we are should always strive to do with our teammates. It took a few embarrassing failures on his end before the team wised up to his antics and realized he was talking nonsense. In an hour-long interview with a stranger, its difficult to keep a clear head and cut through the BS.
-* Conversely, ESL engineers are at a disadvantage when being interviewed here. People who can speak the language fluently have an advantage over the candidate with a thick accent, and the results of a System Design interview can be skewed by a candidate's communication skills, even if that is not what is being directly tested.
+* ESL engineers are at a disadvantage when being interviewed here. People who can speak the language fluently have an advantage over the candidate with a thick accent, and the results of a System Design interview can be skewed by a candidate's communication skills, even if that isn't the aspect being tested directly.
 * Most of the system design questions available online only focus on web based architectures, which present a real challenge to senior engineers that focus on a particular part of the stack, like front-end or mobile engineers. When I was practicing these questions on [Pramp](https://www.pramp.com/), I felt guilty for asking my peer to "design a scalable web architecture for Uber" when they had been an android engineer for the past 5 years. 
 
 #### Conclusions
 
 Both the Behavioral Interview and the System Design have rightfully earned their place in the roster of interview assessments for Senior Engineers. However, a company who only employs these 2 kinds of interviews does not insure themselves adequately against "duds" -- people who lack the raw technical coding chops to be effective at the Senior Engineer level. 
 
-The best thing about this approach is that it is quick, easy, and scalable, while also being a fair measure of higher-level problem solving and software architecture skills. The worst thing is that you still can't determine whether a candidate is as good as they say they are -- which is why we pair them with either LeetCode interviews or Take-Homes to see if a candidate can walk the walk after talking the talk. 
+The best thing about this approach is that it is quick, easy, and scalable, while also being a fair measure of higher-level problem solving and software architecture skills. The worst thing is that you still can't determine whether a candidate is as good as they say they are -- which is why we pair them with either LeetCode interviews or take-homes to see if a candidate can walk the walk after talking the talk. 
 
 ## Alternative #3: The Pragmatic Practical
 
@@ -98,7 +98,7 @@ This is a pretty new kind of assessment, and it was offered by one company via t
 * The assessment leverages the actual experience engineers may have accrued in their career
 * They are not cramming multiple types of interviews into 1 session
 * They fit into the hour long timeframe taken by LeetCode, System Design, and Behavioral Interviews
-* They have defined and concrete deliverables, like LeetCode and unlike System Design
+* They have defined and concrete deliverables, unlike System Design
 
 #### What they get wrong
 
@@ -108,11 +108,11 @@ This is a pretty new kind of assessment, and it was offered by one company via t
 
 #### Conclusions
 
-This assessment is a ***HUGE*** step in the right direction. The "Pragmatic Practical" combines the speed and scalability of LeetCode interviews with the pragmatism and efficacy of System Design & Take Homes. We've successfully crossed over into territory where we can evaluate a candidate based on their technical chops, while allowing them to leverage their  prior experience in a time efficient manner!  Woo-hoo!
+This assessment is a ***HUGE*** step in the right direction. The "Pragmatic Practical" combines the speed and scalability of LeetCode interviews with the pragmatism and efficacy a take-home. We've successfully crossed over into territory where we can evaluate a candidate based on their technical chops, while allowing them to leverage their  prior experience in a time efficient manner!  Woo-hoo!
 
 But... (There's always a but), there is something left to be desired. It feels to me that I wasn't able to demonstrate *how much* of a given topic I knew. Once you could demonstrate that you could navigate the API and understand the concepts behind a technology, the assessment was trivial. Being constrained to the 1 hour time-box meant simplifying problems down to a point that feels reductive. While definitely harder to fake than the system design or behavioral assessment, it doesn't seem like an effective test to separate a good mid-level engineer from a senior one. We need some criteria to be able to distinguish engineers of different ranks, and that is missing from this kind of assessment.
 
-All in all though, I would endorse this style of test over a LeetCode. You could pair this style of assessment with System Design and Behavioral Tests, and get a pretty good read on a candidate. Is this the best style of interviewing? Actually, I found another exercise that I think is even better.
+All in all though, I would endorse this style of test over a LeetCode. You could pair this style of assessment with System Design and Behavioral Tests, and get a pretty good read on a candidate. Is this the best style of interviewing? Actually, I found another exercise that I think is even better. But before we dive in, let's define what makes a good software assessment. 
 
 ## What is the criteria for a sane, but fair interview process for Senior Software Engineers?
 
@@ -120,9 +120,9 @@ All in all though, I would endorse this style of test over a LeetCode. You could
 2. It should be a realistic proxy for everyday development, and lets a candidate leverage their prior work experience in demonstrating tech skills
 3. They should be of sufficient technical complexity to allow a candidate to demonstrate the depth of their knowledge, distinguishing them from mid-level engineers (while also respecting rule 1)
 
-The solutions above, while close, don't fully satisfy the criteria for a sane and rigorous interview process. In my experience, there was a certain class of interview that did meet all the criteria above, one that hasn't been discussed yet.  So, without further ado, check out [](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process)[a sane and fair process for conducting senior software engineering interviews](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process).
+The solutions above, while close, don't fully satisfy my criteria for a sane and rigorous interview process -- although if I saw more of Alternative 1 or 3, I'd be satisfied. In my experience, there was a certain class of interview that met all the criteria above and hasn't been discussed yet.  So, without further ado, check out [](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process)[a sane and fair process for conducting senior software engineering interviews](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process).
 
-However, like I alluded to earlier, there is no one-size-fits all. If the current non-LeetCode based assessments are your jam, then more power to you! I would recommend taking a look at [Hiring Without Whiteboards](<https://github.com/poteto/hiring-without-whiteboards>) so you can find your next company! <3
+**NOTE:** As I alluded to earlier, there is no one-size-fits all. If the current non-LeetCode based assessments are your jam, then more power to you! I would recommend taking a look at [Hiring Without Whiteboards](<https://github.com/poteto/hiring-without-whiteboards>) so you can find your next company! <3
 
 - - -
 
