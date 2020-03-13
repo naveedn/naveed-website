@@ -2,7 +2,7 @@
 template: post
 title: A sane and fair process for conducting Senior Software Engineering interviews
 slug: alternative-senior-engineer-interview-process
-draft: false
+draft: true
 date: 2020-03-12T22:15:40.358Z
 description: >-
   Despite the numerous problems, we still use LeetCode style interviews almost
