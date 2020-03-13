@@ -71,6 +71,10 @@ But then, why do we insist on adding "tricks" to our programming problems? If we
 
 It's also worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. That's not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of state-related bugs everywhere they go.
 
+<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.</p>&mdash; Max Howell (@mxcl) <a href="https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw">June 10, 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+*^ This guy wrote software which is installed on practically every developer's macbook.* 
+
 #### The difficulty of the assessment does not scale co-linearly with actual experience
 
 The most frustrating thing about LeetCode interviews, and potentially the most damning, is that an individual's accrued work experience does not transfer at all into their ability to LeetCode. It's not like I'm able to breeze through Medium and Hard problems now that I've spent some time in the industry. This is the most disingenuous part of the interview process -- that we tie the expected rigor of the role to the difficulty of the LeetCode assessment. Without exaggeration, I was given [a LeetCode hard question](https://leetcode.com/problems/text-justification/) during the *phone screen* for Brex's Data Engineering position. 
