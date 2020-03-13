@@ -14,7 +14,7 @@ category: interviews
 tags:
   - interviewing
 ---
-In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, lets recap what our skills our interviews should be testing. 
+In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. 
 
 ## A refresher: what should the Technical Interview evaluate a candidate on?
 
@@ -35,7 +35,7 @@ On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Prev
 * They allow the interviewee the flexibility to do the interview over a longer period of time, so the "time crunch" isn't a factor. Given the amount of time, a candidate can usually analyze the problem more deeply. With a clearer understanding of the problem, they can build and present a higher quality solution, which is more representative to their work output on the job.
 * They are more pragmatic in nature, testing a coder's ability to demonstrate depth of knowledge in areas that are relevant to their everyday work (like design patterns, documentation, testing, architecture decisions) -- stuff that would be hard to communicate effectively in the span of an hour long interview.
 
-  This is especially valuable for specific roles. For example, being asked to build a program to parse log messages and determine potential intrusion attempts is a pretty solid test for a Security Engineer. Likewise, being asked to build a scraper for an e-commerce website is reasonable as a take-home project if you are applying for an engineering integration team. For specialized roles, take-homes allow you to test for distinct skills that matter in that role. 
+  This is especially valuable for specific roles. For example, being asked to build a program to parse log messages and determine potential intrusion attempts is a pretty solid test for a Security Engineer. Likewise, building a scraper for an e-commerce website is reasonable as a take-home if you are applying for an engineering integration team. For specialized roles, take-homes allow you to test for distinct skills that matter for that role. 
 
 #### What they get wrong
 
@@ -48,8 +48,8 @@ On one hand, we have LeetCode. On the other, we have Take-Home Assessments. Prev
 
 The benefits of a take home are undeniable: 
 
-* they provide a much more realistic proxy for everyday development, 
-* the difficulty of the assessment scales better with the role, 
+* they provide a much more realistic proxy for everyday development
+* the difficulty of the assessment scales better with the role
 * they don't cram too many things into one interview
 * they are amenable to more classes of software engineers
 
@@ -59,7 +59,7 @@ In my own experience, I found myself reluctantly preferring to do a LeetCode int
 
 <iframe src="https://giphy.com/embed/lokUlZaZgMAQlI05pu" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chef-key-and-peele-keyandpeele-lokUlZaZgMAQlI05pu"></a></p>
 
-However, for some people, I know this is still a great way to interview, and for the companies offering it, I applaud you for not cargo-culting.
+However, for some people, I know this is still a great way to interview, and for the companies offering it, I applaud you for not \[cargo-culting](https://en.wikipedia.org/wiki/Cargo_cult_programming#Cargo_cult_software_engineering).
 
 ## Alternative #2: Behavioral & System Design Interviews ONLY
 
@@ -68,8 +68,8 @@ A few of the companies I had interviewed with (small startups) relied on behavio
 #### What they get right
 
 * They require the least amount of effort for both parties. You only need a whiteboard and a conference room. Many system design questions are available online, and it's relatively easy to adapt a problem the company has solved into a system design question.
-* They fit nicely into the 1 hour timeframe, which makes them cheap to scale.
-* The free-from nature makes it possible for the interviewer to probe and explore various topics of interest. Interviewers can focus on getting signal on the behavioral aspects and technical communication skills.
+* They fit nicely into the 1 hour time-frame, which makes them cheap to scale.
+* The free-form nature makes it possible for the interviewer to probe and explore various topics of interest. Interviewers can focus on getting signal on the behavioral aspects and technical communication skills.
 * System Design questions are a good test for higher level problem solving. Gluing together systems, understanding the relationships between different software components -- this is directly analogous to the work Senior Engineers do on a daily basis
 
 #### What they get wrong
@@ -77,18 +77,17 @@ A few of the companies I had interviewed with (small startups) relied on behavio
 * It doesn't test whether you can actually code. You could be great at discussing high level architecture and terrible at actually building things; these interviews by themselves can't screen out the latter
 * For an interviewer, it's hard to screen out bullshit. The interviewers are susceptible to [getting overwhelmed](https://rationalwiki.org/wiki/Gish_Gallop) by a slick-talking candidate. 
 * the lack of defined criteria for this interview style makes it more subjective than the LeetCode style interview. When there are multiple interviewers, one interviewer may focus on specific topic or level of granularity they care about, making this a difficult interview to coordinate with another person. 
-* ESL engineers are at a disadvantage when being interviewed. People who can speak the language fluently have an advantage over the candidate with an accent, and the results of a System Design interview can be skewed by a candidate's communication skills, even though that isn't the aspect being tested directly.
-* Most of the system design questions available online only focus on web based architectures, which present a real challenge to senior engineers that focus on a particular part of the stack, like front-end or mobile engineers. When I was practicing these questions on [Pramp](https://www.pramp.com/), I felt guilty for asking my peer to "design a scalable web architecture for Uber" when they had been an android engineer for the past 5 years. 
+* Most of the practice system design questions available online only focus on web based architectures, which present a real challenge to senior engineers that focus on a particular part of the stack, like front-end or mobile engineers. When I was practicing these questions on [Pramp](https://www.pramp.com/), I felt guilty for asking my peer to "design a scalable web architecture for Uber" when they had been an android engineer for the past 5 years. 
 
 #### Conclusions
 
 Both the Behavioral Interview and the System Design have rightfully earned their place in the roster of interview assessments for Senior Engineers. However, a company who only employs these 2 kinds of interviews does not insure themselves adequately against people who lack the raw technical coding chops to be effective at the Senior Engineer level. 
 
-The best thing about this approach is that it is quick, easy, and scalable, while also being a fair measure of higher-level problem solving and software architecture skills. The worst thing is that you still can't determine whether a candidate is as good as they say they are -- which is why we need to pair them with a coding assessment to see if a candidate can walk the walk after talking the talk. 
+The best thing about this approach is that it is quick, easy, and scalable. The worst thing is that you still can't determine whether a candidate is actually as good as they say they are -- which is why we need to pair them with a coding assessment to see if a candidate can walk the walk after talking the talk. 
 
 ## Alternative #3: The Pragmatic Practical
 
-This is a pretty new kind of assessment, and it was offered by one company via the coding platform [Codility](https://www.codility.com/). This interview style was very straightforward -- 4 small, pragmatic tests which would test a specific subject, technology, or skill. One example was a "refactoring test", where you were given a function that was 80 lines long and asked to refactor it and clean up the logic. Another test might be how to build a simple program with a framework or tool. Stuff like that. 
+This is a pretty new kind of assessment, and it was offered by one company via the coding platform [Codility](https://www.codility.com/). This interview style was very straightforward -- 4 small, pragmatic tests which would test a specific subject, technology, or skill. One example was a "refactoring test", where you were given a function that was 80 lines long and asked to refactor it and clean up the logic. Another test might be how to build a bare-bones API server to handle a single web request, stuff like that.  
 
 #### What they get right
 
@@ -100,8 +99,8 @@ This is a pretty new kind of assessment, and it was offered by one company via t
 
 #### What they get wrong
 
-* The bite-sized length of each assessment would make it hard to differentiate a mid-level engineer from a senior-level engineer. 
-* The assessments were often testing the fluency of a language or tool more than the problem solving skills.
+* The bite-sized length of each assessment would make it hard to differentiate a mid-level engineer from a senior-level engineer
+* The assessments were often testing the fluency of a language or tool more than the problem solving skills
 * The assessment heavily favored engineering breadth over depth
 
 #### Conclusions
