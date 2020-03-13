@@ -15,6 +15,9 @@ tags:
 ---
 The bane of every software engineer's existence (if there is one) has got to be interviewing. For reasons unbeknownst to me, scores of engineers every day are subjected to draconian LeetCode style interviews, for which nothing short of a smashing success means failure, and eventual rejection from the company. 
 
+
+## The breakdown
+
 For the uninitiated, these LeetCode interviews are designed to test an engineer's "fundamentals". They place a particular emphasis on using less common data structures or algorithms -- stuff most programmers haven't studied since college --  usually paired with a "trick" to make the problem more difficult. Here's the breakdown of a typical 1 hour long interview:
 
 1. The interviewers spend 5-10 minutes introducing themselves, and ask the candidate to do the same
@@ -27,7 +30,18 @@ For the uninitiated, these LeetCode interviews are designed to test an engineer'
    * Explain their answer to the interviewers, and modify their solution to solve additional constraints by their interviewers
 4. Interviewers allow anywhere from 0-10 minutes for the programmer to ask the interviewers questions about the company.
 
-Now imagine doing this 2-4 times in the process of interviewing with 1 company. You may be thinking, "its not so bad", consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. Thats a **lot** of interviews, all following the same routine. With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve these problems fast enough.
+
+Having interviewed a good number of candidates myself, it makes sense what is being tested in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, we are looking for answers that present insightful views into their decision making process, and their ability to communicate and gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
+
+* ability to code in a language of their (or our) choosing,
+* analyze and solve a problem
+* demonstrate knowledge of design patterns, testing, and clean code architecture
+* familiarity with data structures, algorithms of the problem
+* technical communication skills and coach-ability if they are stuck
+
+And the last part of the interview is designed so we can allow the candidate some time to ask us questions so we can pitch the company favorably to them (aka make them drink the kool-aid). 
+
+Now, imagine a candidate doing this 2-6 times in the process of interviewing with 1 company. You may be thinking, "that's not so bad", consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. Thats a **lot** of interviews, all following the same routine. With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve every variant of these problems fast enough.
 
 ![A screenshot of my most recent interview cycle](/media/job-prospects-screenshot.png "C's get Degrees, amirite hahaha? *nudge nudge*")
 
@@ -65,17 +79,7 @@ However, being good at LeetCode assessments feels like an *adjacent* skill to wr
 
 #### They cram too much into too small of a timeframe
 
-So, enough with the moral qualms about the interview; let's discuss the structure. I noted above how the typical interviewing process works. Having interviewed a good number of candidates myself, it makes sense what people are testing for in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, we are looking for answers that present insightful views into their decision making process, and their ability to communicate and gel with the team. Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
-
-* ability to code in a language of their (or our) choosing,
-* analyze and solve a problem
-* demonstrate knowledge of design patterns, testing, and clean code architecture
-* familiarity with data structures, algorithms of the problem
-* technical communication skills and coach-ability if they are stuck
-
-And the last part of the interview is designed so we can allow the candidate some time to ask us questions so we can pitch the company favorably to them (aka make them drink the kool-aid). 
-
-While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that 1 or 2 interviewers can accurately glean this information in a single 1 hour interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. 
+So, enough with the moral qualms about the interview; let's discuss the structure. I noted above how the typical interviewing process works, and the interviewer's intentions at each stage.  While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that 1 or 2 interviewers can accurately glean this information in a single 1 hour interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. 
 
 Whats the accepted solution? Let's introduce a tool like greenhouse, and have a whole suite of engineers take time out of their day and rapid-fire interview the poor candidate (who is probably sweating profusely right now in the conference room you left them in). The law of averages will save us! If we all agree we *like* this candidate, then let's let her pass. But if one of us didn't get a good vibe? Well, "its better to pass on a good candidate than hire a bad one", so it's sayonara and good luck to you.
 
@@ -86,7 +90,6 @@ Fred Brooks is famous for saying that "Adding manpower to a late software projec
 > Definition of Project Manager:  A person who thinks 9 women can deliver a baby in 1 month.
 
 Oops. In our industry, we have a habit of over-extending our resources and delivering suboptimal solutions. We're doing the same thing when we compress 2 interviews into a single 1 hour slot.
-
 
 #### Depending on the interviewer, you are rewarded little to no credit for communication, problem solving, or coachability
 
