@@ -3,7 +3,7 @@ template: post
 title: A sane and fair process for conducting Senior Software Engineering interviews
 slug: alternative-senior-engineer-interview-process
 draft: false
-date: 2020-03-10T22:15:40.358Z
+date: 2020-03-12T22:15:40.358Z
 description: >-
   Despite the numerous problems, we still use LeetCode style interviews almost
   exclusively in our hiring process. Is there a better way? Read on to find
@@ -13,7 +13,11 @@ tags:
   - interviewing
   - technical
 ---
-_For those reading, the first half of this essay can be found here: [Part 1: Interviews for Senior Software Engineers are F*cking Broken](https://www.naveed.dev/posts/senior-engineer-interviews-broken)_
+_For those just jumping in, the previous parts of this essay can be found here:_
+* [Part 1: Interviews for Senior Software Engineers are F*cking Broken](https://www.naveed.dev/posts/senior-engineer-interviews-broken)
+
+* [Part 2: Evaluating the alternatives to the LeetCode Style Interview](https://www.naveed.dev/posts/leetcode-alternatives-compared)
+
 
 # Introducing a new style of Engineering Interviews
 
