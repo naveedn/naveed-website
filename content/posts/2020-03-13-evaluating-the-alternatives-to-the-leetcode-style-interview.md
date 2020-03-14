@@ -23,7 +23,7 @@ tags:
 
 - - -
 
-In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. 
+In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. If you're coming from the previous blogpost, feel free to skip the next section.
 
 ## A refresher: what should the Technical Interview evaluate a candidate on?
 
