@@ -1,6 +1,6 @@
 ---
 template: post
-title: Interviews for Senior Software Engineers are F*cking Broken
+title: Senior Software Engineering Interviews are F*cking Broken
 slug: senior-engineer-interviews-broken
 draft: false
 date: 2020-03-09T22:25:07.743Z
