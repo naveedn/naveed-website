@@ -16,11 +16,11 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Articles on Interviewing',
+      label: 'Engineering Interviews',
       path: '/category/interviews/'
     },
     {
-      label: 'Articles on Productivity',
+      label: 'Notes on Productivity',
       path: '/category/productivity/'
     }
   ],
