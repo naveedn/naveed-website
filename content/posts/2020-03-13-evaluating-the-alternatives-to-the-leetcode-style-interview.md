@@ -25,7 +25,7 @@ tags:
 
 In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. If you're coming from the previous blogpost, feel free to skip the next section.
 
-## A refresher: what should the Technical Interview evaluate a candidate on?
+### A refresher: what should the Technical Interview evaluate a candidate on?
 
 * **Problem Solving**: Given a problem, can the candidate think on their feet and come up with a solution? Are their proposed solutions reasonable, and can they leverage their experiences effectively? Are they coachable, and can they work well with feedback?
 * **Raw Technical Chops**: Can this person actually code at a reasonable speed? Are they familiar with the language’s standard API? Are they familiar with Data Structures and Algorithms?
