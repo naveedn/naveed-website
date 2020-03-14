@@ -74,7 +74,7 @@ Finally, there is a widely circulated belief that the engineers who can solve th
 
 First and foremost, they are absolutely nothing like what you would be doing on the job. I can tell you with 100% certainty that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. The one time i had to implement a distributed LRU cache for the company, I used [a library](https://github.com/isaacs/node-lru-cache) for the bulk of the work. These kinds of problems *don't exist* in modern day software engineering because the power and speed of recent computers make these performance tricks negligible. 
 
-The opposing argument is that while developers nowadays have a cornucopia of libraries and tools at their disposal, it is still critical to know how these tools **actually work** under the hood so that the engineer can make judicious decisions about what tool is appropriate for the job, and in what capacity. Fair -- I concede that knowing the nuts & bolts of how an algorithm or data structure works allows you to make better informed decisions in your work, and that being good at abstract thinking makes concrete tasks easier.
+The opposing argument is that while developers nowadays have a cornucopia of libraries and tools at their disposal, it is still critical to know how these tools **actually work** under the hood so that the engineer can make judicious decisions about what tool is appropriate for the job, and in what capacity. Fair enough -- I concede that knowing the nuts & bolts of how an algorithm or data structure works allows you to make better informed decisions in your work, and that being good at abstract thinking makes concrete tasks easier.
 
 But then, why do we insist on adding "tricks" to our programming problems? If we really only cared about knowledge of data structures, shouldn't we just ask someone to implement a Binary Search Tree in front of us, talk about the characteristics and runtime properties of that tree vs other data structures, and then call it a day? Couldn't we judge their knowledge via a behavioral interview, asking them about a time where they used a few design patterns and data structures in concert to model a problem effectively? 
 
@@ -82,13 +82,13 @@ It's also worth noting that [one of the most popular problems on LeetCode](https
 
 <blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.</p>&mdash; Max Howell (@mxcl) <a href="https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw">June 10, 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-*^ This guy wrote software which is installed on practically every developer's macbook.* 
+*If the creator of homebrew (who wrote the software installed on practically every developer's macbook) is having difficulties interviewing, then maybe this isn't a good measuring stick of skill*
 
-#### The difficulty of the assessment does not scale co-linearly with actual experience
+#### The difficulty of the assessment does not scale colinearly with actual experience
 
-The most frustrating thing about LeetCode interviews, and potentially the most damning, is that an individual's accrued work experience does not transfer at all into their ability to LeetCode. It's not like I'm able to breeze through Medium and Hard problems now that I've spent some time in the industry. This is the most disingenuous part of the interview process -- that we tie the expected rigor of the role to the difficulty of the LeetCode assessment. Without exaggeration, I was given [a LeetCode hard question](https://leetcode.com/problems/text-justification/) during the *phone screen* for Brex's Data Engineering position. 
+The most frustrating thing about LeetCode interviews, and potentially the most damning, is that an individual's accrued work experience does not transfer at all into their ability to LeetCode. It's not like I'm able to breeze through Medium and Hard problems now that I've spent some time in the industry. This is the most dishonest part of the interview process -- that we tie the expected rigor of the role to the difficulty of the LeetCode assessment. Without exaggeration, I was given [a LeetCode hard question](https://leetcode.com/problems/text-justification/) during the *phone screen* for Brex's Data Engineering position. 
 
-Someone who has spent multiple years in the industry should be judged by criteria that determines the value of their experience. Senior Engineers need to know how to code and be *damn good at it,* so the coding assessment needs to reflect that. This is easier said than done (of course), and because this is nearly impossible to test within an hour time frame, we resort to LeetCode. 
+Someone who has spent multiple years in the industry should be judged by criteria that determines the value of their experience. Senior Engineers need to know how to code and be *damn good at it,* so the coding assessment needs to reflect that. This is easier said than done, and because this is nearly impossible to test within an hour time frame, we resort to LeetCode. 
 
 However, being good at LeetCode assessments feels like an *adjacent* skill to writing software. You still need to be good at both in order to have upwards mobility in this industry, but you won't actually get better at it by accruing experience on the job. 
 
@@ -144,7 +144,7 @@ Let's take a step back, and consider what our goals are (as interviewers) when w
 * **Communication / Behavioral**: Is this person effective at explaining what they are thinking about, and describing a solution that can be understood by others?
 * **Attitude / Demeanor**: Is this person a brilliant jerk? Are they stand-offish? Cocky? Are they independent? Are they low-energy? Is this someone I can see myself working with? Does their values align with our company credos?
 
-For different companies, the weights we associate with each of these categories might be different, but ultimately, if a candidate gets a pass on all these categories, they would most likely be extended an offer. And these are all fine criteria -- it's just that our current process for evaluating this criteria is a little flawed.
+For different companies, the weights we associate with each of these categories might be different, but ultimately, if a candidate gets a pass on all these categories, they would most likely be extended an offer. And these are all fine criteria -- it's just that our current process for evaluating this criteria is disingenuous and a little flawed.
 
 So what's an engineer supposed to do? Despite all this LeetCode hate, I still believe there is a time and place for them, but not in the way we currently use it (and not nearly as much). What are our alternatives? Read on to find out:
 
