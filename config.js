@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Naveed Nadjmabadi',
     photo: '/avatar.png',
-    bio: 'Just another software engineer on the internet. My words are my own, I do not represent my employer.',
+    bio: 'Just another software engineer on the internet.',
     contacts: {
       email: '',
       facebook: '',
