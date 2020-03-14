@@ -14,6 +14,15 @@ category: interviews
 tags:
   - interviewing
 ---
+*Reading Time: 6 Minutes*
+
+*This is the first post of a 3 part blog series focused around improving our interviewing practices as a development community. Check out the other parts, too:*
+
+* [Part 1: Interviews for Senior Software Engineers are F*cking Broken](https://www.naveed.dev/posts/senior-engineer-interviews-broken)
+* [Part 3: A sane and fair process for conducing Senior Software Engineering Interviews](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process)
+
+- - - 
+
 In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. 
 
 ## A refresher: what should the Technical Interview evaluate a candidate on?
