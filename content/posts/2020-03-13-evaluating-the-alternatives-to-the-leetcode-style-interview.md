@@ -59,7 +59,7 @@ In my own experience, I found myself reluctantly preferring to do a LeetCode int
 
 <iframe src="https://giphy.com/embed/lokUlZaZgMAQlI05pu" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/chef-key-and-peele-keyandpeele-lokUlZaZgMAQlI05pu"></a></p>
 
-However, for some people, I know this is still a great way to interview, and for the companies offering it, I applaud you for not \[cargo-culting](https://en.wikipedia.org/wiki/Cargo_cult_programming#Cargo_cult_software_engineering).
+However, for some people, I know this is still a great way to interview, and for the companies offering it, I applaud you for not [cargo-culting](https://en.wikipedia.org/wiki/Cargo_cult_programming#Cargo_cult_software_engineering).
 
 ## Alternative #2: Behavioral & System Design Interviews ONLY
 
@@ -75,8 +75,8 @@ A few of the companies I had interviewed with (small startups) relied on behavio
 #### What they get wrong
 
 * It doesn't test whether you can actually code. You could be great at discussing high level architecture and terrible at actually building things; these interviews by themselves can't screen out the latter
-* For an interviewer, it's hard to screen out bullshit. The interviewers are susceptible to [getting overwhelmed](https://rationalwiki.org/wiki/Gish_Gallop) by a slick-talking candidate. 
-* the lack of defined criteria for this interview style makes it more subjective than the LeetCode style interview. When there are multiple interviewers, one interviewer may focus on specific topic or level of granularity they care about, making this a difficult interview to coordinate with another person. 
+* For an interviewer, it's hard to filter out bullshit. The interviewers are susceptible to [getting overwhelmed](https://rationalwiki.org/wiki/Gish_Gallop) by a slick-talking candidate. 
+* the lack of defined criteria for this interview style makes it more subjective than the LeetCode style interview. When there are multiple interviewers, one interviewer may focus on specific topic or level of granularity they care about, that the other interviewer does not value as much. This interview is difficult to coordinate effectively with other team members. 
 * Most of the practice system design questions available online only focus on web based architectures, which present a real challenge to senior engineers that focus on a particular part of the stack, like front-end or mobile engineers. When I was practicing these questions on [Pramp](https://www.pramp.com/), I felt guilty for asking my peer to "design a scalable web architecture for Uber" when they had been an android engineer for the past 5 years. 
 
 #### Conclusions
@@ -87,15 +87,15 @@ The best thing about this approach is that it is quick, easy, and scalable. The 
 
 ## Alternative #3: The Pragmatic Practical
 
-This is a pretty new kind of assessment, and it was offered by one company via the coding platform [Codility](https://www.codility.com/). This interview style was very straightforward -- 4 small, pragmatic tests which would test a specific subject, technology, or skill. One example was a "refactoring test", where you were given a function that was 80 lines long and asked to refactor it and clean up the logic. Another test might be how to build a bare-bones API server to handle a single web request, stuff like that.  
+This is a pretty new kind of assessment, and it was offered by a few companies, usually via a coding platform like [Codility](https://www.codility.com/) or [CoderPad](https://coderpad.io/). This interview style was very straightforward -- 4 small, pragmatic tests which would test a specific subject, technology, or skill. One example was a "refactoring test", where you were given a function that was 80 lines long and asked to refactor it and clean up the logic. Another test might be how to build a bare-bones API server to handle a single web request, stuff like that.  
 
 #### What they get right
 
 * It is a realistic proxy for everyday development, and tests whether you can actually code
 * The assessment leverages the actual experience engineers may have accrued in their career
 * They are not cramming multiple types of interviews into 1 session
-* They fit into the hour long timeframe taken by LeetCode, System Design, and Behavioral Interviews
-* They have defined and concrete deliverables, unlike System Design
+* They fit into the hour long time-frame taken by LeetCode, System Design, and Behavioral Interviews
+* They have defined and concrete deliverables, unlike the System Design
 
 #### What they get wrong
 
@@ -105,9 +105,9 @@ This is a pretty new kind of assessment, and it was offered by one company via t
 
 #### Conclusions
 
-This assessment is a  step in the right direction. The "Pragmatic Practical" combines the speed of a LeetCode interviews with the pragmatism of a take-home. We've successfully crossed over into territory where we can evaluate a candidate based on their technical chops, while allowing them to leverage their  prior experience in a time efficient manner!  Woo-hoo!
+This assessment is a big step in the right direction. The "Pragmatic Practical" combines the speed of a LeetCode interviews with the pragmatism of a take-home. We've successfully crossed over into territory where we can evaluate a candidate based on their technical chops, while allowing them to leverage their  prior experience in a time efficient manner!  Woo-hoo!
 
-But... (There's always a but), there is something left to be desired. It feels to me that I wasn't able to demonstrate *how much* of a given topic I knew. Once you could demonstrate that you could navigate the API and understand the concepts behind a technology, the assessment was trivial. Being constrained to the 1 hour time-box meant simplifying problems down to a point that feels reductive. While definitely harder to fake than the system design or behavioral assessment, it doesn't seem like an effective test to separate a good mid-level engineer from a senior one. We need some criteria to be able to distinguish engineers of different ranks, and that is missing from this kind of assessment.
+But... (there's always a but), there is something left to be desired. It feels to me that I wasn't able to demonstrate *how much* of a given topic I knew. Once you could demonstrate that you could navigate the API and understand the concepts behind a technology, the assessment was trivial. Being constrained to the 1 hour time-box meant simplifying problems down to a point that feels reductive. While definitely harder to fake than the system design or behavioral assessment, it doesn't seem like an effective test to separate a good mid-level engineer from a senior one. We need some criteria to be able to distinguish engineers of different ranks, and that is missing from this kind of assessment.
 
 All in all though, I would endorse this style of test over a LeetCode. You could pair this style of assessment with System Design and Behavioral Tests, and get a pretty good read on a candidate. Is this the best style of interviewing? Actually, I found another exercise that I think is even better. But before we dive in, let's define what makes a good software assessment. 
 
