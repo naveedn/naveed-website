@@ -66,7 +66,7 @@ Companies are on a constrained timeline and budget to conduct interviews. Interv
 
 The second benefit is that for junior engineers, this type of interview is still the best. Most recent graduates have never been exposed to modern software development practices, because academia often lags a decade or two behind the industry. When I got my first software internship, I didn't even know how to use git. I had only coded in C and in Java; Python and JavaScript weren't taught at my university. My databases class taught me about B-trees, not how to use Mongo. As for the alternatives: Either you skip the technical portion altogether (which is uncommon), or you make the candidate do a take-home, in which they will need to spend a disproportionate amount of time reading documentation or understanding how a basic web request is made. 
 
-Finally, there is a widely circulated belief that the engineers who can solve these LC problems are either hard workers who take their career seriously and prepared adequately, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these people to show up so you can reap the benefits. 
+Finally, there is a widely-circulated but disingenuous belief that the engineers who can solve these LC problems are either hard workers who prepared adequately and take their career seriously, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these people to show up so you can reap the benefits. 
 
 ## What's wrong with these interviews
 
@@ -144,7 +144,7 @@ Let's take a step back, and consider what our goals are (as interviewers) when w
 * **Communication / Behavioral**: Is this person effective at explaining what they are thinking about, and describing a solution that can be understood by others?
 * **Attitude / Demeanor**: Is this person a brilliant jerk? Are they stand-offish? Cocky? Are they independent? Are they low-energy? Is this someone I can see myself working with? Does their values align with our company credos?
 
-For different companies, the weights we associate with each of these categories might be different, but ultimately, if a candidate gets a pass on all these categories, they would most likely be extended an offer. And these are all fine criteria -- it's just that our current process for evaluating this criteria is disingenuous and a little flawed.
+For different companies, the weights we associate with each of these categories might be different, but ultimately, if a candidate gets a pass on all these categories, they would most likely be extended an offer. And these are all fine criteria -- it's just that our current process for evaluating this criteria is a little flawed.
 
 So what's an engineer supposed to do? Despite all this LeetCode hate, I still believe there is a time and place for them, but not in the way we currently use it (and not nearly as much). What are our alternatives? Read on to find out:
 
