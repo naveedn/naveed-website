@@ -38,7 +38,9 @@ For the uninitiated, these LeetCode interviews are designed to test an engineer'
    * Explain their answer to the interviewers, and modify their solution to solve additional constraints by their interviewers
 4. Interviewers allow anywhere from 0-10 minutes for the programmer to ask the interviewers questions about the company.
 
-Having interviewed a good number of candidates myself, it makes sense what is being tested in each phase of the interview. The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, interviewers look for answers that present insightful views of a candidate's decision making process, and their ability to communicate / gel with the team.
+Having interviewed a good number of candidates myself, it makes sense what is being tested in each phase of the interview.
+
+The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, interviewers look for answers that present insightful views of a candidate's decision making process, and their ability to communicate / gel with the team.
 
 Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
 
@@ -50,11 +52,13 @@ Cool, makes sense. With the technical portion of the interview, we hope to get e
 
 And the last part of the interview is designed to give the candidate some time to ask us questions so the interviewer can pitch the company favorably to them (aka make them drink the Kool-aid). 
 
-Now, imagine a candidate doing this 2-6 times in the process of interviewing with 1 company. You may be thinking, "that's not so bad", but consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. That's a **lot** of interviews, all following the same routine. With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve every variant of these problems fast enough.
+Now, imagine a candidate doing this 2-6 times in the process of interviewing with 1 company. You may be thinking, "that's not so bad", but consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. That's a **lot** of interviews, all following the same routine. 
 
 ![A screenshot of my most recent interview cycle](/media/job-prospects-screenshot.png "C's get Degrees, amirite hahaha? *nudge nudge*")
 
 *A screenshot of my most recent interview cycle* 
+
+With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve every variant of these problems fast enough.
 
 Interviewing with so many companies, however, provided me a wealth of data points: I could observe the nuances and differences in the interviewing styles. Some companies have much better interview processes than others. But before we jump into potential alternatives, let's break down this interview type into its individual components, so we can understand the motivations for why we continue this practice.
 
@@ -72,7 +76,7 @@ Finally, there is a widely-circulated, but disingenuous belief that the engineer
 
 #### They are an unrealistic proxy for everyday development
 
-First and foremost, they are absolutely nothing like what you would be doing on the job. I can tell you with 100% certainty that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. The one time i had to implement a distributed LRU cache for the company, I used [a library](https://github.com/isaacs/node-lru-cache) for the bulk of the work. These kinds of problems *don't exist* in modern day software engineering because the power and speed of recent computers make these performance tricks negligible. 
+First and foremost, they do not resemble the work an engineer performs on a daily basis. With 100% certainty, I can say that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. The one time i had to implement a distributed LRU cache for the company, I used [a library](https://github.com/isaacs/node-lru-cache) for the bulk of the work. These kinds of problems *don't exist* in modern day software engineering because the commoditization of powerful tools and platforms (like AWS), coupled with the availability of hardware resources in modern computers, make these performance tricks negligible. 
 
 The opposing argument is that while developers nowadays have a cornucopia of libraries and tools at their disposal, it is still critical to know how these tools **actually work** under the hood so that the engineer can make judicious decisions about what tool is appropriate for the job, and in what capacity. Fair enough -- I concede that knowing the nuts & bolts of how an algorithm or data structure works allows you to make better informed decisions in your work, and that being good at abstract thinking makes concrete tasks easier.
 
