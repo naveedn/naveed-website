@@ -13,7 +13,7 @@ category: interviews
 tags:
   - interviewing
 ---
-*Reading time: 6 minutes*
+*Reading time: 8 minutes*
 
 *This is the first post of a 3 part blog series focused around improving our interviewing practices as a development community. Check out the other parts, too:*
 
