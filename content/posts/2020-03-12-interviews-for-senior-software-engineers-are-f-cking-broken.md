@@ -13,7 +13,14 @@ category: interviews
 tags:
   - interviewing
 ---
-The bane of every software engineer's existence (if there is one) has got to be interviewing. For reasons unbeknownst to me, scores of engineers every day are subjected to draconian LeetCode style interviews, for which nothing short of a smashing success means failure, and eventual rejection from the company. 
+*Reading time: 6 minutes*
+
+*This is the first post of a 3 part blog series focused around improving our interviewing practices as a development community. Check out the other parts, too:*
+
+* *[Part 2: Evaluating the Alternatives to LeetCode](https://www.naveed.dev/posts/leetcode-alternatives-compared)*
+* *[Part 3: A sane and fair process for conducting Senior Software Engineering Interviews](<* https://www.naveed.dev/posts/alternative-senior-engineer-interview-process>)*
+
+The bane of every software engineer's existence -- if there is one -- has got to be interviewing. For reasons unbeknownst to me, engineers every day are subjected to draconian LeetCode style interviews, for which nothing short of a slam-dunk success means failure and eventual rejection from the company. 
 
 ## The Interview, explained
 
@@ -143,4 +150,6 @@ So what's an engineer supposed to do? Despite all this LeetCode hate, I still be
 
 - - -
 
-Thanks for reading! If you have any comments or suggestions, feel free to tweet me: [@nudgemybody](https://twitter.com/nudgemybody)
+Thanks for reading! Love it or hate it, if you have any comments or suggestions, please tweet me:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey y’all! I’ve spent the past 4 months interviewing for tech jobs, and the process SUCKED. I want to start a discussion on how this process is flawed and how we can fix it (and I’m tryna do this writing thing) so please share / retweet! <a href="https://t.co/IlReBEBUSJ">https://t.co/IlReBEBUSJ</a><br><br>Thx fwends 🥺❤️</p>&mdash; prosecco papi (@nudgemybody) <a href="https://twitter.com/nudgemybody/status/1238522744620208129?ref_src=twsrc%5Etfw">March 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
