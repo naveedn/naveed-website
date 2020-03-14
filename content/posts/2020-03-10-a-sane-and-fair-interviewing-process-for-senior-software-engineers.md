@@ -13,6 +13,8 @@ tags:
   - interviewing
   - technical
 ---
+*Reading Time: 8 Minutes*
+
 *For those just jumping in, the previous parts of this essay can be found here:*
 
 * [Part 1: Interviews for Senior Software Engineers are F*cking Broken](https://www.naveed.dev/posts/senior-engineer-interviews-broken)
