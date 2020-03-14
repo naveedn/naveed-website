@@ -18,7 +18,9 @@ tags:
 *This is the first post of a 3 part blog series focused around improving our interviewing practices as a development community. Check out the other parts, too:*
 
 * *[Part 2: Evaluating the Alternatives to LeetCode](https://www.naveed.dev/posts/leetcode-alternatives-compared)*
-* *[Part 3: A sane and fair process for conducting Senior Software Engineering Interviews](<* https://www.naveed.dev/posts/alternative-senior-engineer-interview-process>)*
+* *[Part 3: A sane and fair process for conducting Senior Software Engineering Interviews](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process)*
+
+- - -
 
 The bane of every software engineer's existence -- if there is one -- has got to be interviewing. For reasons unbeknownst to me, engineers every day are subjected to draconian LeetCode style interviews, for which nothing short of a slam-dunk success means failure and eventual rejection from the company. 
 
