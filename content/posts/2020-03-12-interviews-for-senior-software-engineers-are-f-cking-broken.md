@@ -57,7 +57,7 @@ The last part of the interview is for giving the candidate some time to ask ques
 
 A candidate will have to do this anywhere from 2-6 times for just 1 company. You may be thinking, "that's not so bad", but consider this: my last interviewing cycle lasted around 4 months, and I had repeated this process with 30 companies. That's a **lot** of interviews (not counting practice interviews), all following the same routine. 
 
-<div id="hidden-anchor-1"></div>
+<div id="hidden_anchor_1"></div>
 
 ![A screenshot of my most recent interview cycle](/media/job-prospects-screenshot.png "C's get Degrees, amirite hahaha? *nudge nudge*")
 
