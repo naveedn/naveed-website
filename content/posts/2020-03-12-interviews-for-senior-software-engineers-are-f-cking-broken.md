@@ -13,7 +13,7 @@ category: interviews
 tags:
   - interviewing
 ---
-*Reading time: 8 minutes*
+*Reading time: 12 minutes*
 
 *This is the first post of a 3 part blog series focused around improving our interviewing practices as a development community. Check out the other parts, too:*
 
@@ -47,6 +47,7 @@ Having interviewed a good number of candidates myself, it's straightforward to u
 The introduction and the behavioral questions are designed to get a sense of culture fit with the candidate. Interviewers are trying to break the ice and observe the candidate's ability to communicate / gel with the team.
 
 Cool, makes sense. With the technical portion of the interview, the interviewers try to get enough signal to judge the candidate's ability to:
+
 * code in a language of their (or our) choosing,
 * analyze and solve a problem
 * demonstrate knowledge of data structures, algorithms, testing, and coding best practices
@@ -89,7 +90,7 @@ But then, why do we insist on adding "tricks" to our programming problems? If we
 
 It's also worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. That's not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of state-related bugs everywhere they go.
 
-<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.</p>&mdash; Max Howell (@mxcl) <a href="https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw">June 10, 2015</a></blockquote> <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+![](/media/screen-shot-2020-03-15-at-6.25.33-am.png "Max Howell's (Creator of Homebrew) tweet about the insanity of whiteboard interviews")
 
 *If the creator of homebrew (who wrote the software installed on practically every developer's macbook) is having difficulties interviewing, then maybe this isn't a good measuring stick of skill*
 
@@ -165,6 +166,4 @@ So what's an engineer supposed to do? Despite all this LeetCode hate, I still be
 
 - - -
 
-Thanks for reading! Love it or hate it, if you have any comments or suggestions, please tweet me:
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey y’all! I’ve spent the past 4 months interviewing for tech jobs, and the process SUCKED. I want to start a discussion on how this process is flawed and how we can fix it so please share & retweet! </p>&mdash; prosecco papi (@nudgemybody) <a href="https://twitter.com/nudgemybody/status/1238522744620208129?ref_src=twsrc%5Etfw">March 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Thanks for reading! If you have any comments or suggestions, please tweet me: [@nudgemybody](https://twitter.com/nudgemybody)
