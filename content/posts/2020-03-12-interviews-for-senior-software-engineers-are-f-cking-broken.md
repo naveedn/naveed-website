@@ -76,12 +76,13 @@ The second benefit is that for junior engineers, this type of interview is still
 
 Finally, there is a widely-circulated, but disingenuous belief that the engineers who can solve these LC problems are either hard workers who prepared adequately and take their career seriously, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these people to show up so you can reap the benefits.
 
-<div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/o5oLImoQgGsKY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/o5oLImoQgGsKY"></a></p>
+<video id="gif-mp4-1" poster="https://media.giphy.com/media/o5oLImoQgGsKY/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" width="480" height="264">
+                <source src="https://media.giphy.com/media/o5oLImoQgGsKY/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                <img src="https://media.giphy.com/media/o5oLImoQgGsKY/giphy.gif" title="Your browser does not support the mp4 video codec.">
+            </video>
 
 ## What's wrong with these interviews
-
 #### They are not a proxy for everyday development
-
 First and foremost, they do not resemble the work an engineer performs on a daily basis. With 100% certainty, I can say that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor has iterating through an array in reverse order helped improve the efficiency of an application I wrote. The one time i had to implement a distributed LRU cache for the company, I used [a library](https://github.com/isaacs/node-lru-cache) for the bulk of the work. These kinds of problems *don't exist* in modern day software engineering because the commoditization of powerful tools and platforms (like AWS), coupled with the availability of hardware resources in modern computers, make these performance tricks negligible. 
 
 The opposing argument is that while developers nowadays have a cornucopia of libraries and tools at their disposal, it is still critical to know how these tools **actually work** under the hood so that the engineer can make judicious decisions about what tool is appropriate for the job, and in what capacity. Fair enough -- I concede that knowing the nuts & bolts of how an algorithm or data structure works allows you to make better informed decisions in your work, and that being good at abstract thinking makes concrete tasks easier.
@@ -110,7 +111,10 @@ Whats the accepted solution? Let's have a whole suite of engineers rapid-fire in
 
 There's no clearer example of this than Amazon. Amazon's interviews are notably different than other FAANG companies because they try to cram both the technical and behavioral components in the same 1 hour interview. Before the interview, you're asked to memorize the [Amazon Leadership Principles](https://www.amazon.jobs/en/principles), and during the interview, you're asked to regurgitate them in some prefabricated story using the [STAR format](https://en.wikipedia.org/wiki/Situation,_task,_action,_result). Because there is a time crunch for interviewers, and the technical aspect is already time consuming, the interviewers race through the behavioral part. You can make up whatever answers you want (as long as they fit the mold); they won't have time to ask legitimate follow ups anyways. The moment you say the buzzword for the Leadership characteristic they are scanning for, you can see them check off that box in real-time.
 
-<div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/W0kTaQBgE5nNK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/interview-job-jobinterview-W0kTaQBgE5nNK"></a></p>
+<video id="gif-mp4-2" poster="https://media.giphy.com/media/W0kTaQBgE5nNK/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" width="446" height="240">
+                <source src="https://media.giphy.com/media/W0kTaQBgE5nNK/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                <img src="https://media.giphy.com/media/W0kTaQBgE5nNK/giphy.gif" title="Your browser does not support the mp4 video codec.">
+            </video>
 
 Fred Brooks is famous for saying that "Adding manpower to a late software project makes it later". How's that old, tired joke about project managers go? 
 
@@ -136,7 +140,10 @@ One way is to quit your current company, take a small break, and then "grind Lee
 
 Here's an unspoken "dirty secret" -- they do it on the job. They practice LeetCode during their work hours, often putting off actual work in order to train. This is something I've observed in the workplace in almost every job I've had, and something I've done as well from time to time. 
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/NdKVEei95yvIY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mrw-smell-deskmate-NdKVEei95yvIY"></a></p>
+<video id="gif-mp4-3" poster="https://media.giphy.com/media/NdKVEei95yvIY/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" width="480" height="270">
+                <source src="https://media.giphy.com/media/NdKVEei95yvIY/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                <img src="https://media.giphy.com/media/NdKVEei95yvIY/giphy.gif" title="Your browser does not support the mp4 video codec.">
+            </video>
 
 ## How did these interviews get so popular?
 
