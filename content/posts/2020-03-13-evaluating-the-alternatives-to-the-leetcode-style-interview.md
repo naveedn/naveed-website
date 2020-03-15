@@ -116,6 +116,8 @@ This is a pretty new kind of assessment, and it was offered by a few companies, 
 
 This assessment is a big step in the right direction. The "Pragmatic Practical" combines the speed of a LeetCode interviews with the pragmatism of a take-home. We've successfully crossed over into territory where we can evaluate a candidate based on their technical chops, while allowing them to leverage their  prior experience in a time efficient manner!  Woo-hoo!
 
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/11ISwbgCxEzMyY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/reaction-mrw-11ISwbgCxEzMyY"></a></p>
+
 But... (there's always a but), there is something left to be desired. It feels to me that I wasn't able to demonstrate *how much* of a given topic I knew. Once you could demonstrate that you could navigate the API and understand the concepts behind a technology, the assessment was trivial. Being constrained to the 1 hour time-box meant simplifying problems down to a point that feels reductive. While definitely harder to fake than the system design or behavioral assessment, it doesn't seem like an effective test to separate a good mid-level engineer from a senior one. We need some criteria to be able to distinguish engineers of different ranks, and that is missing from this kind of assessment.
 
 All in all though, I would endorse this style of test over a LeetCode. You could pair this style of assessment with System Design and Behavioral Tests, and get a pretty good read on a candidate. Is this the best style of interviewing? Actually, I found another exercise that I think is even better. But before we dive in, let's define what makes a good software assessment. 
@@ -135,4 +137,4 @@ In my experience, there was a certain class of interview that met all the criter
 
 - - -
 
-Thanks for reading! If you have any suggestions, feel free to tweet me: [@nudgemybody](https://twitter.com/nudgemybody)
+Thanks for reading! Love it or hate it, if you have any suggestions or comments, feel free to tweet me: [@nudgemybody](https://twitter.com/nudgemybody)
