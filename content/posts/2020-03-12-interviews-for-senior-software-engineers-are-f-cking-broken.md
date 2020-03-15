@@ -76,7 +76,7 @@ The second benefit is that for junior engineers, this type of interview is still
 
 Finally, there is a widely-circulated, but disingenuous belief that the engineers who can solve these LC problems are either hard workers who prepared adequately and take their career seriously, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these people to show up so you can reap the benefits.
 
-<video id="gif-mp4-1" poster="https://media.giphy.com/media/o5oLImoQgGsKY/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" width="480" height="264">
+<video id="gif-mp4-1" poster="https://media.giphy.com/media/o5oLImoQgGsKY/200_s.gif" style="display: block;margin: auto;" autoplay="" loop="" width="480" height="264">
                 <source src="https://media.giphy.com/media/o5oLImoQgGsKY/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
                 <img src="https://media.giphy.com/media/o5oLImoQgGsKY/giphy.gif" title="Your browser does not support the mp4 video codec.">
             </video>
@@ -111,7 +111,7 @@ Whats the accepted solution? Let's have a whole suite of engineers rapid-fire in
 
 There's no clearer example of this than Amazon. Amazon's interviews are notably different than other FAANG companies because they try to cram both the technical and behavioral components in the same 1 hour interview. Before the interview, you're asked to memorize the [Amazon Leadership Principles](https://www.amazon.jobs/en/principles), and during the interview, you're asked to regurgitate them in some prefabricated story using the [STAR format](https://en.wikipedia.org/wiki/Situation,_task,_action,_result). Because there is a time crunch for interviewers, and the technical aspect is already time consuming, the interviewers race through the behavioral part. You can make up whatever answers you want (as long as they fit the mold); they won't have time to ask legitimate follow ups anyways. The moment you say the buzzword for the Leadership characteristic they are scanning for, you can see them check off that box in real-time.
 
-<video id="gif-mp4-2" poster="https://media.giphy.com/media/W0kTaQBgE5nNK/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" width="446" height="240">
+<video id="gif-mp4-2" poster="https://media.giphy.com/media/W0kTaQBgE5nNK/200_s.gif" autoplay="" loop="" width="446" height="240">
                 <source src="https://media.giphy.com/media/W0kTaQBgE5nNK/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
                 <img src="https://media.giphy.com/media/W0kTaQBgE5nNK/giphy.gif" title="Your browser does not support the mp4 video codec.">
             </video>
@@ -140,7 +140,7 @@ One way is to quit your current company, take a small break, and then "grind Lee
 
 Here's an unspoken "dirty secret" -- they do it on the job. They practice LeetCode during their work hours, often putting off actual work in order to train. This is something I've observed in the workplace in almost every job I've had, and something I've done as well from time to time. 
 
-<video id="gif-mp4-3" poster="https://media.giphy.com/media/NdKVEei95yvIY/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" width="480" height="270">
+<video id="gif-mp4-3" poster="https://media.giphy.com/media/NdKVEei95yvIY/200_s.gif" autoplay="" loop="" width="480" height="270">
                 <source src="https://media.giphy.com/media/NdKVEei95yvIY/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
                 <img src="https://media.giphy.com/media/NdKVEei95yvIY/giphy.gif" title="Your browser does not support the mp4 video codec.">
             </video>
