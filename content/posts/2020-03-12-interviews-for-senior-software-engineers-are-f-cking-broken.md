@@ -26,41 +26,44 @@ The bane of every software engineer's existence -- if there is one -- has got to
 
 ## The Interview, explained
 
+*(feel free to <a href="#hidden_anchor_1">skip this section</a> if you're already familiar)*
+
 For the uninitiated, these LeetCode interviews are designed to test an engineer's "fundamentals". They place a particular emphasis on using less common data structures or algorithms -- stuff most programmers haven't studied since college --  usually paired with a "trick" to make the problem more difficult. Here's the breakdown of a typical 1 hour long interview:
 
 1. The interviewers spend 5-10 minutes introducing themselves, and ask the candidate to do the same
 2. The interviewers may engage in a few behavioral questions, taking ~10-15 minutes. This is often skipped or done at the end.
 3. A programmer is presented with a logic / programming problem.  They are usually given anywhere from 25-50 minutes to:
 
-   * Understand the problem 
-   * Determine the optimal solution (by figuring out the trick, correct data structure, and algorithm)
-   * Write it up on a whiteboard
-   * Explain their answer to the interviewers, and modify their solution to solve additional constraints by their interviewers
+   * Analyze the problem and determine the optimal solution (by figuring out the trick, correct data structure, and algorithm)
+   * Write it up on a whiteboard with no errors
+   * Explain their answer to the interviewers
+   * Modify their solution to solve additional constraints by their interviewers
 4. Interviewers allow anywhere from 0-10 minutes for the programmer to ask the interviewers questions about the company.
 
-Having interviewed a good number of candidates myself, it makes sense what is being tested in each phase of the interview.
+### Why the Interview is structured this way
 
-The purpose of the introduction and the behavioral questions is to get a sense of culture fit with the candidate. Here, interviewers look for answers that present insightful views of a candidate's decision making process, and their ability to communicate / gel with the team.
+Having interviewed a good number of candidates myself, it's straightforward to understand what's being tested in each phase of the interview.
 
-Cool, makes sense. With the technical portion of the interview, we hope to get enough information to make a judgement on the candidate's:
+The introduction and the behavioral questions are designed to get a sense of culture fit with the candidate. Interviewers are trying to break the ice and observe the candidate's ability to communicate / gel with the team.
 
-* ability to code in a language of their (or our) choosing,
+Cool, makes sense. With the technical portion of the interview, the interviewers try to get enough signal to judge the candidate's ability to:
+* code in a language of their (or our) choosing,
 * analyze and solve a problem
-* demonstrate knowledge of design patterns, testing, and clean code architecture
-* familiarity with data structures, algorithms of the problem
-* technical communication skills and coach-ability if they are stuck
+* demonstrate knowledge of data structures, algorithms, testing, and coding best practices
+* communicate their technical thought process effectively
+* work under pressure
 
-And the last part of the interview is designed to give the candidate some time to ask us questions so the interviewer can pitch the company favorably to them (aka make them drink the Kool-aid). 
+The last part of the interview is for giving the candidate some time to ask questions so the interviewer can pitch the company favorably to them (aka make them drink the Kool-aid). 
 
-Now, imagine a candidate doing this 2-6 times in the process of interviewing with 1 company. You may be thinking, "that's not so bad", but consider this: my last interviewing period lasted about 4 months, and I had repeated this process with 30 companies. That's a **lot** of interviews, all following the same routine. 
+A candidate will have to do this anywhere from 2-6 times for just 1 company. You may be thinking, "that's not so bad", but consider this: my last interviewing cycle lasted around 4 months, and I had repeated this process with 30 companies. That's a **lot** of interviews (not counting practice interviews), all following the same routine. 
+
+<div id="hidden-anchor-1"></div>
 
 ![A screenshot of my most recent interview cycle](/media/job-prospects-screenshot.png "C's get Degrees, amirite hahaha? *nudge nudge*")
 
 *A screenshot of my most recent interview cycle* 
 
-With every rejection, I felt a sting of pride -- I *knew* I was good, but I struggled with these interviews because I couldn't solve every variant of these problems fast enough.
-
-Interviewing with so many companies, however, provided me a wealth of data points: I could observe the nuances and differences in the interviewing styles. Some companies have much better interview processes than others. But before we jump into potential alternatives, let's break down this interview type into its individual components, so we can understand the motivations for why we continue this practice.
+Interviewing with so many companies, however, provided me a wealth of data points: I could observe the different strategies companies employed. Not every company copied each other -- some companies gave much better interviews than others. But before we discuss some of the approaches that worked really well, let's understand why we continue to administer LeetCode interviews for candidates.
 
 ## What are the benefits of LeetCode Interviews?
 
@@ -70,13 +73,15 @@ Companies are on a constrained timeline and budget to conduct interviews. Interv
 
 The second benefit is that for junior engineers, this type of interview is still the best. Most recent graduates have never been exposed to modern software development practices, because academia often lags a decade or two behind the industry. When I got my first software internship, I didn't even know how to use git. I had only coded in C and in Java; Python and JavaScript weren't taught at my university. My databases class taught me about B-trees, not how to use Mongo. As for the alternatives: Either you skip the technical portion altogether (which is uncommon), or you make the candidate do a take-home, in which they will need to spend a disproportionate amount of time reading documentation or understanding how a basic web request is made. 
 
-Finally, there is a widely-circulated, but disingenuous belief that the engineers who can solve these LC problems are either hard workers who prepared adequately and take their career seriously, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these people to show up so you can reap the benefits. 
+Finally, there is a widely-circulated, but disingenuous belief that the engineers who can solve these LC problems are either hard workers who prepared adequately and take their career seriously, or naturally gifted problem solvers. The former represent the aspects of hard work and grit ("the ideal worker"), and the latter embody the traits of a mythical 10x engineer. In either case, these engineers will be a boon to your organization, so it makes sense to wait for one of these people to show up so you can reap the benefits.
+
+<div style="width:100%;height:0;padding-bottom:55%;position:relative;"><iframe src="https://giphy.com/embed/o5oLImoQgGsKY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/o5oLImoQgGsKY"></a></p>
 
 ## What's wrong with these interviews
 
-#### They are an unrealistic proxy for everyday development
+#### They are not a proxy for everyday development
 
-First and foremost, they do not resemble the work an engineer performs on a daily basis. With 100% certainty, I can say that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor have I seriously considered the benefits of iterating through an array in reverse order to improve the efficiency of an application. The one time i had to implement a distributed LRU cache for the company, I used [a library](https://github.com/isaacs/node-lru-cache) for the bulk of the work. These kinds of problems *don't exist* in modern day software engineering because the commoditization of powerful tools and platforms (like AWS), coupled with the availability of hardware resources in modern computers, make these performance tricks negligible. 
+First and foremost, they do not resemble the work an engineer performs on a daily basis. With 100% certainty, I can say that I have **NEVER** needed to use a heap to solve a real-world programming problem, nor has iterating through an array in reverse order helped improve the efficiency of an application I wrote. The one time i had to implement a distributed LRU cache for the company, I used [a library](https://github.com/isaacs/node-lru-cache) for the bulk of the work. These kinds of problems *don't exist* in modern day software engineering because the commoditization of powerful tools and platforms (like AWS), coupled with the availability of hardware resources in modern computers, make these performance tricks negligible. 
 
 The opposing argument is that while developers nowadays have a cornucopia of libraries and tools at their disposal, it is still critical to know how these tools **actually work** under the hood so that the engineer can make judicious decisions about what tool is appropriate for the job, and in what capacity. Fair enough -- I concede that knowing the nuts & bolts of how an algorithm or data structure works allows you to make better informed decisions in your work, and that being good at abstract thinking makes concrete tasks easier.
 
@@ -84,35 +89,37 @@ But then, why do we insist on adding "tricks" to our programming problems? If we
 
 It's also worth noting that [one of the most popular problems on LeetCode](https://leetcode.com/problems/number-of-islands) actually advocates "breaking the rules" and committing a programming faux-pas (overwriting state in the passed in matrix) in order to get the optimal solution. You shouldn't expect that a candidate, in 25-40 minutes, should consider breaking a tenet of good software engineering in order to solve a problem more efficiently. That's not really fair, is it? Nor is that something that you would encourage them to do if they were working on your team, because they would be leaving a trail of state-related bugs everywhere they go.
 
-<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.</p>&mdash; Max Howell (@mxcl) <a href="https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw">June 10, 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-theme="light"><p lang="en" dir="ltr">Google: 90% of our engineers use the software you wrote (Homebrew), but you can’t invert a binary tree on a whiteboard so fuck off.</p>&mdash; Max Howell (@mxcl) <a href="https://twitter.com/mxcl/status/608682016205344768?ref_src=twsrc%5Etfw">June 10, 2015</a></blockquote> <script src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 *If the creator of homebrew (who wrote the software installed on practically every developer's macbook) is having difficulties interviewing, then maybe this isn't a good measuring stick of skill*
 
-#### The difficulty of the assessment does not scale colinearly with actual experience
+#### The difficulty of the assessment does not scale correlate with actual experience
 
-The most frustrating thing about LeetCode interviews, and potentially the most damning, is that an individual's accrued work experience does not transfer at all into their ability to LeetCode. It's not like I'm able to breeze through Medium and Hard problems now that I've spent some time in the industry. This is the most dishonest part of the interview process -- that we tie the expected rigor of the role to the difficulty of the LeetCode assessment. Without exaggeration, I was given [a LeetCode hard question](https://leetcode.com/problems/text-justification/) during the *phone screen* for Brex's Data Engineering position. 
+The most frustrating thing about LeetCode interviews is that an individual's work experience does not transfer at all to their ability to LeetCode. It's not like I'm able to breeze through Medium and Hard problems now that I've spent some time in the industry. This is the most dishonest part of the interview process -- that we tie the expected rigor of the role to the difficulty of the LeetCode assessment. Without exaggeration, I was given [a LeetCode hard question](https://leetcode.com/problems/text-justification/) during the *phone screen* for Brex's Data Engineering position. 
 
-Someone who has spent multiple years in the industry should be judged by criteria that determines the value of their experience. Senior Engineers need to know how to code and be *damn good at it,* so the coding assessment needs to reflect that. This is easier said than done, and because this is nearly impossible to test within an hour time frame, we resort to LeetCode. 
+Engineers who have considerable experience in the industry should be judged by criteria that determines the value of their experience. Senior Engineers need to know how to code and be *damn good at it*, and the coding assessment needs to reflect that. This is easier said than done, and because this is nearly impossible to test within an hour time frame, we resort to LeetCode.
 
 However, being good at LeetCode assessments feels like an *adjacent* skill to writing software. You still need to be good at both in order to have upwards mobility in this industry, but you won't actually get better at it by accruing experience on the job. 
 
-#### They cram too much into too small of a timeframe
+#### They cram too much into too small of a time-frame
 
-So, enough with the moral qualms about the interview; let's discuss the structure. I noted above how the typical interviewing process works, and the interviewer's intentions at each stage.  While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that one or two interviewers can accurately glean this information in a single hour-long interview. This is why some interviewers can wildly disagree with each other about a candidate's skill. 
+So, enough with the moral qualms about the interview; let's discuss the structure. I noted above how the typical interviewing process works, and the interviewer's intentions at each stage.  While its admirable to try and evaluate each of these important aspects, it's unreasonable to think that one or two interviewers can accurately glean this information in a single hour-long interview. This is why some interviewers can wildly disagree with each other about a candidate's skill.
 
 Whats the accepted solution? Let's have a whole suite of engineers rapid-fire interview the poor candidate (who is probably sweating profusely right now in the conference room you left them in)! The law of averages will save us! If we all agree we *like* this candidate, then let's let her pass. But if one of us didn't get a good vibe? Well, "its better to pass on a good candidate than hire a bad one", so it's sayonara and good luck to you.
 
-There's no clearer example of this than Amazon. Amazon's interviews are notably different than other FAANG companies because they cram both technical and behavioral components in the same 1 hour interview. Before the interview, you're asked to memorize the [Amazon Leadership Principles](https://www.amazon.jobs/en/principles), and during the interview, you're asked to regurgitate them in some prefabricated story using the [STAR format](https://en.wikipedia.org/wiki/Situation,_task,_action,_result). Most online forums agree that this is the easiest FAANG interview to game, comparatively. Because there is a time crunch for interviewers, and the technical aspect is already time consuming, the interviewers race through the behavioral part. You can make up whatever answers you want (as long as they fit the mold); they won't have time to ask legitimate follow ups anyways. The moment you say the buzzword for the Leadership characteristic they are scanning for, you can see them check off that box in real-time.
+There's no clearer example of this than Amazon. Amazon's interviews are notably different than other FAANG companies because they try to cram both the technical and behavioral components in the same 1 hour interview. Before the interview, you're asked to memorize the [Amazon Leadership Principles](https://www.amazon.jobs/en/principles), and during the interview, you're asked to regurgitate them in some prefabricated story using the [STAR format](https://en.wikipedia.org/wiki/Situation,_task,_action,_result). Because there is a time crunch for interviewers, and the technical aspect is already time consuming, the interviewers race through the behavioral part. You can make up whatever answers you want (as long as they fit the mold); they won't have time to ask legitimate follow ups anyways. The moment you say the buzzword for the Leadership characteristic they are scanning for, you can see them check off that box in real-time.
+
+<div style="width:100%;height:0;padding-bottom:54%;position:relative;"><iframe src="https://giphy.com/embed/W0kTaQBgE5nNK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/interview-job-jobinterview-W0kTaQBgE5nNK"></a></p>
 
 Fred Brooks is famous for saying that "Adding manpower to a late software project makes it later". How's that old, tired joke about project managers go? 
 
 > Definition of Project Manager:  A person who thinks 9 women can deliver a baby in 1 month.
 
-Oops. In our industry, we have a habit of over-extending our resources and delivering sub-optimal solutions. We're doing the same thing when we compress 2 interviews into a single 1 hour slot.
+Oops. In the Software industry, we have a habit of over-extending our resources and delivering sub-optimal solutions. We're doing the same thing with our interviews.
 
 #### Depending on the interviewer, you are rewarded little to no credit for communication, problem solving, or coachability
 
-Just to throw another wrench into this whole process, many interviewers pay lip-service to the idea that candidates should be judged holistically, but then proceed to judge them by very strict standards. It's not enough to try and articulate your approach, code a solution, and iterate in a real-life manner. If you get stuck and ask for hints, you get docked points. If you don't solve the problem the way your interviewer wants you to solve the problem, your solution is considered "messy" and "confusing". A sub-optimal solution? "Lacks Problem Solving Skills". 
+Many interviewers pay lip-service to the idea that candidates should be judged holistically, but then proceed to judge them by very strict standards. It's not enough to articulate your approach, code a solution, debug, and iterate in a real-life manner. If you get stuck and ask for hints, you get docked points. If you don't solve the problem the way your interviewer wants you to solve the problem, your solution is considered "messy" and "confusing". A sub-optimal solution? "Lacks Problem Solving Skills". 
 
 Having someone coach you to a workable solution means the highest score you can expect to get for the interview is a "Neutral". We don't observe the process of problem solving and judge based on that -- we only reward people who get it right.    
 
@@ -120,13 +127,15 @@ Having someone coach you to a workable solution means the highest score you can 
 
 Let's talk about the kinds of people who benefit from this kind of interview. Off the top of my head, I can think of two major groups: [competitive programmers](https://en.wikipedia.org/wiki/Competitive_programming), and/or younger candidates who studied computer science recently in college and have no family obligations. 
 
-Think about it; would someone have the same chance of success if they didn't have the same amount of time to prepare as the groups listed above? Probably not. So what about the person who is starting a family? What about the bootcamp graduate who hasn't studied computer science theory? Or the engineer with 10+ years of experience? You have to put in a serious amount of work to learn or refresh these concepts. And people wonder [why ageism is such a large problem in the software industry](https://softwareengineering.stackexchange.com/questions/61980/is-ageism-in-software-development-based-on-anything-other-than-bias). Let me be explicit: companies that rely solely on LeetCode style interviews cannot be considered "diverse" if their recruiting practices disproportionately discriminate against certain kinds of candidates.  
+Think about it; would someone have the same chance of success if they didn't have the same amount of time to prepare as the groups listed above? Probably not. So what about the person who is starting a family? What about the bootcamp graduate who hasn't studied computer science theory? Or the engineer with 10+ years of experience? You have to put in a serious amount of work to learn or refresh these concepts. And people wonder [why ageism is such a large problem in the software industry](https://softwareengineering.stackexchange.com/questions/61980/is-ageism-in-software-development-based-on-anything-other-than-bias). Companies that rely solely on LeetCode style interviews cannot be considered "diverse" if their recruiting practices disproportionately discriminate against certain kinds of candidates.  
 
 This points to an obvious problem: If people don't have the means to be able to work on these esoteric exercises in their personal time, how do they study? 
 
 One way is to quit your current company, take a small break, and then "grind LeetCode" full time until you are ready to interview. In fact, for senior engineers who are considering job hopping, this is currently the best way to get your next job. Well, what about the people who aren't willing to forego their paycheck in order to study? 
 
-Here's an unspoken "dirty secret" -- they do it on the job. They practice LeetCode during their work hours, often putting off actual work in order to train. This is something I've observed in the workplace in almost every job I've had, and something I'm ashamed to admit I've done as well from time to time. 
+Here's an unspoken "dirty secret" -- they do it on the job. They practice LeetCode during their work hours, often putting off actual work in order to train. This is something I've observed in the workplace in almost every job I've had, and something I've done as well from time to time. 
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/NdKVEei95yvIY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mrw-smell-deskmate-NdKVEei95yvIY"></a></p>
 
 ## How did these interviews get so popular?
 
