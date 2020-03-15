@@ -66,7 +66,7 @@ That being said, they're too expensive in terms of time and effort. Lots of cand
 
 In my own experience, I found myself reluctantly preferring to do a LeetCode interview after getting rejected by a company that gave me a take-home assessment. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens -- it just wasn't a good use of my time when I was hunting for jobs. Would I do one if I had to? Absolutely. But would I jump for the opportunity?
 
-<video id="gif-mp4" poster="https://media.giphy.com/media/lokUlZaZgMAQlI05pu/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" width="480" height="270">
+<video id="gif-mp4" poster="https://media.giphy.com/media/lokUlZaZgMAQlI05pu/200_s.gif" style="display: block;" autoplay="" loop="" width="480" height="270">
                 <source src="https://media.giphy.com/media/lokUlZaZgMAQlI05pu/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
                 <img src="https://media.giphy.com/media/lokUlZaZgMAQlI05pu/giphy.gif" title="Your browser does not support the mp4 video codec.">
             </video>
@@ -119,7 +119,7 @@ This is a pretty new kind of assessment, and it was offered by a few companies, 
 
 This assessment is a big step in the right direction. The "Pragmatic Practical" combines the speed of a LeetCode interviews with the pragmatism of a take-home. We've successfully crossed over into territory where we can evaluate a candidate based on their technical chops, while allowing them to leverage their  prior experience in a time efficient manner!  Woo-hoo!
 
-<video id="gif-mp4-2" poster="https://media.giphy.com/media/11ISwbgCxEzMyY/200_s.gif" style="margin:0;padding:0" autoplay="" loop="" width="320" height="240">
+<video id="gif-mp4-2" poster="https://media.giphy.com/media/11ISwbgCxEzMyY/200_s.gif" style="display: block;" autoplay="" loop="" width="320" height="240">
                 <source src="https://media.giphy.com/media/11ISwbgCxEzMyY/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
                 <img src="https://media.giphy.com/media/11ISwbgCxEzMyY/giphy.gif" title="Your browser does not support the mp4 video codec.">
             </video>
