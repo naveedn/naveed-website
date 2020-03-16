@@ -66,10 +66,7 @@ That being said, they're too expensive in terms of time and effort. Lots of cand
 
 In my own experience, I found myself reluctantly preferring to do a LeetCode interview after getting rejected by a company that gave me a take-home assessment. For me, doing that one programming project took the span of scheduling and completing about 3 LC style phone screens -- it just wasn't a good use of my time when I was hunting for jobs. Would I do one if I had to? Absolutely. But would I jump for the opportunity?
 
-<video id="gif-mp4" poster="https://media.giphy.com/media/lokUlZaZgMAQlI05pu/200_s.gif" style="display: block;" autoplay="" loop="" width="480" height="270">
-                <source src="https://media.giphy.com/media/lokUlZaZgMAQlI05pu/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                <img src="https://media.giphy.com/media/lokUlZaZgMAQlI05pu/giphy.gif" title="Your browser does not support the mp4 video codec.">
-            </video>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/lokUlZaZgMAQlI05pu" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/chef-key-and-peele-keyandpeele-lokUlZaZgMAQlI05pu"></a></p>
 
 However, for some people, I know this is still a great way to interview, and for the companies offering it, I applaud you for not [cargo-culting](https://en.wikipedia.org/wiki/Cargo_cult_programming#Cargo_cult_software_engineering).
 
@@ -119,10 +116,7 @@ This is a pretty new kind of assessment, and it was offered by a few companies, 
 
 This assessment is a big step in the right direction. The "Pragmatic Practical" combines the speed of a LeetCode interviews with the pragmatism of a take-home. We've successfully crossed over into territory where we can evaluate a candidate based on their technical chops, while allowing them to leverage their  prior experience in a time efficient manner!  Woo-hoo!
 
-<video id="gif-mp4-2" poster="https://media.giphy.com/media/11ISwbgCxEzMyY/200_s.gif" style="display: block;" autoplay="" loop="" width="320" height="240">
-                <source src="https://media.giphy.com/media/11ISwbgCxEzMyY/giphy.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                <img src="https://media.giphy.com/media/11ISwbgCxEzMyY/giphy.gif" title="Your browser does not support the mp4 video codec.">
-            </video>
+<div style="width:100%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/XreQmk7ETCak0" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/retro-thumbs-up-XreQmk7ETCak0"></a></p>
 
 But... (there's always a but), there is something left to be desired. It feels to me that I wasn't able to demonstrate *how much* of a given topic I knew. Once you could demonstrate that you could navigate the API and understand the concepts behind a technology, the assessment was trivial. Being constrained to the 1 hour time-box meant simplifying problems down to a point that feels reductive. While definitely harder to fake than the system design or behavioral assessment, it doesn't seem like an effective test to separate a good mid-level engineer from a senior one. We need some criteria to be able to distinguish engineers of different ranks, and that is missing from this kind of assessment.
 
