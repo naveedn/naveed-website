@@ -18,7 +18,7 @@ tags:
 *For those just jumping in, the previous parts of this essay can be found here:*
 
 * [Part 1: Interviews for Senior Software Engineers are F*cking Broken](https://www.naveed.dev/posts/senior-engineer-interviews-broken)
-* [Part 2: Evaluating the alternatives to the LeetCode Style Interview](https://www.naveed.dev/posts/leetcode-alternatives-compared)
+* [Part 2: Evaluating the common alternatives to the LeetCode Style Interview](https://www.naveed.dev/posts/leetcode-alternatives-compared)
 
 ## Introducing a new style of Engineering Interviews
 
