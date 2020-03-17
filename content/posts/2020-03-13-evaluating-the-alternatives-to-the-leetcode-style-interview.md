@@ -23,7 +23,7 @@ tags:
 
 - - -
 
-In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. If you're coming from the previous blogpost, feel free to [skip the next section](https://www.naveed.dev/posts/leetcode-alternatives-compared#alternative-1-take-home-assessments).
+In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. If you're coming from the previous blogpost, feel free to <a href="#alternative-1-take-home-assessments">skip the next section</a>.
 
 ### A refresher: what should the Technical Interview evaluate a candidate on?
 
@@ -33,7 +33,7 @@ In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-
 * **Communication / Behavioral**: Is this person effective at explaining what they are thinking about, and describing a solution that can be understood by others?
 * **Attitude / Demeanor**: Is this person a brilliant jerk? Are they stand-offish? Cocky? Are they independent? Are they low-energy? Is this someone I can see myself working with? Does their values align with our company credos?
 
-OK, so now that we've gotten that taken care of, let's look at some alternatives in practice today: Take-Home Assessments, Behavioral & System Design (only), and [Pragmatic Practicals](https://www.naveed.dev/posts/leetcode-alternatives-compared#alternative-3-the-pragmatic-practical).
+OK, so now that we've gotten that taken care of, let's look at some alternatives in practice today: Take-Home Assessments, Behavioral & System Design (only), and <a href="#alternative-3-the-pragmatic-practical">Pragmatic Practicals</a>.
 
 ## Alternative #1: Take-Home Assessments
 
