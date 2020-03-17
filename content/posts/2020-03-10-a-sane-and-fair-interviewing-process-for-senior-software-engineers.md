@@ -13,7 +13,7 @@ tags:
   - interviewing
   - technical
 ---
-*Reading Time: 8 Minutes*
+*Reading Time: 6 Minutes*
 
 *For those just jumping in, the previous parts of this essay can be found here:*
 
@@ -53,7 +53,7 @@ Essentially, you try to take the best aspects of the [Pragmatic Practical](https
 
    * System Design interviews are par for the course for senior software engineering interviews -- this is something that a candidate should be familiar with in the course of their everyday work. 
    * Technical Communication Interviews are a flavor of System Design Interviews where the candidate is asked to describe a past project they built in technical detail, discussing the trade-offs, the constraints, the solution, and their involvement with the project
-   * It's worth noting that the programming project is an *intense* exercise. While one could do a Pragmatic Practical or a LeetCode style interview, it would not add much more signal and the interviewer should expect that a candidate's performance realistically will decrease as the day wears on.
+   * It's worth noting that the programming project is an *intense* exercise. While one could do a Pragmatic Practical or a LeetCode style interview, the interviewer should expect that a candidate's performance realistically will decrease as the day wears on.
 9. After the interviews are done for the day, the candidate meets with the recruiter for a 15 minute sync, describing their experience interviewing with the company. They leave, and the team makes a final decision on the candidate. 
 
 ## How this type of interview addresses the needs of both parties
@@ -80,8 +80,6 @@ This interview style matches [all the criteria we laid out in the last blog post
 
 ## A Sample Programming Project
 
-I plan on creating a github repo where I can post sample projects, but until then, here is a slightly modified question I was given from a real company.
-
 > Implement a web server link-shortening service, like bit.ly or tinyURL. 
 
 #### Phase 1:
@@ -92,7 +90,7 @@ I plan on creating a github repo where I can post sample projects, but until the
 * Implement a DELETE API, where given the original URL and the shortened link, the entry is removed from the service
 * The deliverables for Phase 1 should include both tests and documentation
 
-#### Phase 2 (only do this after finishing Phase 1):
+#### Phase 2 (Only do this after finishing Phase 1):
 
 * Support TTLs (time-to-live) expiration for a given URL. The user can pass in an optional TTL in seconds in the POST request for how long they want the link to be "valid". Expired links do not redirect to the original destination, and are removed from the service. An appropriate error is returned.
 * Support a limited number of uses for the short-url. The user can pass in an optional number which determines how many times the short-url can be used before it expires and is removed from the system. Expired links do not redirect to the original destination, and are removed from the service. An appropriate error is returned.  
@@ -104,7 +102,7 @@ I plan on creating a github repo where I can post sample projects, but until the
 
 ### Notes:
 
-* This project skews more heavily towards breadth than depth, but I have seen projects that are more depth oriented as well (not requiring skills in web development or deployment). Stay tuned, because I wil drop the link to the github repo with more samples. 
+* This project skews more heavily towards breadth than depth, but I have seen projects that are more depth oriented as well (not requiring skills in web development or deployment).
 
 ### How to grade this kind of programming project
 
@@ -117,14 +115,14 @@ How do we determine what is a fair, but rigorous question to implement in 3 hour
   * Keep in mind that while the sample question provided looks simple, there are a bunch of gotchas to work through, and doing the project (setup | code | tests | documentation | deployment) in one sitting is pretty tough. *For example: how would a candidate handle collisions in the short url?*
   * The candidate should be expected to provide a working demo of their project (and run their test suite, if applicable) to the interviewers -- this is how we verify the "hard" requirements.
 * A mid-level engineer should struggle to finish the requirements for the project. A senior may also have a difficult time doing all the aspects, but should be able to get to "demo state". 
-* If there are any gaps in the candidate project, or if the candidate did not finish the project, the interviewers can use the 1 hour time slot to pair-program with the candidate, discuss any difficulties the candidate faced, come up with ways to determine if the candidate can be coached to a solution, or ask questions that would solve any lingering doubts in the interviewer.
+* If there are any gaps in the candidate project, or if the candidate did not finish the project, the interviewers can use the 1 hour time slot to pair-program with the candidate, discuss any difficulties the candidate faced, coach the candidate to a solution, or ask questions that would solve any lingering doubts in the interviewer.
 * Phase 1 should encapsulate an entire functioning project, where Phase 2 and beyond evaluate refactoring, design, increased scope, or deployments. Phase 1 is the meat of what is being evaluated, where Phase 2 onwards are supplementary. Review the candidate's git history for the project to see how they break up their work. 
 
 ## Final Thoughts
 
-In one of the instances where I was given this kind of interview, (similar to the sample above) was able to do all the phases in the project by the end. In another instance, I was only able to barely solve Phase 1 before my time was up. I thought I had failed it. During my one hour review with the interviewers, they had me implement the logic for phase 2 in front of them. Again, I thought I did poorly. At the end of the day, the recruiter told me that I did *really* well on the project. I found it so refreshing to be evaluated by something that felt so ***real.*** This project wasn't just a race to implement all the features -- but to pick and choose how to best solve the problem, how to structure your code in a way that would allow you to iterate, and overall, deliver the most important thing to your customer (a complete, workable software implementation).
+In one of the instances where I was given this kind of interview, (similar to the sample above) was able to do all the phases in the project by the end. In another instance, I was only able to barely solve Phase 1 before my time was up. I thought I had failed it. During my one hour review with the interviewers, they had me implement the logic for phase 2 in front of them. Again, I thought I did poorly. At the end of the day, the recruiter told me that I did *really* well on the project. I found it so refreshing to be evaluated by something that felt so ***real.*** This project wasn't a race to implement all the features -- but to plan how to best solve the problem, to execute and iterate, to communicate your approach, and overall, deliver the most important thing to your customer (a complete, working software implementation).
 
-If there is one thing I'd like you to take away, it's this: LeetCode interviews aren't inherently *bad,* but we've allowed it to become the end-all, be-all for software engineering interviews, even when it doesn't relate to the work that we do on a daily basis. 
+If there is one thing I'd like you to take away, it's this: LeetCode interviews aren't inherently *bad,* but we've allowed it to become the end-all, be-all for senior software engineering interviews, even when it doesn't relate to the work that we do on a daily basis. 
 
 When you swing a hammer, everything looks a nail. As software engineers, we need to evaluate if there are better tools for the job. We've taken a look at the various alternatives to conducting software engineering interviews and discussed the pro's and con's of each one. Hopefully, you can take this information, start a conversation with your company's hiring team, and change the interviewing process to work better for everyone involved! 
 
