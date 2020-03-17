@@ -1,6 +1,6 @@
 ---
 template: post
-title: Evaluating the alternatives to the LeetCode Style Interview
+title: Evaluating the common alternatives to the LeetCode Style Interview
 slug: leetcode-alternatives-compared
 draft: false
 date: 2020-03-10T22:25:07.743Z
@@ -14,7 +14,7 @@ category: interviews
 tags:
   - interviewing
 ---
-*Reading Time: 6 Minutes*
+*Reading Time: 8 Minutes*
 
 *This is the second post of a 3 part blog series focused around improving our interviewing practices as a development community. Check out the other parts, too:*
 
@@ -23,7 +23,7 @@ tags:
 
 - - -
 
-In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. If you're coming from the previous blogpost, feel free to skip the next section.
+In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-broken), I discussed my frustrations with the ubiquitous LeetCode interview, and why it was a poor litmus test for determining competency in senior engineers. Before we discuss alternatives, let's recap what skills our interviews should be testing for. If you're coming from the previous blogpost, feel free to [skip the next section](https://www.naveed.dev/posts/leetcode-alternatives-compared#alternative-1-take-home-assessments).
 
 ### A refresher: what should the Technical Interview evaluate a candidate on?
 
@@ -33,7 +33,7 @@ In the [last blog post](https://www.naveed.dev/posts/senior-engineer-interviews-
 * **Communication / Behavioral**: Is this person effective at explaining what they are thinking about, and describing a solution that can be understood by others?
 * **Attitude / Demeanor**: Is this person a brilliant jerk? Are they stand-offish? Cocky? Are they independent? Are they low-energy? Is this someone I can see myself working with? Does their values align with our company credos?
 
-OK, so now that we've gotten that taken care of, let's look at some alternatives in practice today.
+OK, so now that we've gotten that taken care of, let's look at some alternatives in practice today: Take-Home Assessments, Behavioral & System Design (only), and [Pragmatic Practicals](https://www.naveed.dev/posts/leetcode-alternatives-compared#alternative-3-the-pragmatic-practical).
 
 ## Alternative #1: Take-Home Assessments
 
@@ -68,7 +68,7 @@ In my own experience, I found myself reluctantly preferring to do a LeetCode int
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/lokUlZaZgMAQlI05pu" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/chef-key-and-peele-keyandpeele-lokUlZaZgMAQlI05pu"></a></p>
 
-However, for some people, I know this is still a great way to interview, and for the companies offering it, I applaud you for not [cargo-culting](https://en.wikipedia.org/wiki/Cargo_cult_programming#Cargo_cult_software_engineering).
+However, for some people, I know this is still a great way to interview, and for the <a href="hidden_anchor_2">companies offering it</a>, I applaud you for not [cargo-culting](https://en.wikipedia.org/wiki/Cargo_cult_programming#Cargo_cult_software_engineering). 
 
 ## Alternative #2: Behavioral & System Design Interviews ONLY
 
@@ -131,7 +131,11 @@ All in all though, I would endorse this style of test over a LeetCode. You could
 
 The solutions above, while close, don't fully satisfy my criteria for a sane and rigorous interview process -- although if I saw more of Alternative 1 or 3, I'd be happy. 
 
+<div id="hidden_anchor_2"></div>
+
+
 In my experience, there was a certain class of interview that met all the criteria above and hasn't been discussed yet. So, without further ado, check out a [sane and fair process for conducting senior software engineering interviews](https://www.naveed.dev/posts/alternative-senior-engineer-interview-process). 
+
 
 **NOTE:** As I alluded to earlier, there is no one-size-fits all. If the current non-LC based assessments are your jam, then more power to you! I would recommend taking a look at [Hiring Without Whiteboards](https://github.com/poteto/hiring-without-whiteboards) so you can find your next company! <3
 
