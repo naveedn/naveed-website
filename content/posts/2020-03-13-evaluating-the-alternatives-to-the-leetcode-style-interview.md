@@ -68,7 +68,7 @@ In my own experience, I found myself reluctantly preferring to do a LeetCode int
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/lokUlZaZgMAQlI05pu" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/chef-key-and-peele-keyandpeele-lokUlZaZgMAQlI05pu"></a></p>
 
-However, for some people, I know this is still a great way to interview, and for the <a href="hidden_anchor_2">companies offering it</a>, I applaud you for not [cargo-culting](https://en.wikipedia.org/wiki/Cargo_cult_programming#Cargo_cult_software_engineering). 
+However, for some people, I know this is still a great way to interview, and for the <a href="#hidden_anchor_2">companies offering it</a>, I applaud you for not [cargo-culting](https://en.wikipedia.org/wiki/Cargo_cult_programming#Cargo_cult_software_engineering). 
 
 ## Alternative #2: Behavioral & System Design Interviews ONLY
 
