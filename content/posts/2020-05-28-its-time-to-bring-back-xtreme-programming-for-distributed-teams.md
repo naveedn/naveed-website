@@ -1,0 +1,36 @@
+---
+template: post
+title: It's time to bring back Xtreme Programming for distributed teams
+slug: consider-xp-for-distributed-teams
+draft: true
+date: 2020-05-28T05:58:41.206Z
+description: >-
+  COVID19 has impacted many of us profoundly. Our social patterns have shifted
+  almost overnight. Virtual Hangouts are becoming the norm now for both social
+  and work engagements, instead of the pre-COVID norm of meeting people in
+  person. 
+
+
+  For extroverted programmers like me, it used to be a real challenge in
+  adapting to a long-term remote-work lifestyle. Until my team started doing XP.
+category: productivity
+tags:
+  - remote
+  - productivity
+  - remote work
+---
+COVID19 has impacted many of us profoundly. Our social patterns have shifted almost overnight. Virtual Hangouts are becoming the norm now for both social and work engagements, instead of the pre-COVID norm of meeting people in person. 
+
+For extroverted programmers like me, it used to be a real challenge in adapting to a long-term remote-work lifestyle. Until my team started doing XP. A lot of the practices highlighted in the 12 principles of XP are effective productivity hacks that make a lot more sense in our remote-first world. Let's unwrap this.
+
+## First off, wtf is XP (Xtreme Programming) and where did it come from?
+
+We're gonna keep this brief, but here is a 30 second crash course on the history of XP:
+
+\- In the land before time, software teams used a waterfall approach to software development. Most software projects were failures.
+
+\- In the late 90's / early 2000's, a new generation of software engineers met at a famous ski resort and came up with a new paradigm for how we should do software development. That birthed the "agile development" workflow that's ubiquitous in software engineering these days.
+
+\- The original agile movement became fragmented the more popular it grew. Some people began forking off and experimenting with alternative styles of software development, which is where XP and Kanban come from.
+
+\- While Kanban really
