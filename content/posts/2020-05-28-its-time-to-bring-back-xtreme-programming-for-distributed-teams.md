@@ -53,6 +53,10 @@ EXtreme Programming is a software development style that takes the ideas from th
 
 * Sustainable pace
 
+
+
+### A quick history lesson
+
 We're gonna keep this brief, but here is a 30 second crash course on the history of XP:
 
 \- In the land before time, software teams used a waterfall approach to software development. Most software projects were failures.
