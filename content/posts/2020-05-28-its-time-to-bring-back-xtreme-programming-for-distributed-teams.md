@@ -33,4 +33,4 @@ We're gonna keep this brief, but here is a 30 second crash course on the history
 
 \- The original agile movement became fragmented the more popular it grew. Some people began forking off and experimenting with alternative styles of software development, which is where XP and Kanban come from.
 
-\- While Kanban really
+\- While Kanban enjoyed some commercial success (it became largely popular in devops / support heavy teams), XP was decidedly less popular. It was in a bit of a limbo -- some of the original voices of Agile were using XP, like Robert Martin and Kent Beck. But it was considered too unapproachable, too intense, and not justifiable from a business perspective. Indeed, if you visit the wikipedia page for Xtreme Programming, they have a section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people.
