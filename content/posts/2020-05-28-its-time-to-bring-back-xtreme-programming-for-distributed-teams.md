@@ -35,8 +35,8 @@ Extreme Programming is a software development style that takes the ideas from th
 
 We're gonna keep this brief. Here's a 30 second crash course on the history of XP:
 
-* In the land before time, software teams used a waterfall approach to software development. Most software projects were failures. (See: [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month))
-* In 1999, esteemed programmer Kent Beck released a book called Extreme Programming Explained, wherein he outlines a radically new and different approach to software development.
+* In the land before time, software teams used a waterfall approach to software development. Most software projects were failures. (See: [The Mythical Man-Month](https://amzn.to/30QHn8F))
+* In 1999, esteemed programmer Kent Beck released a book called [Extreme Programming Explained](https://amzn.to/2YLNE2S), wherein he outlines a radically new and different approach to software development.
 * In the early 2000's, the industry's most regarded engineers (including Beck) [met at a famous ski resort](https://agilemanifesto.org/history.html) and distilled the ideas of XP into a new paradigm for how organizations should do software development. That paradigm is known as the Agile Software Development methodology that's ubiquitous in software engineering these days.
 * The Agile movement became fragmented the more popular it grew. Over time, the Agile movement was co-opted by business folks and process-oriented project managers.
 
@@ -48,7 +48,7 @@ XP and Mob Programming were decidedly less popular. These frameworks were in a b
 
 Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology no longer hold water.
 
-#### Pair Programming is costly and a waste of valuable resources because it limits parallelism
+#### Argument: Pair Programming is costly and a waste of valuable resources because it limits parallelism
 
 In the past 3 months, I've spent more time pair-programming than I did in my entire career beforehand. Pair-programming is the best substitute we have to co-locating in our current distributed environment. I use it for everything, and do it often.
 
@@ -59,7 +59,7 @@ In the past 3 months, I've spent more time pair-programming than I did in my ent
 
 That's not to say I agree with pair-programming **all the time.** I need my own time to chew on problems, to try out solutions, and organize my thoughts to make sure I'm not wasting the other person's time when we meet. I think this is where most people get it wrong; they think that have to be chained to the hip with their teammates and always operate lock-step with them, when that's not really how it works in practice. 
 
-It's not a formal process where we spend an uncomfortable amount of time in our teammate's personal space -- instead, it's more like a game of football, where we huddle between plays to strategize before we execute some chunk of work. A visceral example of this is in the book: "[Coders at Work: Reflections on the Craft of Programming](https://www.apress.com/us/book/9781430219484)". In Chapter 2, Peter Seibel interviews [Jamie Zawinkski](https://www.jwz.org/about.html), one of the early engineers of Netscape. I'll post a part of the interview that stands out:
+It's not a formal process where we spend an uncomfortable amount of time in our teammate's personal space -- instead, it's more like a game of football, where we huddle between plays to strategize before we execute some chunk of work. A visceral example of this is in the book: "[Coders at Work: Reflections on the Craft of Programming](https://amzn.to/2ABX7SB)". In Chapter 2, Peter Seibel interviews [Jamie Zawinkski](https://www.jwz.org/about.html), one of the early engineers of Netscape. I'll post a part of the interview that stands out:
 
 > *... \[discussion about building netscape 1.0] ...*
 >
@@ -80,34 +80,40 @@ It's not a formal process where we spend an uncomfortable amount of time in our 
 > **Seibel**: Did you guys email a lot?
 >
 > **Zawinski**: Yea, constant email. This was before instant messaging -- these days it probably all would have been IM because we were sending one-liner emails constantly. And we talked on the phone.
+>
+> \--
 
-*(side note: this is a [fantastic book](http://www.codersatwork.com/), and I recommend anyone read it if they're looking for computer science lore that isn't a textbook or manual).*
+As an aside: this is a [fantastic book](http://www.codersatwork.com/), and I recommend anyone read it if they're looking for computer science lore that isn't a textbook or manual.
 
-As the interview may have unintentionally highlighted, having discrete chunks of coder time was a key component in the success of their collaboration. The idea been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
+As the interview may have unintentionally highlighted, having discrete chunks of coder time was a key component in the success of their collaboration. The idea been talked about ad nauseum in the book "[Deep Work](https://amzn.to/2zKQzR6)" by Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
-This is another area where remote teams really benefit. For most non-parents, the home workspace is much more distraction-free than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being  more carefully scrutinized on our output than our effort.
+This is another area where remote teams really benefit. For most non-parents, the home workspace is  more distraction-free than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being  more carefully scrutinized on our output than our effort.
 
 #### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
-Ok, most of these criticisms came from Matt Stephens and Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://archive.org/details/extremeprogrammi00matt)". And pretty much on all counts here, they're totally f*cking wrong.
+Ok, most of these criticisms came from Matt Stephens and Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://amzn.to/30SIyVg)". And pretty much on all counts here, they're totally f*cking wrong.
 
 I don't want to bash these guys too hard -- i mean, they wrote this in 2004, and I have the benefit of hindsight that they certainly did not have. But, in the 16 years since their book was released, the software engineering community has collectively agreed that a Continuous Design Approach (aka Continuous Innovation) is an ideology that not only works, but in fact heavily influenced the success of B2C startups in the generation after the dot-com bust. 
 
-Eric Reis wrote the seminal book [the Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B07W14CDB3), extolling the virtues continuous innovation while making the argument that it saves money in the long-run because you don't end up "building the wrong thing".
+Eric Reis wrote the seminal book [the Lean Startup](https://amzn.to/2AAS6JZ), extolling the virtues continuous innovation while making the argument that it saves money in the long-run because you don't end up "building the wrong thing".
 
-VC investor Peter Thiel gave further praise of Continuous Innovation in his book [Zero to One](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296), while Paul Graham, co-founder of the Y Combinator startup accelerator, penned the famous essay "[Do things that don't scale](http://paulgraham.com/ds.html)". You can see it in the ethos of Facebook's [old company motto](https://www.businessinsider.com/mark-zuckerberg-innovation-2009-10?r=US&IR=T): "Move fast and break things".  It's not just VCs and founders talking about it. Edward Lau, in his book [the Effective Engineer](http://www.effectiveengineer.com/), discusses tight-feedback loops and continuous delivery as the flywheel that powers the knowledge-discovery engine, which enable developers to create leverage on their projects. And finally, Google Ventures has [their own process for applying a Continuous Design Approach](https://www.gv.com/sprint/) for all of their projects, popular in the HCI / UX space of computer science.. Their design sprint bears striking resemblance with the company IDEO, who had their own [ABC Nightline special in 1999 about re-designing the shopping cart](https://www.youtube.com/watch?v=M66ZU2PCIcM&vl=en-US) that blew America's mind.  
+VC investor Peter Thiel gave further praise of Continuous Innovation and a fail-fast approach in his book [Zero to One](https://amzn.to/30P8b9k), while Paul Graham, co-founder of the Y Combinator startup accelerator, penned the famous essay "[Do things that don't scale](http://paulgraham.com/ds.html)". You can see it in the ethos of Facebook's old company motto: "[Move fast and break things](https://www.businessinsider.com/mark-zuckerberg-innovation-2009-10?r=US&IR=T)".
 
-Safe to say, I think Continuous Innovation is gonna stick around for a long time.
+It's not just VCs and founders talking about it. Edward Lau, in his book [the Effective Engineer](https://amzn.to/2UWDbke), discusses tight-feedback loops and continuous delivery as the flywheel that powers the knowledge-discovery engine, which enable developers to iterate quickly and create leverage on their projects. 
 
-#### Requires too much change to adopt, and can only work with Senior Engineers
+And finally, Google Ventures has [their own process for applying a Continuous Design Approach](https://www.gv.com/sprint/) for all of their sprints, which struck a chord in the HCI / UX space. GV's design sprint bears striking resemblance to the company IDEO, which had their own [ABC Nightline special in 1999 about re-designing the shopping cart](https://www.youtube.com/watch?v=M66ZU2PCIcM&vl=en-US) that blew America's mind.  
+
+Safe to say, I think Continuous Innovation isn't a fluke. It's been around for a while, and it's gonna stick around for a while, too.
+
+#### Argument: XP requires too much change to adopt, and can only work with Senior Engineers
 
 The point that "XP only works with Senior Engineers" relies on the premise that XP is a high-discipline mental framework, and that only professionals in the industry with the hard-earned wisdom can pull it off. Ordinary people are creatures of habit, they argue, so after the first major speed bump, the organizational adherence to these Extreme Principles will fall precipitously. 
 
-But, this point was made in 2004, where the technology and tooling to automate these tasks simply didn't exist. Almost every modern software company has some sort of CI / CD process, where tasks like linting or unit tests can be run automatically. Git has made branching and interleaving work across different developers trivially easy. Jira, Asana, and a plethora of other tools exist to help us track our work and project progress. Slack allows us to communicate asynchronously with one another and receive notifications from automated monitoring systems, allowing context to be shared super quickly and efficiently. Many of these technologies reduce our need on being disciplined and strict with ourselves, freeing us to focus our mental efforts the adhering more closely to fewer principles, which increase our chances of retaining these work habits.
+But, this point was made in 2004, where the technology and tooling to automate these tasks simply didn't exist. Almost every modern software company has some sort of CI / CD process, where tasks like linting, unit tests, artifact building, and deployment are run automatically. Git has made branching and interleaving work across different developers trivially easy. Jira, Asana, and a plethora of other tools exist to help us track our work and project progress. Slack allows us to communicate asynchronously with one another and receive notifications from automated monitoring systems, allowing context to be shared quickly and efficiently. Many of these technologies reduce our need to be disciplined and strict with ourselves, freeing us to focus our mental efforts the adhering more closely to fewer principles. Introducing bite-sized chunks of change increase our chances of retaining these new work habits.
 
-#### XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
+#### Argument: XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
 
-See above. Many of the original components of the arguments are no longer valid concerns. Most organizations have CI / CD, they have some form of a Continuous Innovation Mindset, and now, due to COVID, probably have the technology (Zoom, Slack) to facilitate remote pair programming sessions.
+See above -- we've already adopted the vast majority of these practices without even knowing it. Many of the original arguments are no longer valid, because well, times are different. Most organizations have CI / CD, they have some form of a Continuous Innovation Mindset, and now, due to COVID, probably have the technology (Zoom, Slack) to facilitate remote pair programming sessions.
 
 Ok, so now we realize that maybe all the reasons why we hated on these frameworks are wrong. But why should we switch? Why *now*?
 
