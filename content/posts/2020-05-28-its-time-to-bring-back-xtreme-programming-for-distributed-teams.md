@@ -13,7 +13,7 @@ description: >-
   experimentation, I've discovered practices that have made me much more
   productive. I realized many of these ideas have already been introduced to the
   programming community for decades -- but they've been unfairly written off as
-  irrelevant or impractical -- despite making more sense now than ever before.
+  irrelevant or impractical, despite making more sense now than ever before.
   Let's dig in.
 category: productivity
 tags:
