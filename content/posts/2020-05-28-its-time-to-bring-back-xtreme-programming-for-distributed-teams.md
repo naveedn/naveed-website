@@ -122,4 +122,4 @@ Further Reading:
 * [When Is Xp Not Appropriate](http://wiki.c2.com/?WhenIsXpNotAppropriate) 
 * [Wikipedia: 12 Practices of Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming_practices)
 
-Thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273173773903151105)!
+Thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
