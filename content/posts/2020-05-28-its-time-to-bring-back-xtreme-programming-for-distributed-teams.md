@@ -13,16 +13,12 @@ description: >-
   say the least. 
 
 
-  However, the process of experimentation has allowed me to discover practices
-  that have increased my work productivity significantly. After reflecting on
-  these new strategies, I realized many of these ideas have already been
-  introduced to the programming community for decades, but for a variety of
-  reasons, they've been written off as irrelevant or impractical. 
-
-
-  But now, the confluence of factors that led to our massive societal shift have
-  breathed new life into these software development approaches -- allowing them
-  to shine in ways that seem unintuitive at first glance.
+  However, the process of experimentation has allowed me to develop effective
+  strategies for remote work. After reflecting on these new strategies, I
+  realized many of the core ideas have already been introduced to the
+  programming community for decades, but for a variety of reasons, they've been
+  written off as irrelevant or impractical, even though they make more sense now
+  than ever. Let's dig in.
 category: productivity
 tags:
   - remote
