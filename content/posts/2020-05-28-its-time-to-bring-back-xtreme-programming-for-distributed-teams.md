@@ -7,10 +7,8 @@ slug: consider-xp-for-distributed-teams
 draft: false
 date: 2020-05-28T05:58:41.206Z
 description: >-
-  Since the start of the pandemic, our social patterns have shifted almost
-  overnight. Video calls have become the norm for both social and work
-  engagements. Adapting to a long-term remote work lifestyle is challenging, to
-  say the least. 
+  Adapting to a long-term remote work lifestyle in the era of COVID is
+  challenging, to say the least. 
 
 
   However, the process of experimentation has allowed me to develop effective
