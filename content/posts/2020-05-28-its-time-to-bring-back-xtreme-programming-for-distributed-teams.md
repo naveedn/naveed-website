@@ -98,7 +98,15 @@ This is another area where Remote teams really benefit. For most non-parents, th
 
 Ok, most of these criticisms came from Matt Stephens, Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://archive.org/details/extremeprogrammi00matt)". And pretty much on all counts here, they're totally f*cking wrong.
 
+
+
+
+
 #### Requires too much change to adopt, and can only work with Senior Engineers
+
+The point that "XP only works with Senior Engineers" relies on the premise that XP is a high-discipline mental framework, and that only professionals in the industry with the hard-earned wisdom can pull it off. Ordinary people are creatures of habit, they argue, so after the first major speed bump, the organizational adherence to these Extreme Principles will fall precipitously. 
+
+But, this point was made in 2004, where the technology and tooling to automate these tasks simply didn't exist. Almost every modern software company has some sort of CI / CD process, where tasks like linting or unit tests can be run automatically.  Git has made branching and interleaving work across different developers trivially easy. Many of these technologies reduce our need on being disciplined and strict with ourselves, freeing us to focus our mental efforts the adhering more closely to fewer principles, which increase our chances of retaining these work habits.
 
 #### XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
 
