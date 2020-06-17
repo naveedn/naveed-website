@@ -113,6 +113,8 @@ Ok, so now we realize that maybe all the reasons why we hated on these framework
 
 I'm not saying that we need to rush to adopt all of these principles dogmatically or that Agile "is over". But, more than anything, I think developers and teams who are struggling to adjust to a remote workplace environment should experiment with some of the ideas I highlighted above, and see if it works for them. The nature of work is evolving as we speak; we should evolve our relationship to it as well. Don't be scared to challenge your assumptions! 
 
+Thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
+
 Further Reading:
 
 * Coders at Work: **[Interview with Jamie Zawinski](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)**
@@ -121,5 +123,3 @@ Further Reading:
 * [Industrial XP: Making XP Work in Large Organizations](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.2506&rep=rep1&type=pdf#:~:text=Industrial%20XP%20(IXP)%20is%20a,often%20face%20when%20implementing%20XP.)
 * [When Is Xp Not Appropriate](http://wiki.c2.com/?WhenIsXpNotAppropriate) 
 * [Wikipedia: 12 Practices of Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming_practices)
-
-Thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
