@@ -1,6 +1,8 @@
 ---
 template: post
-title: 'What''s old is new again: why Extreme Programming works well for remote teams'
+title: >-
+  What's old is new again: why Extreme Programming works really well for remote
+  teams
 slug: consider-xp-for-distributed-teams
 draft: false
 date: 2020-05-28T05:58:41.206Z
