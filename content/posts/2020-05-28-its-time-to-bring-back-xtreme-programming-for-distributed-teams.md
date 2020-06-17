@@ -116,6 +116,8 @@ But, this point was made in 2004, where the technology and tooling to automate t
 
 #### XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
 
+See above. Many of the original components of the arguments are no longer valid concerns. Most organizations have CI / CD, they have some form of a Continuous Innovation Mindset, and now, due to COVID, probably have the technology (Zoom, Slack) to facilitate remote pair programming sessions.
+
 Ok, so now we realize that maybe all the reasons why we hated on these frameworks are wrong. But why should we switch? Why *now*?
 
 ## Conclusion
