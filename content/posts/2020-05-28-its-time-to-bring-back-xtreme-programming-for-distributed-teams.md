@@ -53,7 +53,15 @@ XP and Mob Programming were decidedly less popular. These frameworks were in a b
 
 Rather than go through the exercise of debating the merits of each principle in detail (which sounds about as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology no longer hold water.
 
-## Arguments critiquing XP that no longer are valid
+## Arguments critiquing XP that are not valid anymore
+
+#### XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
+
+#### Pair Programming is costly and a waste of valuable resources because it limits parallelism
+
+#### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
+
+#### Requires too much change to adopt, and can only work with Senior Engineers
 
 Ok, so now we realize that maybe all the reasons why we hated on these frameworks are wrong. But why should we switch? Why *now*?
 
