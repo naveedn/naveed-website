@@ -1,8 +1,8 @@
 ---
 template: post
 title: >-
-  Remixing the old with new: how and why Extreme Programming / mobbing works
-  well for remote teams
+  What's old is new again: why Extreme Programming / mobbing works well for
+  remote teams
 slug: consider-xp-for-distributed-teams
 draft: true
 date: 2020-05-28T05:58:41.206Z
@@ -21,8 +21,8 @@ description: >-
 
 
   But now, the confluence of factors that led to our massive societal shift have
-  breathed new life into these these software development approaches -- allowing
-  them to shine in ways that seem unintuitive at first glance.
+  breathed new life into these software development approaches -- allowing them
+  to shine in ways that seem unintuitive at first glance.
 category: productivity
 tags:
   - remote
@@ -31,7 +31,7 @@ tags:
 ---
 Since the start of the pandemic, our social patterns have shifted almost overnight. Video calls have become the norm for both social and work engagements. Adapting to a long-term remote work lifestyle is challenging, to say the least. 
 
-However, the process of experimentation has allowed me to discover practices that have increased my work productivity significantly. After reflecting on these new strategies, I realized many of these ideas have already been introduced to the programming community for decades -- but for a variety of reasons, they've been written off as irrelevant or impractical. But now, the confluence of factors that have led to this massive societal shift have allowed these software development approaches to really shine in ways that are unintuitive at first glance. 
+However, the process of experimentation has allowed me to discover practices that have increased my work productivity significantly. After reflecting on these new strategies, I realized many of these ideas have already been introduced to the programming community for decades -- but for a variety of reasons, they've been written off as irrelevant or impractical. But now, the confluence of factors that have led to this massive societal shift have allowed software development approaches like XP and mob programming to really shine in ways that are unintuitive at first glance. 
 
 ## First off, what is XP (Extreme Programming) and where did it come from?
 
@@ -47,8 +47,22 @@ We're gonna keep this brief. Here is a 30 second crash course on the history of 
 
   * Rigid formalizations of the practices and process bloat infiltrated development teams, big and small. 
   * People began forking off and experimenting with alternative styles of software development, which is where XP, [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.), and Kanban come from.
-  * Some methodologies, like Kanban, enjoyed commercial success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example.
+  * Some methodologies, like Kanban, enjoyed commercial success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.
 
 XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler, Robert Martin and Kent Beck. But it was considered too unapproachable for the masses, too intense; some practices, like pair-programming seem absolutely ridiculous from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a BIG section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
 
-Rather than go through the exercise of debating the merits of each principle in detail (which sounds about as boring to read as it is to write), let's discuss why some of the critiques against this methodology no longer hold water.
+Rather than go through the exercise of debating the merits of each principle in detail (which sounds about as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology no longer hold water.
+
+## Arguments critiquing XP that no longer are valid
+
+
+
+Ok, so now we realize that maybe all the reasons why we hated on these frameworks are wrong. But why should we switch? Why *now*?
+
+## Benefits to XP that have clear advantages in a remote environment
+
+
+
+## Conclusion
+
+In the end, I'm not saying that we need to follow each of these principles dogmatically or that Agile "is over". But, more than anything, I think teams that are struggling to adjust to a geographically distributed workplace environment should experiment with some of the ideas I highlighted above, and see if it works for them. The nature of work is evolving as we speak; we should evolve our relationship with it as well.
