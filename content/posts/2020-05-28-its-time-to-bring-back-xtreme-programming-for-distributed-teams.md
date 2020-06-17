@@ -16,11 +16,13 @@ description: >-
   However, the process of experimentation has allowed me to discover practices
   that have increased my work productivity significantly. After reflecting on
   these new strategies, I realized many of these ideas have already been
-  introduced to the programming community for decades -- but for a variety of
-  reasons, they've been written off as irrelevant or impractical. But now, the
-  confluence of factors that have led to this massive societal shift have
-  allowed these software development approaches to really shine in ways that are
-  unintuitive at first glance.
+  introduced to the programming community for decades, but for a variety of
+  reasons, they've been written off as irrelevant or impractical. 
+
+
+  But now, the confluence of factors that led to our massive societal shift have
+  breathed new life into these these software development approaches -- allowing
+  them to shine in ways that seem unintuitive at first glance.
 category: productivity
 tags:
   - remote
@@ -37,7 +39,7 @@ Extreme Programming is a software development style that takes the ideas from th
 
 ### A quick history lesson
 
-We're gonna keep this brief, so here is a 30 second crash course on the history of XP:
+We're gonna keep this brief. Here is a 30 second crash course on the history of XP:
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures.
 *  In the early 2000's, a new generation of software engineers [met at a famous ski resort](https://agilemanifesto.org/history.html) and came up with a new paradigm for how we should do software development. That birthed the "agile development" workflow that's ubiquitous in software engineering these days.
@@ -47,6 +49,6 @@ We're gonna keep this brief, so here is a 30 second crash course on the history 
   * People began forking off and experimenting with alternative styles of software development, which is where XP, [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.), and Kanban come from.
   * Some methodologies, like Kanban, enjoyed commercial success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example.
 
-XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler, Robert Martin and Kent Beck. But it was considered too unapproachable for the masses, too intense; it was simply not justifiable from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
+XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler, Robert Martin and Kent Beck. But it was considered too unapproachable for the masses, too intense; some practices, like pair-programming seem absolutely ridiculous from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a BIG section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
 
 Rather than go through the exercise of debating the merits of each principle in detail (which sounds about as boring to read as it is to write), let's discuss why some of the critiques against this methodology no longer hold water.
