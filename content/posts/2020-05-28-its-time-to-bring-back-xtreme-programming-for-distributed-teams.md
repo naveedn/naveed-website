@@ -59,8 +59,8 @@ Rather than go through the exercise of debating the merits of each principle in 
 
 In the past 3 months, I've spent more time pair-programming than I did in my entire career beforehand. Pair-programming is the best substitute we have to co-locating in our current distributed environment. I use it for everything, and do it often.
 
-* I got ramped up very quickly on my team's architecture and codebases. Pivotal Labs, a boutique software consultancy that practices XP, has written a pretty [good article](https://www.pivotaltracker.com/blog/how-pair-programming-and-mob-programming-help-quickly-onboard-new-software-engineers) about this.
-* I've spent hours getting unblocked and helping my teammates in configuring their local environment / IDE for various parts of the platform. (We're a polyglot team with front-end, back-end, database, and ETL components)
+* I got ramped up very quickly on my team's architecture and codebases. Pivotal Labs, a boutique software consultancy that practices XP, has written a pretty [good article](https://www.pivotaltracker.com/blog/how-pair-programming-and-mob-programming-help-quickly-onboard-new-software-engineers) about how XP is great for onboarding new engineers.
+* I've spent hours getting unblocked and helping my teammates configure their local environment / IDE. (We're a polyglot team with front-end, back-end, database, and ETL components)
 * I've been able to triage and isolate bugs much faster in pair-debugging sessions, preventing myself from "spinning my wheels" if I've been stuck on a problem for an hour or more. 
 * As a team, we've been able to gather consensus and coordinate much more effectively because a discussion about the spec can highlight different assumptions we have about the same requirements, leading to clarifications and shared understanding about what we're trying to do
 
@@ -68,9 +68,11 @@ That's not to say I agree with pair-programming **all the time.** I need my own 
 
 It's not some formal process where we spend an uncomfortable amount of time in our teammates personal space -- instead, it's more like a game of football, where we huddle between plays to strategize before we execute some chunk of work.
 
-The need for discrete chunks of IC time is very real in the workplace. It's been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains (duh!). 
+The need for discrete chunks of IC time is very real in the workplace. It's been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
-But this is another area where Remote teams really benefit. For most non-parents, the home workspace is much more distraction-free than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being  more carefully scrutinized on our output than our effort.
+This is another area where Remote teams really benefit. For most non-parents, the home workspace is much more distraction-free than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being  more carefully scrutinized on our output than our effort.
+
+
 
 #### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
