@@ -11,7 +11,7 @@ description: >-
   challenging, to say the least. 
 
 
-  However, the process of experimentation has allowed me to develop effective
+  But, the process of experimentation has allowed me to develop effective
   strategies for remote work. After reflecting on these new strategies, I
   realized many of the core ideas have already been introduced to the
   programming community for decades, but for a variety of reasons, they've been
