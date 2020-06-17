@@ -88,7 +88,7 @@ It's not some formal process where we spend an uncomfortable amount of time in o
 >
 > **Zawinski**: Yea, constant email. This was before instant messaging -- these days it probably all would have been IM because we were sending one-liner emails constantly. And we talked on the phone.
 
-
+*(side note: this is a fantastic book, and I recommend anyone read it if they're looking for computer science lore that isn't a textbook or manual).*
 
 As the interview may have unintentionally highlighted, having discrete chunks of coder time was a key component in the success of their collaboration. The idea been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
