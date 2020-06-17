@@ -7,25 +7,14 @@ slug: consider-xp-for-distributed-teams
 draft: false
 date: 2020-05-28T05:58:41.206Z
 description: >-
-  Since the start of the pandemic, our social patterns have shifted almost
-  overnight. Video calls have become the norm for both social and work
-  engagements. Adapting to a long-term remote work lifestyle is challenging, to
-  say the least. 
-
-  <br />
-
-  However, the process of experimentation has allowed me to discover practices
-  that have increased my work productivity significantly. After reflecting on
-  the strategies, I realized many of these ideas have already been introduced to
-  the programming community for decades -- but for a variety of reasons, they've
-  been written off as irrelevant or impractical.
-
-  <br />
-
-  Now, the factors that have led to our on-going, massive societal shift have
-  incidentally **also** allowed development approaches like XP and mob
-  programming to shine in ways that are unintuitive at first glance. Let's dig
-  in.
+  With the pandemic, our social patterns have shifted overnight. Video calls
+  have become the norm for both social and work engagements. Adapting to a
+  long-term remote work lifestyle is challenging, but after some
+  experimentation, I've discovered practices that have increased my work
+  productivity significantly. I realized many of these ideas have already been
+  introduced to the programming community for decades -- but they've been
+  unfairly written off as irrelevant or impractical, despite making more sense
+  now than ever before. Let's dig in.
 category: productivity
 tags:
   - remote
