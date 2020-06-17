@@ -45,49 +45,49 @@ Due to the cultural shift caused by COVID, remote work in modern development tea
 
 Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be happier, more productive software engineers. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) (pasted below) captures the ethos of the movement succinctly:
 
-**User stories**
-
-Like use cases, but much less formal, more like the original intent of a usecase. The current usecases use templates and more formalized format making it loose sight what is really important. Nevertheless the additional detail may be helpful for actualy implementation, and hence, perhaps added as part of an implementation document of that feature.
-
-**Weekly builds, and small iterations**
-
-Deliver early and deliver often. Start delivering executable code and executable architectures is the message here.
-
-**Architectural Metaphors and standardized naming schemes**
-
-For well known ideas use well known terminology and borrow well known architectures.
-
-**Collective Ownership**
-
-We all work on this code. It is an external entity and we can all change it.
-
-**Coding Standards**
-
-Got to make it habbit.
-
-**Simple design**
-
-Keep designs and architectures simple and understandable. This ensures worker empowerment and hence supports his bill of rights.
-
-**Refactoring**
-
-A system that does not know how to evolve can never be great. You should measure the success of a project by how well it can change itself in the next release.
-
-**Testing**
-
-A software system is no better than its test cases allows it to be
-
-**Pair programming**
-
-Quality compensated with price. For higher quality systems like billing systems it might be essential that two people may have to do this. They can collaborate on design, testing, and coding.
-
-**Continuous integration**
-
-Provides developers a latest working copy all the time. This again empowers the developers with productivity.
-
-**Onsite customer**
-
-Knowledge repository. Testing. Purpose.
+> **User stories**
+>
+> Like use cases, but much less formal, more like the original intent of a usecase. The current usecases use templates and more formalized format making it loose sight what is really important. Nevertheless the additional detail may be helpful for actualy implementation, and hence, perhaps added as part of an implementation document of that feature.
+>
+> **Weekly builds, and small iterations**
+>
+> Deliver early and deliver often. Start delivering executable code and executable architectures is the message here.
+>
+> **Architectural Metaphors and standardized naming schemes**
+>
+> For well known ideas use well known terminology and borrow well known architectures.
+>
+> **Collective Ownership**
+>
+> We all work on this code. It is an external entity and we can all change it.
+>
+> **Coding Standards**
+>
+> Got to make it habbit.
+>
+> **Simple design**
+>
+> Keep designs and architectures simple and understandable. This ensures worker empowerment and hence supports his bill of rights.
+>
+> **Refactoring**
+>
+> A system that does not know how to evolve can never be great. You should measure the success of a project by how well it can change itself in the next release.
+>
+> **Testing**
+>
+> A software system is no better than its test cases allows it to be
+>
+> **Pair programming**
+>
+> Quality compensated with price. For higher quality systems like billing systems it might be essential that two people may have to do this. They can collaborate on design, testing, and coding.
+>
+> **Continuous integration**
+>
+> Provides developers a latest working copy all the time. This again empowers the developers with productivity.
+>
+> **Onsite customer**
+>
+> Knowledge repository. Testing. Purpose.
 
 
 
