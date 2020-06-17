@@ -36,16 +36,17 @@ Extreme Programming is a software development style that takes the ideas from th
 We're gonna keep this brief. Here's a 30 second crash course on the history of XP:
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures.
-* In the early 2000's, a new generation of software engineers [met at a famous ski resort](https://agilemanifesto.org/history.html) and came up with a new paradigm for how we should do software development. That birthed the "agile development" workflow that's ubiquitous in software engineering these days.
-* The original agile movement became fragmented the more popular it grew. Over time, the Agile movement was co-opted by business folks and process-oriented project managers.
+* In 1999, esteemed programmer Kent Beck released a book called Extreme Programming Explained, wherein he outlines a radically new and different approach to software development.
+* In the early 2000's, the industry's most regarded engineers (including Beck) [met at a famous ski resort](https://agilemanifesto.org/history.html) and distilled the ideas of XP into a new paradigm for how organizations should do software development. That paradigm is known as the Agile Software Development methodology that's ubiquitous in software engineering these days.
+* The Agile movement became fragmented the more popular it grew. Over time, the Agile movement was co-opted by business folks and process-oriented project managers.
 
   * Rigid formalizations of the practices and process bloat infiltrated development teams, big and small. 
-  * People began forking off and experimenting with alternative styles of software development, which is where XP, [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.), are derived from.
+  * People began forking off and experimenting with alternative styles of software development, which is where [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.) is derived from.
   * Some methodologies, like Kanban, enjoyed commercial success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.
 
-XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler, Robert Martin and Kent Beck. But it was considered too unapproachable for the masses, too intense; some practices, like pair programming seem absolutely asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a BIG section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
+XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler and Robert C. Martin (Uncle Bob). In the end, these frameworks was considered too unapproachable for the masses, too intense. Some practices, like pair programming, seem absolutely asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a BIG section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
 
-Rather than go through the exercise of describing each principle in detail and debating its merits (which sounds about as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology no longer hold water.
+Rather than go through the exercise of describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology no longer hold water.
 
 ## Arguments critiquing XP that are not valid anymore
 
