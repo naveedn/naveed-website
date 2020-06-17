@@ -51,7 +51,7 @@ We're gonna keep this brief. Here's a 30 second crash course on the history of X
 
 XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler, Robert Martin and Kent Beck. But it was considered too unapproachable for the masses, too intense; some practices, like pair programming seem absolutely asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a BIG section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
 
-Rather than go through the exercise of debating the merits of each principle in detail (which sounds about as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology no longer hold water.
+Rather than go through the exercise of describing each principle in detail and debating its merits (which sounds about as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology no longer hold water.
 
 ## Arguments critiquing XP that are not valid anymore
 
@@ -98,7 +98,7 @@ This is another area where remote teams really benefit. For most non-parents, th
 
 Ok, most of these criticisms came from Matt Stephens and Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://archive.org/details/extremeprogrammi00matt)". And pretty much on all counts here, they're totally f*cking wrong.
 
-I don't want to bash these guys too hard -- i mean, they wrote this in 2004, and I have the benefit of hindsight that they did not have. But, in the 16 years since their book was released, the software engineering community has collectively agreed that a Continuous Design Approach (aka Continuous Innovation) is an ideology not only works, but heavily influenced the success of B2C startups in the generation after the dot-com bust. 
+I don't want to bash these guys too hard -- i mean, they wrote this in 2004, and I have the benefit of hindsight that they certainly did not have. But, in the 16 years since their book was released, the software engineering community has collectively agreed that a Continuous Design Approach (aka Continuous Innovation) is an ideology that not only works, but in fact heavily influenced the success of B2C startups in the generation after the dot-com bust. 
 
 Eric Reis wrote the seminal book [the Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B07W14CDB3), extolling the virtues continuous innovation while making the argument that it saves money in the long-run because you don't end up "building the wrong thing".
 
