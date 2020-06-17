@@ -4,7 +4,7 @@ title: >-
   What's old is new again: why Extreme Programming / mobbing works well for
   remote teams
 slug: consider-xp-for-distributed-teams
-draft: true
+draft: false
 date: 2020-05-28T05:58:41.206Z
 description: >-
   Since the start of the pandemic, our social patterns have shifted almost
