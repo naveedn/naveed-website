@@ -39,15 +39,15 @@ tags:
 ---
 Here's a contrarian opinion: we're doing project management all wrong. Well, at least since COVID started. We're struggling to adapt to a new routine and a new style of work that feels very foreign. Yet the the tools and processes we currently employ haven't been re-examined and re-thought. 
 
-I'll contend that remote work in the modern development teams benefit from the 12 practices of XP, a project management strategy that many people unfairly dismissed when it originally came out over 20 years ago.  
+Due to the cultural shift caused by COVID, remote work in modern development teams can benefit from adopting the practices of XP, a project management strategy that was unfairly dismissed when it originally came out 20 years ago.  
 
 ## First off, what is XP (Extreme Programming) and where did it come from?
 
-Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be happier, more productive software engineers. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) (pasted below) captures the ethos of the movement succinctly:
+Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be happier, more productive software engineers. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) (screenshot below) captures the ethos of the movement succinctly:
 
-![12-principles-of-XP](/media/screen-shot-2020-06-17-at-6.48.14-pm.png "The 12 principles of XP")
+![12-principles-of-XP-part-1](/media/screen-shot-2020-06-17-at-7.19.39-pm.png "The 12 principles of XP (Part 1)")
 
-
+![12-principles-of-XP-part-2](/media/screen-shot-2020-06-17-at-7.19.45-pm.png "The 12 principles of XP (Part 2)")
 
 ### A quick history lesson
 
