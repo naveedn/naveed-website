@@ -42,7 +42,7 @@ Extreme Programming is a software development style that takes the ideas from th
 We're gonna keep this brief. Here's a 30 second crash course on the history of XP:
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures.
-*  In the early 2000's, a new generation of software engineers [met at a famous ski resort](https://agilemanifesto.org/history.html) and came up with a new paradigm for how we should do software development. That birthed the "agile development" workflow that's ubiquitous in software engineering these days.
+* In the early 2000's, a new generation of software engineers [met at a famous ski resort](https://agilemanifesto.org/history.html) and came up with a new paradigm for how we should do software development. That birthed the "agile development" workflow that's ubiquitous in software engineering these days.
 * The original agile movement became fragmented the more popular it grew. Over time, the Agile movement was co-opted by business folks and process-oriented project managers.
 
   * Rigid formalizations of the practices and process bloat infiltrated development teams, big and small. 
@@ -55,14 +55,22 @@ Rather than go through the exercise of debating the merits of each principle in 
 
 ## Arguments critiquing XP that no longer are valid
 
-
-
 Ok, so now we realize that maybe all the reasons why we hated on these frameworks are wrong. But why should we switch? Why *now*?
 
 ## Benefits to XP that have clear advantages in a remote environment
 
-
-
 ## Conclusion
 
 In the end, I'm not saying that we need to follow each of these principles dogmatically or that Agile "is over". But, more than anything, I think teams that are struggling to adjust to a geographically distributed workplace environment should experiment with some of the ideas I highlighted above, and see if it works for them. The nature of work is evolving as we speak; we should evolve our relationship with it as well.
+
+
+
+
+
+Further Reading:
+
+*  [A recent take on mob programming](https://www.remotemobprogramming.org) (2018)
+* Coders at Work: [Interview with Jamie Zawinski](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)
+* [](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)[Industrial XP: Making XP Work in Large Organizations](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.2506&rep=rep1&type=pdf#:~:text=Industrial%20XP%20(IXP)%20is%20a,often%20face%20when%20implementing%20XP.)
+* [An Introduction to XP](https://www.agilealliance.org/glossary/xp/#q=~(infinite~false~filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
+* [Wikipedia: 12 Practices of Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming_practices)
