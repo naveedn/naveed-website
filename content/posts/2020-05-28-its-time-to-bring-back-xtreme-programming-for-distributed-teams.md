@@ -27,19 +27,20 @@ However, the process of experimentation has allowed me to discover practices tha
 
 ## First off, what is XP (Extreme Programming) and where did it come from?
 
-Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be better software engineers. I'll sum up the 12 practices here, but I find that [this blog post from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures it pretty elegantly. For a verbose definition, check out the [wikipedia article](https://en.wikipedia.org/wiki/Extreme_programming#Concept).
+Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be better software engineers. I'll sum up the 12 practices below, but I find that [this blog post from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures it pretty elegantly. 
 
-### A quick history lesson
+### But first, a quick history lesson
 
-We're gonna keep this brief, but here is a 30 second crash course on the history of XP:
+We're gonna keep this brief, so here is a 30 second crash course on the history of XP:
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures.
-*  In the late 90's / early 2000's, a new generation of software engineers [met at a famous ski resort](https://agilemanifesto.org/history.html) and came up with a new paradigm for how we should do software development. That birthed the "agile development" workflow that's ubiquitous in software engineering these days.
+*  In the early 2000's, a new generation of software engineers [met at a famous ski resort](https://agilemanifesto.org/history.html) and came up with a new paradigm for how we should do software development. That birthed the "agile development" workflow that's ubiquitous in software engineering these days.
 * The original agile movement became fragmented the more popular it grew. Over time, the Agile movement was co-opted by business folks and process-oriented project managers.
 
   * Rigid formalizations of the practices and process bloat infiltrated development teams, big and small. 
   * People began forking off and experimenting with alternative styles of software development, which is where XP, [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.), and Kanban come from.
-* While Kanban enjoyed some commercial success (it became largely popular in devOps / support heavy teams), XP was decidedly less popular. It was in a bit of a limbo -- some of the original voices of Agile were using XP, like Robert Martin and Kent Beck. But it was considered too unapproachable, too intense, and not justifiable from a business perspective. Indeed, if you visit the wikipedia page for Xtreme Programming, they have a section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
+  * Some methodologies, like Kanban, enjoyed commercial success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example.
+* XP was decidedly less popular. It was in a bit of a limbo -- some of the original voices of Agile were using XP, like Robert Martin and Kent Beck. But it was considered too unapproachable, too intense, and not justifiable from a business perspective. Indeed, if you visit the wikipedia page for Xtreme Programming, they have a section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
 
 So what are these practices, and why are they controversial? 
 
@@ -68,7 +69,5 @@ So what are these practices, and why are they controversial?
 ##### Programmer welfare
 
 * Sustainable pace
-
-The 
 
 ## So why adopt it now? What are the benefits and downsides?
