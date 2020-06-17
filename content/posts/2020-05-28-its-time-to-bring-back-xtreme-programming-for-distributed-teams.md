@@ -87,14 +87,10 @@ It's not some formal process where we spend an uncomfortable amount of time in o
 > **Seibel**: Did you guys email a lot?
 >
 > **Zawinski**: Yea, constant email. This was before instant messaging -- these days it probably all would have been IM because we were sending one-liner emails constantly. And we talked on the phone.
->
-> So we shpped 2.0 with the mail reader and it was well-received...
 
 
 
-
-
-The need for discrete chunks of IC time is very real in the workplace. It's been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
+As the interview may have unintentionally highlighted, having discrete chunks of coder time was a key component in the success of their collaboration. The idea been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
 This is another area where Remote teams really benefit. For most non-parents, the home workspace is much more distraction-free than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being  more carefully scrutinized on our output than our effort.
 
