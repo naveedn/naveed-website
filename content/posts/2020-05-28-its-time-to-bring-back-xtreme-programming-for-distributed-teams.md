@@ -66,25 +66,41 @@ In the past 3 months, I've spent more time pair-programming than I did in my ent
 
 That's not to say I agree with pair-programming **all the time.** I need my own time to chew on problems, to try out solutions, and organize my thoughts to make sure I'm not wasting the other person's time when we meet. I think this is where most people get it wrong; they think that have to be chained to the hip with their teammates and always lock-step with them, when that's not really how it works in practice. 
 
-It's not some formal process where we spend an uncomfortable amount of time in our teammates personal space -- instead, it's more like a game of football, where we huddle between plays to strategize before we execute some chunk of work. There is such a visceral example of this in the book "Coders at Work: Reflections on the craft of Programming" in Chapter 2, in Peter Seibel's interview Jamie Zawinkski, one of the early engineers of Netscape. I'll highlight the part of the interview that stands out:
+It's not some formal process where we spend an uncomfortable amount of time in our teammates personal space -- instead, it's more like a game of football, where we huddle between plays to strategize before we execute some chunk of work. A visceral example of this is in the book: "Coders at Work: Reflections on the Craft of Programming". In Chapter 2, Peter Seibel interviews [Jamie Zawinkski](https://www.jwz.org/about.html), one of the early engineers of Netscape. I'll paste the snippet of the interview that stands out:
+
+> *... \[discussion about building netscape 1.0] ...*
+>
+> **Seibel**: At some point you also worked on the mail reader, right?
+>
+> **Zawinkski**: In 2.0 Marc comes into my cubicle and says, "We need a mail reader." And I'm like, "OK, that sounds cool. I've worked on mail readers before." I was living in Berkeley and basically I didn't come into the office for a couple weeks. I was spending the whole time sitting in cafes doodling, trying to figure out what I wanted in a mail reader. Making lists, crossing it off, trying to decide how long it would take me. What should the UI look like?
+>
+> Then I cam back and started coding. And then Marc comes in again and says, "Oh, so we hired this other guy who's done mail stuff before. You guys should work together." It's this guy Terry Weissman, who was just fantastic -- we worked together so well. And it was a completely different dynamic than it had been in the early days with the rest of the browser team. 
+>
+> We didn't yell at each other at all. And the way we divided up labor, I can't imagine how it possibly worked or could ever work for anyone. I had the basic design done and I'd started doing a little coding and every day or every couple of days we'd look at the list of features and I'd go, "Uhhh, maybe I'll work on that," and he'd go, "OK, I'll work on that," and then we'd go away.
+>
+> Check-ins would happen and then we'd come back and he'd say, "Alright I'm done with that, what are you doing?" "Uh, I'm working on this." "OK, well, I'll start on that then." And we just sort of divided up the pieces. It worked out really well.
+>
+> We had disagreements -- I thought we had to toss filtering into folders because we just didn't have time to do it right. And he was like, "No, no, I really think we ought to do that." And I was like, "We don't have time!" So he wrote it that night.
+>
+> The other thing was, Terry and I rarely saw each other because he lived in Santa Cruz and I lived in Berkeley. We were about the same distance to work in opposite directions and because the two of us were the only two who ever needed to communicate, we were just like, "I won't make you come in if you don't make me come in." "Deal!"
+>
+> **Seibel**: Did you guys email a lot?
+>
+> **Zawinski**: Yea, constant email. This was before instant messaging -- these days it probably all would have been IM because we were sending one-liner emails constantly. And we talked on the phone.
+>
+> So we shpped 2.0 with the mail reader and it was well-received...
 
 
 
- 
+
 
 The need for discrete chunks of IC time is very real in the workplace. It's been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
 This is another area where Remote teams really benefit. For most non-parents, the home workspace is much more distraction-free than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being  more carefully scrutinized on our output than our effort.
 
-
-
 #### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
 Ok, most of these criticisms came from Matt Stephens, Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://archive.org/details/extremeprogrammi00matt)". And pretty much on all counts here, they're totally f*cking wrong.
-
-
-
-
 
 #### Requires too much change to adopt, and can only work with Senior Engineers
 
