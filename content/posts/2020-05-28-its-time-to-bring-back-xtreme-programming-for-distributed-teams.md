@@ -88,15 +88,17 @@ It's not some formal process where we spend an uncomfortable amount of time in o
 >
 > **Zawinski**: Yea, constant email. This was before instant messaging -- these days it probably all would have been IM because we were sending one-liner emails constantly. And we talked on the phone.
 
-*(side note: this is a fantastic book, and I recommend anyone read it if they're looking for computer science lore that isn't a textbook or manual).*
+*(side note: this is a [fantastic book](http://www.codersatwork.com/), and I recommend anyone read it if they're looking for computer science lore that isn't a textbook or manual).*
 
 As the interview may have unintentionally highlighted, having discrete chunks of coder time was a key component in the success of their collaboration. The idea been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
-This is another area where Remote teams really benefit. For most non-parents, the home workspace is much more distraction-free than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being  more carefully scrutinized on our output than our effort.
+This is another area where remote teams really benefit. For most non-parents, the home workspace is much more distraction-free than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being  more carefully scrutinized on our output than our effort.
 
 #### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
-Ok, most of these criticisms came from Matt Stephens, Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://archive.org/details/extremeprogrammi00matt)". And pretty much on all counts here, they're totally f*cking wrong.
+Ok, most of these criticisms came from Matt Stephens and Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://archive.org/details/extremeprogrammi00matt)". And pretty much on all counts here, they're totally f*cking wrong.
+
+I don't want to trash these guys too hard -- i mean, they wrote this in 2004, and I have the benefit of hindsight that they did not have. But, in the 16 years since their book was released, the software engineering community has collectively agreed that a Continuous Design Approach (aka Continuous Innovation) is a successful ideology that influenced the generation of B2C startups after the dot-com bust. Eric Reis wrote the seminal book [the Lean Startup](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/B07W14CDB3). VC investor Peter Thiel wrote the book [Zero to One](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296), extolling the virtues continuous innovation, while Paul Graham, co-founder of YCombinator, penned the famous essay "[Do things that don't scale](http://paulgraham.com/ds.html)". You can see it in the ethos of Facebook's [old company motto](https://www.businessinsider.com/mark-zuckerberg-innovation-2009-10?r=US&IR=T): "Move fast and break things". 
 
 
 
