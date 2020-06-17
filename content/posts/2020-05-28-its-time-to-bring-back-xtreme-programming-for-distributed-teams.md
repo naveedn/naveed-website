@@ -106,8 +106,6 @@ VC investor Peter Thiel gave further praise of Continuous Innovation in his book
 
 Safe to say, I think Continuous Innovation is gonna stick around for a long time.
 
-
-
 #### Requires too much change to adopt, and can only work with Senior Engineers
 
 The point that "XP only works with Senior Engineers" relies on the premise that XP is a high-discipline mental framework, and that only professionals in the industry with the hard-earned wisdom can pull it off. Ordinary people are creatures of habit, they argue, so after the first major speed bump, the organizational adherence to these Extreme Principles will fall precipitously. 
