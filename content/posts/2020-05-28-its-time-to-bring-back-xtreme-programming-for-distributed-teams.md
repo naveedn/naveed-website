@@ -43,7 +43,7 @@ Due to the cultural shift caused by COVID, remote work in modern development tea
 
 ## First off, what is XP (Extreme Programming)?
 
-Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be happier, more productive software engineers. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) (re-written below) captures the ethos of the movement succinctly:
+Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be happier, more productive software engineers. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) (re-written verbatim below) captures the ethos of the movement succinctly:
 
 > **User stories**
 >
