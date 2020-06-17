@@ -66,7 +66,11 @@ In the past 3 months, I've spent more time pair-programming than I did in my ent
 
 That's not to say I agree with pair-programming **all the time.** I need my own time to chew on problems, to try out solutions, and organize my thoughts to make sure I'm not wasting the other person's time when we meet. I think this is where most people get it wrong; they think that have to be chained to the hip with their teammates and always lock-step with them, when that's not really how it works in practice. 
 
-It's not some formal process where we spend an uncomfortable amount of time in our teammates personal space -- instead, it's more like a game of football, where we huddle between plays to strategize before we execute some chunk of work.
+It's not some formal process where we spend an uncomfortable amount of time in our teammates personal space -- instead, it's more like a game of football, where we huddle between plays to strategize before we execute some chunk of work. There is such a visceral example of this in the book "Coders at Work: Reflections on the craft of Programming" in Chapter 2, in Peter Seibel's interview Jamie Zawinkski, one of the early engineers of Netscape. I'll highlight the part of the interview that stands out:
+
+
+
+ 
 
 The need for discrete chunks of IC time is very real in the workplace. It's been talked about at great length in the book "Deep Work" By Cal Newport, and many companies have [independently verified](https://www.google.com/search?q=no+meeting+day+policy) that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
