@@ -35,11 +35,11 @@ However, the process of experimentation has allowed me to discover practices tha
 
 ## First off, what is XP (Extreme Programming) and where did it come from?
 
-Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be better software engineers. I'll add a link to the 12 practices below, but I find that [this blog post from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures the ethos of the movement pretty succinctly. 
+Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be better software engineers. I'll add a link to the 12 practices at the bottom of the article, but I find that [this blog post from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures the ethos of the movement pretty succinctly. 
 
 ### A quick history lesson
 
-We're gonna keep this brief. Here is a 30 second crash course on the history of XP:
+We're gonna keep this brief. Here's a 30 second crash course on the history of XP:
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures.
 *  In the early 2000's, a new generation of software engineers [met at a famous ski resort](https://agilemanifesto.org/history.html) and came up with a new paradigm for how we should do software development. That birthed the "agile development" workflow that's ubiquitous in software engineering these days.
@@ -49,7 +49,7 @@ We're gonna keep this brief. Here is a 30 second crash course on the history of 
   * People began forking off and experimenting with alternative styles of software development, which is where XP, [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.), and Kanban come from.
   * Some methodologies, like Kanban, enjoyed commercial success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.
 
-XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler, Robert Martin and Kent Beck. But it was considered too unapproachable for the masses, too intense; some practices, like pair-programming seem absolutely ridiculous from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a BIG section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
+XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler, Robert Martin and Kent Beck. But it was considered too unapproachable for the masses, too intense; some practices, like  mob programming seem absolutely asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a BIG section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement for most people. 
 
 Rather than go through the exercise of debating the merits of each principle in detail (which sounds about as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology no longer hold water.
 
