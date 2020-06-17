@@ -41,9 +41,9 @@ Here's a contrarian opinion: we're doing project management all wrong. Well, at 
 
 Due to the cultural shift caused by COVID, remote work in modern development teams can benefit from adopting the practices of XP, a project management strategy that was unfairly dismissed when it originally came out 20 years ago.  
 
-## First off, what is XP (Extreme Programming) and where did it come from?
+## First off, what is XP (Extreme Programming)?
 
-Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be happier, more productive software engineers. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) (pasted below) captures the ethos of the movement succinctly:
+Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminates in a set of practices and philosophies that we should adopt to be happier, more productive software engineers. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) (re-written below) captures the ethos of the movement succinctly:
 
 > **User stories**
 >
@@ -89,9 +89,7 @@ Extreme Programming is a software development style that takes the ideas from th
 >
 > Knowledge repository. Testing. Purpose.
 
-
-
-### A quick history lesson
+### Where did XP come from? A quick history
 
 We're gonna keep this brief. Here's a 30 second crash course on the history of XP:
 
@@ -190,8 +188,6 @@ If you're interested in giving XP a shot, here are a few recommendations I have:
 3. Take the time to observe the the team's culture with respect to ad-hoc video calls? This is where we can make the most gains in our remote environment. We need to build a culture within ourselves and our teams where it is OK to pair for 5 minutes on a bug or sync on some product spec. It's important to be respectful of each other's time, but we shouldn't sacrifice team alignment for the sake of inconveniencing each other.
 4. When you do grooming or sprint planning meetings with the team, take care to observe what items are high-risk. What are our known-unknowns? How familiar are we with the task? If it feels like we don't already have the solution in mind when we're discussing a ticket, treat this as an opportunity to do a SPIKE. Remember, it's totally fine to not know how a project will end up when we're still in the beginning phases. Expect to have curve balls thrown at you. Spike and de-risk things as they come up. It's ok to come up with Spike's mid-sprint if you hit a blocker and need to pivot. Velocity Planning, all that stuff -- it doesn't matter as much as  actually shipping a good, working solution. 
 5. Do regular retrospectives where we reflect upon how efficient and productive we feel as a team. Try new ideas to improve our process. Get rid of things that don't work. Try to use some proxy for quantitative progress as well (Jira Tickets closed per sprint, or number of commits in Github, or whether the sprint goal was achieved). Use this is a feedback loop to determine what your team's optimal work flow is. Every team is different, at the end of the day XP is as much as shift in perspective as it is a process for doing software engineering.
-
-
 
 I hope you enjoyed the essay, thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
 
