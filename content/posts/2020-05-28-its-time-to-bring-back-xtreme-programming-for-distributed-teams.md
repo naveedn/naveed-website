@@ -76,6 +76,12 @@ This is another area where Remote teams really benefit. For most non-parents, th
 
 #### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
+Ok, most of these criticisms came from Matt Stephens, Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://archive.org/details/extremeprogrammi00matt)". And pretty much on all counts here, they're totally f*cking wrong.
+
+
+
+
+
 #### Requires too much change to adopt, and can only work with Senior Engineers
 
 #### XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
