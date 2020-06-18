@@ -36,8 +36,6 @@ Extreme Programming is a software development style that takes the ideas from th
 
 ![A screenshot of the web comment](/media/screen-shot-2020-06-17-at-6.48.14-pm.png "The 12 Principles of XP, according to the early internet.")
 
-
-
 ### Where did XP come from? A quick history
 
 We're gonna keep this brief. Here's a 30 second crash course on the history of XP:
@@ -45,7 +43,7 @@ We're gonna keep this brief. Here's a 30 second crash course on the history of X
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures. (See: [The Mythical Man-Month](https://amzn.to/30QHn8F))
 * In 1999, programmer Kent Beck released a book called [Extreme Programming Explained](https://amzn.to/2YLNE2S), wherein he outlines a radically new and different approach to software development.
 * In early 2001, the industry's most well-regarded engineers (including Beck) [met at a famous ski resort](https://agilemanifesto.org/history.html) and distilled the ideas of XP into a new paradigm for how organizations should do software development. That paradigm is known as the Agile Software Development movement that's ubiquitous in software engineering these days.
-* The Agile movement became fragmented as it grew. in popularity Over time, the Agile movement was co-opted by business folks and process-oriented project managers.
+* The Agile movement became fragmented as it grew in popularity. Over time, the Agile movement was co-opted by business folks and process-oriented project managers.
 
   * Rigid formalizations of the practices and process bloat infiltrated development teams, big and small. 
   * People began forking off and experimenting with alternative styles of software development, which is where [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.) is derived from.
