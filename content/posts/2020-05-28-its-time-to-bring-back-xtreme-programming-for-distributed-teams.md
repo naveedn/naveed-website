@@ -131,10 +131,20 @@ I'm not saying that we need to rush to adopt all of these principles dogmaticall
 If you're interested in giving XP a shot, here are a few recommendations I have:
 
 1. Watch this talk by Dan North called "[Patterns for Effective Delivery](https://vimeo.com/24681032)". Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike & Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it's *what working on an XP team should feel like*.
+
+
 2. It's time to wash ourselves clean of the toxic traits of "Enterprise Agile" and our unhealthy obsession with time-based planning. We need to be able to distill the elements of Agile / XP down to their core, so we can identify which practices we agree with and want to bring into our organizations.  Watch [this video by Allen Golub on the #noestimates movement](https://www.youtube.com/watch?v=QVBlnCTu9Ms), to get an appreciation for how Agile is much more open-ended than what we usually see in the office. (I've had mixed results with #noestimates, but it does provide food for thought).
+
+
 3. Take the time to observe the the team's culture with respect to ad-hoc video calls. This is where we can make the most gains in our remote environment. We need to build a culture within ourselves and our teams where it is OK to pair for 5 minutes on a bug or sync on some product spec. It's important to be respectful of each other's time, but we shouldn't sacrifice team alignment and group intelligence for the sake of inconveniencing each other.
+
+
 4. When you do grooming or sprint planning meetings with the team, take care to observe what items are high-risk. What are our known-unknowns? How familiar are we with the task? If it feels like we don't already have the solution in mind when we're discussing a ticket, treat this as an opportunity to do a SPIKE. Remember, it's totally fine to not know how a project will end up when we're still in the beginning phases. Expect to have curve balls thrown at you. Spike and de-risk things as they come up. It's ok to come up with Spike's mid-sprint if you hit a blocker and need to pivot. Velocity Planning, all that stuff -- it doesn't matter as much as  actually shipping a good, working solution. 
+
+
 5. Do regular retrospectives where we reflect upon how efficient and productive we feel as a team. Try new ideas to improve our process. Get rid of things that don't work. Try to use some proxy for quantitative progress as well (Jira Tickets closed per sprint, or number of commits in Github, or whether the sprint goal was achieved). Use this is a feedback loop to determine what your team's optimal work flow is. Every team is different, at the end of the day XP is as much as shift in perspective as it is a process for doing software engineering.
+
+
 
 I hope you enjoyed the essay, thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
 
