@@ -52,7 +52,11 @@ Some practices, like pair programming or test-driven development, seem absolutel
 
 Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.
 
-#### Argument: Pair Programming is an inefficient allocation of valuable resources because it limits parallelism
+
+
+# Popular but disproven arguments against XP
+
+#### Claim: Pair Programming is an inefficient allocation of valuable resources because it limits parallelism in a team
 
 I've been working remotely full-time for the past 9 months, and started a new job about 3 months ago. Since then, I've spent more time pair-programming than ever before, but I've also been able to launch one of the largest, most complex features in my career.  Pair-programming is the best substitute we have to colocating in our current distributed environment. I use it for many different tasks, and I do it often.
 
@@ -97,7 +101,7 @@ As the interview may have unintentionally highlighted, having uninterrupted chun
 
 This is another area where remote teams benefit. For most non-parents, the home workspace has less distractions than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being more carefully scrutinized on our output than our effort. (I'm not a parent, so unfortunately I can't comment for them). 
 
-#### Argument: Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
+#### Claim: Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
 Most of these criticisms came from Matt Stephens and Doug Rosenberg, who co-authored a book called "[Extreme Programming Refactored: The Case against XP](https://amzn.to/30SIyVg)". And pretty much on all counts here, they're totally f*cking wrong.
 
@@ -113,7 +117,7 @@ And finally, Google Ventures has [published their own guide for applying Continu
 
 The point is: Continuous Innovation isn't some fluke. It's been around for a while, the community collectively agreed it was awesome, and it will continue to stick around.
 
-#### Argument: XP requires too much change to adopt, and can only work with Senior Engineers
+#### Claim: XP requires too much change to adopt, and can only work with Senior Engineers
 
 The point that "XP only works with Senior Engineers" relies on the premise that XP is a high-discipline mental framework, and so only wizards in the industry can pull it off. Ordinary people are creatures of habit, so after the first major speed bump XP falls apart at the seams.
 
@@ -127,13 +131,11 @@ But that's not the only technology improvement that makes XP more appealing now:
 
 Many of these technologies reduce our need to be disciplined and strict with ourselves, freeing us to focus on adhering more closely to a smaller set of principles. Having less to worry about makes it easier for the new principles to stick.
 
-#### Argument: XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
+#### Biggest Claim: XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
 
-We've already adopted the vast majority of these practices without even knowing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions. 
+We've already adopted the majority of these practices without realizing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions. If you're interested in experimenting with how XP might fit with your team, I have a few recommendations in the next section.
 
-## Ok, fine. How could I even get started?
-
-If you're interested in giving XP a shot, here are a few recommendations I have:
+## How to adapt XP into your team's workflow:
 
 1. Watch this talk by Dan North called "[Patterns for Effective Delivery](https://vimeo.com/24681032)". Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike & Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it's *what working on an XP team should feel like*.
 2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video by Allen Golub on the #noestimates movement](https://www.youtube.com/watch?v=QVBlnCTu9Ms), to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
