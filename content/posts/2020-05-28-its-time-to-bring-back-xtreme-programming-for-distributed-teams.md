@@ -136,7 +136,7 @@ Many of these technologies reduce our need to be disciplined and strict with our
 
 We've already adopted the majority of these practices without realizing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions.
 
-Hopefully, I've convinced you that XP at least worth reexamining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few recommendations.
+Hopefully, I've convinced you that XP is at least worth re-examining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few recommendations.
 
 ## How to (slowly) integrate XP into your team's workflow:
 
