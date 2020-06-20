@@ -3,7 +3,7 @@ template: post
 title: 'What''s old is new again: why Extreme Programming can work for remote teams'
 slug: consider-xp-for-distributed-teams
 draft: false
-date: 2020-05-28T05:58:41.206Z
+date: 2020-06-16T05:58:41.206Z
 description: >-
   With the pandemic, our social patterns have shifted overnight. Video calls
   have become the norm for both social and work engagements. Adapting to a
@@ -44,8 +44,6 @@ Here's a 30 second crash course on the history of XP:
 
   * Rigid formalizations of the practices introduced process bloat, which slowed down development teams big and small. 
   * People began forking off and experimenting with alternative styles of software development, which is where [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.) is derived from.
-
-    <iframe src="https://giphy.com/embed/26gJz7vrNd95sT4jK" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/southparkgifs-26gJz7vrNd95sT4jK"></a></p>
   * Some methodologies, like Kanban, enjoyed success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.
 
 XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler and Robert C. Martin (Uncle Bob). In the end, XP was considered too unapproachable for the masses, too unpalatable. 
