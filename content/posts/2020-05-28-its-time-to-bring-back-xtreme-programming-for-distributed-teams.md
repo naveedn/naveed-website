@@ -25,7 +25,7 @@ tags:
 ---
 Here's a contrarian opinion: since COVID started, we're doing project management all wrong. We're adapting to a new work-life balance that is governed by a *different* set of social dynamics. However, the project management strategies we employ for collaborative work resemble the same systems we had in place when we were all worked together in an office.
 
-Due to improved technology and the cultural shift in how we perceive remote work, modern development teams can benefit from adopting some practices of XP, a project management strategy that was initially dismissed when it originally came out 20 years ago.  
+Due to improved technology and the cultural shift in how we perceive remote work, modern development teams can benefit from adopting some practices of XP, a project management strategy that was initially dismissed when it came out over 20 years ago.  
 
 ## First off, what is XP (Extreme Programming)?
 
