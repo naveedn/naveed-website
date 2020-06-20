@@ -120,7 +120,7 @@ The point is: Continuous Innovation isn't some fluke. It's been around for a whi
 
 #### Claim: XP requires too much change to adopt, and can only work with Senior Engineers
 
-The point that "XP only works with Senior Engineers" relies on the premise that XP is a high-discipline mental framework, and so only wizards in the industry can pull it off. Ordinary people are creatures of habit, so after the first major speed bump XP falls apart at the seams.
+The point that "XP only works with Senior Engineers" relies on the premise that XP is a high-discipline mental framework, and so only wizards in the industry can pull it off. Ordinary people are creatures of habit, so after the first major speed bump, XP falls apart at the seams.
 
 But, this point was made in 2004, where the technology and tooling to automate these tasks simply didn't exist. It may have certainly been true then, but now almost every modern software company has some sort of CI / CD process like Jenkins or CircleCI. Tasks like linting, unit tests, artifact building, and deployment are handled automatically. (It's worth noting that unit testing was a "new" idea introduced in Kent's book, and now we take for granted how it's a cornerstone of modern software development.)
 
