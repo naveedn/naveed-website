@@ -134,9 +134,11 @@ Many of these technologies reduce our need to be disciplined and strict with our
 
 #### Biggest Claim: XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
 
-We've already adopted the majority of these practices without realizing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions. If you're interested in experimenting with how XP might fit with your team, I have a few recommendations in the next section.
+We've already adopted the majority of these practices without realizing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions.
 
-## How to adapt XP into your team's workflow:
+Hopefully, I've convinced you that XP at least worth reexamining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few recommendations.
+
+## How to (slowly) integrate XP into your team's workflow:
 
 1. Watch this talk by Dan North called "[Patterns for Effective Delivery](https://vimeo.com/24681032)". Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike & Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it's *what working on an XP team should feel like*.
 2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video by Allen Golub on the #noestimates movement](https://www.youtube.com/watch?v=QVBlnCTu9Ms), to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
