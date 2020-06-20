@@ -152,7 +152,6 @@ Hopefully, I've convinced you that XP is at least worth re-examining in our work
 <div id="recommendations"></div>
 
 ## How to (slowly) integrate XP into your team's workflow:
-<a href="#appendix" style="color:red;">_Skip to Appendix_</a>
 
 1. Watch this talk by Dan North called "[Patterns for Effective Delivery](https://vimeo.com/24681032)". Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike & Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it's *what working on an XP team should feel like*.
 2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video by Allen Golub on the #noestimates movement](https://www.youtube.com/watch?v=QVBlnCTu9Ms), to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
@@ -162,7 +161,6 @@ Hopefully, I've convinced you that XP is at least worth re-examining in our work
 6. Do regular retrospectives where we reflect upon how efficient and productive we feel as a team. Try new ideas to improve our process. Get rid of things that don't work. Try to use some proxy for quantitative progress as well (Jira Tickets closed per sprint, or number of features launched). Use this is a feedback loop to determine what your team's optimal workflow is. Every team is different, at the end of the day XP is as much as shift in perspective as it is a process for doing software engineering.
 
 - - -
-<div id="appendix"></div>
 
 I hope you enjoyed the essay, thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
 
