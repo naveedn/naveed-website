@@ -23,17 +23,24 @@ tags:
   - project management
   - organizational theory
 ---
+*Reading Time: 8 minutes*
+
 Here's a contrarian opinion: since COVID started, we're doing project management all wrong. We're adapting to a new work-life balance that is governed by a *different* set of social dynamics. However, the project management strategies we employ for collaborative work resemble the same systems we had in place when we were all worked together in an office.
 
-Due to improved technology and the cultural shift in how we perceive remote work, modern development teams can benefit from adopting some practices of XP, a project management strategy that was initially dismissed when it came out over 20 years ago.  
+Due to improved technology and the cultural shift in how we perceive remote work, modern development teams can benefit from adopting some practices of XP, a project management strategy that was initially dismissed when it came out over 20 years ago.
 
 ## First off, what is XP (Extreme Programming)?
+<a href="#history">_Skip to next Section_</a>
+
 
 Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminate in a set of 12 practices and philosophies. Adopting these practices \*should\* lead to a productive but sustainable pace of software development. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures the ethos succinctly.
 
 ![A screenshot of the web comment](/media/ron-jeffries-xp-practices-circles.jpg "The 12 Principles of XP, according to the early internet.")
 
+<a name="history"></a>
 ### Where did XP come from?
+<a href="#arguments">_Skip to next Section_</a>
+
 
 Here's a 30 second crash course on the history of XP:
 
@@ -55,7 +62,9 @@ Some practices, like pair programming or test-driven development, seem absolutel
 
 Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.
 
+<a name="arguments"></a>
 # Popular but disproven arguments against XP
+<a href="#recommendations">_Skip to next Section_</a>
 
 #### Claim: Pair Programming is an inefficient allocation of valuable resources because it limits parallelism in a team
 
@@ -92,7 +101,7 @@ There's no better example than in "[Coders at Work: Reflections on the Craft of 
 >
 > **Zawinski**: Yea, constant email. This was before instant messaging -- these days it probably all would have been IM because we were sending one-liner emails constantly. And we talked on the phone.
 >
-> \--
+> --
 
 Even in the 90's, engineers were figuring out that this was a good system for remote work! And that's **without** instant messaging, video-chatting, and *the ability to simultaneously be on the internet and make a phone call.*
 
@@ -138,7 +147,9 @@ We've already adopted the majority of these practices without realizing it! Time
 
 Hopefully, I've convinced you that XP is at least worth re-examining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few recommendations.
 
+<a name="recommendations"></a>
 ## How to (slowly) integrate XP into your team's workflow:
+<a href="#appendix">_Skip to Appendix_</a>
 
 1. Watch this talk by Dan North called "[Patterns for Effective Delivery](https://vimeo.com/24681032)". Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike & Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it's *what working on an XP team should feel like*.
 2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video by Allen Golub on the #noestimates movement](https://www.youtube.com/watch?v=QVBlnCTu9Ms), to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
@@ -153,6 +164,7 @@ I hope you enjoyed the essay, thanks for reading! If you have any comments or re
 
 - - -
 
+<a name="appendix"></a>
 Further Reading:
 
 * Coders at Work: **[Interview with Jamie Zawinski](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)**
