@@ -39,25 +39,28 @@ Extreme Programming is a software development style that takes the ideas from th
 
 <div id="history"></div>
 
-### A 30 second history lesson on XP
+### A 30 second history lesson on Project Management
 
 <a href="#popular-but-weak-arguments-against-xp" style="color:red;">*Skip to next Section*</a>
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures. (See: [The Mythical Man-Month](https://amzn.to/30QHn8F))
+* In 1995, Ken Schwaber and Jeff Sutherland created [Scrum](https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100), a process management framework [based of a 1986 article](https://hbr.org/1986/01/the-new-new-product-development-game) in the Harvard Business Review by Hirotaka Takeuchi and Ikujiro Nonaka.
 * In 1999, programmer Kent Beck released a book called [Extreme Programming Explained](https://amzn.to/2YLNE2S), wherein he outlines a radically new and different approach to software development.
-* In early 2001, the industry's most well-regarded engineers (including Beck) [met at a famous ski resort](https://agilemanifesto.org/history.html) and distilled the ideas of XP into a new paradigm for how organizations should do software development. That paradigm is known as the Agile Software Development movement that's ubiquitous in software engineering these days.
-* The Agile movement fragmented as it grew in popularity. Over time, the Agile movement was co-opted by business folks and process-oriented project managers.
+* In early 2001, the industry's most well-regarded engineers (including Beck, Sutherland, and Schwaber) [met at a famous ski resort](https://agilemanifesto.org/history.html) and combined the ideas of these frameworks into a new paradigm for how organizations should do software development. That paradigm is the ubiquitous Agile Software Development movement.
+* The Agile movement fragmented as it grew in popularity. Over time, Agile was co-opted by business folks and process-oriented project managers.
 
   * Rigid formalizations of the practices introduced process bloat, which slowed down development teams big and small. 
   * People began forking off and experimenting with alternative styles of software development, which is where [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.) is derived from.
+
+    * Kanban, [a method developed by Taiichi Ohno for Toyota in the early 1940's](https://www.digite.com/kanban/what-is-kanban/#:~:text=It%20all%20started%20in%20the,every%20stage%20of%20production%20optimally.), resurfaces as a viable project management strategy for software systems. 
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/26gJz7vrNd95sT4jK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
 Some methodologies, like Kanban, enjoyed success in some development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.
 
-XP was decidedly less popular. It was in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler and Robert C. Martin (Uncle Bob). In the end, XP was considered too unapproachable for the masses, too unpalatable. 
+XP was decidedly less popular. It was in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler and Robert C. Martin (Uncle Bob). In the end, Extreme Programming was considered too unapproachable for the masses, too unpalatable. 
 
-Some practices, like pair programming or test-driven development, seem absolutely asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a lengthy section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement if you ask me. 
+Some practices, like pair programming or test-driven development, seem asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a lengthy section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement if you ask me. 
 
 Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.
 
