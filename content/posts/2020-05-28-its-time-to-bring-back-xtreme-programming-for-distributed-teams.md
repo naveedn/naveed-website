@@ -64,7 +64,7 @@ Some practices, like pair programming or test-driven development, seem asinine f
 
 Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.
 
-# Popular but weak arguments against XP
+## Popular but weak arguments against XP
 
 #### Pair Programming is an inefficient allocation of valuable resources because it limits parallelism in a team
 
@@ -103,13 +103,15 @@ There's no better example than in "[Coders at Work: Reflections on the Craft of 
 >
 > \--
 
-Even in the 90's, engineers were figuring out that this was a good system for remote work! And that's **without** instant messaging, video-chatting, and the ability to *simultaneously be on the internet and make a phone call.*
+Even in the early 90's, engineers were figuring out that this was a good system for remote work! And that's **without** instant messaging, video-chatting, and the ability to *simultaneously be on the internet and make a phone call.*
 
 <iframe src="https://giphy.com/embed/Um3ljJl8jrnHy" width="480" height="314" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 As the interview may have unintentionally highlighted, having uninterrupted chunks of coder time was a key component in their successful collaboration. The idea has been talked about ad nauseum in the book "[Deep Work](https://amzn.to/2zKQzR6)" by Cal Newport, and many companies have independently verified that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
-This is another area where remote teams benefit. The home workspace has different distractions than the office workplace, but [provided you can recognize and plan around them](https://www.naveed.dev/posts/remote-work-engineer-tips), it can be more productive than an office. For starters, there isn't as much of an interest or need for idle chit-chat, and distractions such as commuting, birthdays, or firings aren't competing for your attention. We don't need to pretend to be busy, because we're being scrutinized more on our output than our effort.
+This is another area where remote teams benefit. The home workspace has different distractions than the office workplace, but [provided you can recognize and plan around them](https://www.naveed.dev/posts/remote-work-engineer-tips), it can be more productive than an office. 
+
+For starters, there isn't as much of an interest or need for idle chit-chat, and distractions such as commuting, birthdays, or firings aren't competing for your attention. We don't need to pretend to be busy, because we're being scrutinized more on our output than our effort.
 
 #### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
