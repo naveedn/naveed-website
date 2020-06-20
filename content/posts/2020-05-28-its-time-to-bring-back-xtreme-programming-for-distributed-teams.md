@@ -44,8 +44,6 @@ Here's a 30 second crash course on the history of XP:
 
   * Rigid formalizations of the practices introduced process bloat, which slowed down development teams big and small. 
   * People began forking off and experimenting with alternative styles of software development, which is where [Mob Programming](https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.) is derived from.
-
-    <div style="width:100%;height:0;padding-bottom:70%;position:relative;"><iframe src="https://giphy.com/embed/3oz8xsv9iipBDQdtQY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/southparkgifs-3oz8xsv9iipBDQdtQY"></a></p>
   * Some methodologies, like Kanban, enjoyed success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.
 
 XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler and Robert C. Martin (Uncle Bob). In the end, XP was considered too unapproachable for the masses, too unpalatable. 
@@ -125,15 +123,15 @@ But that's not the only technology improvement that makes XP more appealing now:
 
 * Git has made branching and interleaving work across different developers trivially easy. (Does anyone else remember Subversion or Microsoft TFS?)
 * Jira, Asana, and a plethora of other tools exist to help us track our work and project progress. 
-* Slack allows us to communicate asynchronously with one another and receive notifications from automated monitoring systems, allowing context to be shared quickly and efficiently. 
+* Slack allows us to communicate asynchronously with each other and receive automated notifications (e.g. Signal / DataDog), allowing context to be shared quickly and efficiently. 
 
-Many of these technologies reduce our need to be disciplined and strict with ourselves, freeing us to focus our mental efforts the adhering more closely to fewer principles. Having less to worry about makes it easier for new principles to stick.
+Many of these technologies reduce our need to be disciplined and strict with ourselves, freeing us to focus on adhering more closely to a smaller set of principles. Having less to worry about makes it easier for the new principles to stick.
 
 #### Argument: XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
 
-We've already adopted the vast majority of these practices without even knowing it!! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions.
+We've already adopted the vast majority of these practices without even knowing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions. 
 
-## Ok, fine. How can I get started?
+## Ok, fine. How could I even get started?
 
 If you're interested in giving XP a shot, here are a few recommendations I have:
 
@@ -144,7 +142,11 @@ If you're interested in giving XP a shot, here are a few recommendations I have:
 5. When you do grooming or sprint planning meetings with the team, take care to observe what items are high-risk. What are our known-unknowns? How familiar are we with the task? If it feels like we don't already have the solution in mind when we're discussing a ticket, treat this as an opportunity to do a SPIKE. Remember, it's totally fine to not know how a project will end up when we're still in the beginning phases. Expect to have curve balls thrown at you. Spike and de-risk things as they come up. It's ok to come up with Spike's mid-sprint if you hit a blocker and need to pivot. Velocity Planning, all that stuff -- they're just means to an end. Nothing matters as much as actually shipping a good, working solution. 
 6. Do regular retrospectives where we reflect upon how efficient and productive we feel as a team. Try new ideas to improve our process. Get rid of things that don't work. Try to use some proxy for quantitative progress as well (Jira Tickets closed per sprint, or number of commits in Github, or whether the sprint goal was achieved). Use this is a feedback loop to determine what your team's optimal work flow is. Every team is different, at the end of the day XP is as much as shift in perspective as it is a process for doing software engineering.
 
+___
+
 I hope you enjoyed the essay, thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
+
+___
 
 Further Reading:
 
@@ -154,3 +156,4 @@ Further Reading:
 * [Industrial XP: Making XP Work in Large Organizations](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.2506&rep=rep1&type=pdf#:~:text=Industrial%20XP%20(IXP)%20is%20a,often%20face%20when%20implementing%20XP.)
 * [When Is Xp Not Appropriate](http://wiki.c2.com/?WhenIsXpNotAppropriate) 
 * [Wikipedia: 12 Practices of Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming_practices)
+* <https://toggl.com/out-of-office-remote-company-culture/>
