@@ -30,7 +30,7 @@ Here's a contrarian opinion: since COVID started, we're doing project management
 Due to improved technology and the cultural shift in how we perceive remote work, modern development teams can benefit from adapting some practices of XP, a project management strategy that was initially dismissed when it came out over 20 years ago.
 
 ## First off, what is XP (Extreme Programming)?
-<a href="#history">_Skip to next Section_</a>
+<a href="#history" style="color:red;">_Skip to next Section_</a>
 
 
 Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminate in a set of 12 practices and philosophies. Adopting these practices \*should\* lead to a productive but sustainable pace of software development. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures the ethos succinctly.
@@ -40,7 +40,7 @@ Extreme Programming is a software development style that takes the ideas from th
 <div id="history"></div>
 
 ### Where did XP come from?
-<a href="#arguments">_Skip to next Section_</a>
+<a href="#arguments" style="color:red;">_Skip to next Section_</a>
 
 
 Here's a 30 second crash course on the history of XP:
@@ -66,7 +66,7 @@ Rather than describing each principle in detail and debating its merits (which s
 <div id="arguments"></div>
 
 # Popular but disproven arguments against XP
-<a href="#recommendations">_Skip to next Section_</a>
+<a href="#recommendations" style="color:red;">_Skip to next Section_</a>
 
 #### Pair Programming is an inefficient allocation of valuable resources because it limits parallelism in a team
 
@@ -152,7 +152,7 @@ Hopefully, I've convinced you that XP is at least worth re-examining in our work
 <div id="recommendations"></div>
 
 ## How to (slowly) integrate XP into your team's workflow:
-<a href="#appendix">_Skip to Appendix_</a>
+<a href="#appendix" style="color:red;">_Skip to Appendix_</a>
 
 1. Watch this talk by Dan North called "[Patterns for Effective Delivery](https://vimeo.com/24681032)". Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike & Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it's *what working on an XP team should feel like*.
 2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video by Allen Golub on the #noestimates movement](https://www.youtube.com/watch?v=QVBlnCTu9Ms), to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
