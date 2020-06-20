@@ -96,7 +96,7 @@ There's no better example than in "[Coders at Work: Reflections on the Craft of 
 
 Even in the 90's, engineers were figuring out that this was a good system for remote work! And that's **without** instant messaging, video-chatting, and *the ability to simultaneously be on the internet and make a phone call.*
 
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/EldfH1VJdbrwY" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<iframe src="https://giphy.com/embed/Um3ljJl8jrnHy" width="480" height="314" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 As the interview may have unintentionally highlighted, having uninterrupted chunks of coder time was a key component in their successful collaboration. The idea has been talked about ad nauseum in the book "[Deep Work](https://amzn.to/2zKQzR6)" by Cal Newport, and many companies have independently verified that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
