@@ -30,8 +30,8 @@ Here's a contrarian opinion: since COVID started, we're doing project management
 Due to improved technology and a cultural shift in how we perceive remote work, modern development teams can benefit from adapting some practices of XP, a project management strategy that was initially dismissed when it came out over 20 years ago.
 
 ## First off, what is XP (Extreme Programming)?
-<a href="#history" style="color:red;">_Skip to next Section_</a>
 
+<a href="#history" style="color:red;">*Skip to next Section*</a>
 
 Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminate in a set of 12 practices and philosophies. Adopting these practices \*should\* lead to a productive but sustainable pace of software development. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures the ethos succinctly.
 
@@ -39,11 +39,9 @@ Extreme Programming is a software development style that takes the ideas from th
 
 <div id="history"></div>
 
-### Where did XP come from?
-<a href="#arguments" style="color:red;">_Skip to next Section_</a>
+### A 30 second crash course on XP
 
-
-Here's a 30 second crash course on the history of XP:
+<a href="#arguments" style="color:red;">*Skip to next Section*</a>
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures. (See: [The Mythical Man-Month](https://amzn.to/30QHn8F))
 * In 1999, programmer Kent Beck released a book called [Extreme Programming Explained](https://amzn.to/2YLNE2S), wherein he outlines a radically new and different approach to software development.
@@ -65,8 +63,7 @@ Rather than describing each principle in detail and debating its merits (which s
 
 <div id="arguments"></div>
 
-# Popular but disproven arguments against XP
-<a href="#recommendations" style="color:red;">_Skip to next Section_</a>
+# Popular but weak arguments against XP
 
 #### Pair Programming is an inefficient allocation of valuable resources because it limits parallelism in a team
 
@@ -103,7 +100,7 @@ There's no better example than in "[Coders at Work: Reflections on the Craft of 
 >
 > **Zawinski**: Yea, constant email. This was before instant messaging -- these days it probably all would have been IM because we were sending one-liner emails constantly. And we talked on the phone.
 >
-> --
+> \--
 
 Even in the 90's, engineers were figuring out that this was a good system for remote work! And that's **without** instant messaging, video-chatting, and *the ability to simultaneously be on the internet and make a phone call.*
 
@@ -111,7 +108,7 @@ Even in the 90's, engineers were figuring out that this was a good system for re
 
 As the interview may have unintentionally highlighted, having uninterrupted chunks of coder time was a key component in their successful collaboration. The idea has been talked about ad nauseum in the book "[Deep Work](https://amzn.to/2zKQzR6)" by Cal Newport, and many companies have independently verified that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
-This is another area where remote teams benefit. For most non-parents, the home workspace has less distractions than the office workplace. There isn't as much of an interest or need for water cooler chit-chat, and external distractions in the office such as a birthday or firing aren't nearly as disruptive. We don't need to pretend to be busy, because we're being more carefully scrutinized on our output than our effort. (I'm not a parent, so unfortunately I can't comment for them). 
+This is another area where remote teams benefit. The home workspace has different distractions than the office workplace. There isn't as much of an interest or need for idle chit-chat, and external distractions in the office such as birthdays or company gossip aren't as disruptive. We don't need to pretend to be busy, because we're being scrutinized more on our output than our effort.
 
 #### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
@@ -137,19 +134,18 @@ But, this point was made in 2004, where the technology and tooling to automate t
 
 But that's not the only technology improvement that makes XP more appealing now:
 
-* Git has made branching and interleaving work across different developers trivially easy. (Does anyone else remember Subversion or Microsoft TFS?)
-* Jira, Asana, and a plethora of other tools exist to help us track our work and project progress. 
-* Slack allows us to communicate asynchronously with each other and receive automated notifications (e.g. Signal / DataDog), allowing context to be shared quickly and efficiently. 
+* Git has made branching and interleaving work across different developers trivially easy. (sorry Subversion)
+* Jira, Asana, and other project management tools have matured considerably.
+* Slack allows us to communicate asynchronously with each other
+* We have application monitoring systems (e.g. Signal / DataDog) with alerting and push notifications, so context to be shared broadly and engineers can tackle problems quickly. 
 
-Many of these technologies reduce our need to be disciplined, allowing us to focus closely on a small set of principles. Having less to worry about makes it easier for the new principles to stick.
+These technologies reduce our need to have a disciplined process to accomplish these tasks. Having less to worry about makes it easier for us to concentrate on doing the rest of the principles well. 
 
 #### XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
 
 We've already adopted the majority of these practices without realizing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions.
 
 Hopefully, I've convinced you that XP is at least worth re-examining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few suggestions.
-
-<div id="recommendations"></div>
 
 ## How to (slowly) integrate XP into your team's workflow:
 
