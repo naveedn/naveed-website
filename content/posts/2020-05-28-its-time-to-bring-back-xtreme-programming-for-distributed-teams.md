@@ -1,6 +1,6 @@
 ---
 template: post
-title: 'What''s old is new again: why Extreme Programming can work for remote teams'
+title: 'What''s old is new again: adapting Extreme Programming to work for remote teams'
 slug: consider-xp-for-distributed-teams
 draft: false
 date: 2020-06-16T05:58:41.206Z
@@ -132,9 +132,9 @@ But, this point was made in 2004, where the technology and tooling to automate t
 
 But that's not the only technology improvement that makes XP more appealing now:
 
-* Git has made branching and interleaving work across different developers trivially easy. (sorry Subversion)
+* Git has made branching and interleaving work across different developers trivially easy.
 * Jira, Asana, and other project management tools have matured considerably, allowing us to track and plan our work in smaller increments.
-* Slack allows us to communicate asynchronously with each other and receive notifications from application monitoring systems (e.g. Signal / DataDog), so context can be shared broadly and engineers can tackle problems quickly. ("Collective Ownership")
+* Slack allows us to communicate asynchronously with each other and receive notifications from application monitoring systems (e.g. Signal / DataDog), so context can be shared broadly and engineers can tackle problems quickly. ("Collective Ownership", "Whole Team")
 * Designers and Product owners do user-experience interviews, incorporate product metrics tracking, and collect NPS surveys, allowing us to get feedback from the client without actually needing them to be on-site. 
 
 These technologies reduce our need to have a disciplined process to accomplish these tasks. Having less to worry about makes it easier for us to concentrate on doing the rest of the principles well. 
@@ -147,7 +147,7 @@ As with all things, XP is not some magic bullet. There are aspects that were dev
 
 ### Parts of XP I don't agree with
 
-* **Planning Game**: our team follows a lightweight agile process and that works well for us. Sprint Planning, Sprint Grooming, Sprint Retrospective. That's it. The Planning Game introduces a lot of new cycles, and it's not clear what the benefit is in having these discrete layers.
+* **Planning Game**: our team follows a lightweight agile/scrum process and that works well for us. Sprint Planning, Sprint Grooming, Sprint Retrospective. That's it. The Planning Game introduces a lot of new cycles, and it's not clear what the benefit is in having these discrete layers.
 * **Test-Driven Development**: I know that TDD must work for *some* people, but testing in software development has come a long way, and there are multiple strategies for how to incorporate tests in your software product successfully. Additionally, I work in Python and JavaScript (2 dynamic languages), and oftentimes, I can avoid the "big upfront design" by prototyping very quickly in a repl or jupyter notebook. TDD was developed with Java in mind, which lacked these capabilities.
 
 If you're interested in experimenting with how XP might fit with your team, here are a few suggestions for how one could do that.
@@ -155,7 +155,7 @@ If you're interested in experimenting with how XP might fit with your team, here
 ## How to (slowly) integrate XP into your team's workflow:
 
 1. Watch this talk by Dan North called "[Patterns for Effective Delivery](https://vimeo.com/24681032)". Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike & Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it's *what working on an XP team should feel like*.
-2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video](https://www.youtube.com/watch?v=QVBlnCTu9Ms) by Allen Golub on the #noestimates movement to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
+2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video](https://www.youtube.com/watch?v=QVBlnCTu9Ms) by Allen Holub on the #noestimates movement to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
 3. Coming off the heels of that, our team recently put a practice in place where we continue to break down tickets until every task can be done within a day or two max. As a result, we don't need to do "story point estimations" during grooming -- we just focus on clarifying tickets we know very well, breaking down big initiatives into bite sized pieces, and creating spikes for discovery based work. Bye bye, fibonacci-scale pointing method! 👋
 4. Take the time to observe the the team's culture with respect to ad-hoc video calls. This is where we can make the most gains in our remote environment. We need to build a culture within ourselves and our teams where it is OK to pair for 5 minutes on a bug or sync on some product spec. It's important to be respectful of each other's time, but we shouldn't sacrifice team alignment and [group intelligence](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) for the sake of inconveniencing each other.
 5. When you do grooming or sprint planning meetings with the team, take care to observe what items are high-risk. What are our known-unknowns? How familiar are we with the task? If it feels like we don't already have the solution in mind when we're discussing a ticket, treat this as an opportunity to do a SPIKE. Remember, it's totally fine to not know how a project will end up when we're still in the beginning phases. Expect to have curve balls thrown at you. Spike and de-risk things as they come up. It's ok to come up with Spike's mid-sprint if you hit a blocker and need to pivot. Velocity Planning, all that stuff -- they're just means to an end. Nothing matters as much as actually shipping a good, working solution. 
@@ -172,8 +172,8 @@ Further Reading:
 * [Coders at Work: Interview with Jamie Zawinski](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)
 * [Gitlab playbook on remote work strategies](https://about.gitlab.com/company/culture/all-remote/)
 * [Stripe's reflection on creating all-remote hub 1 year later](https://stripe.com/blog/remote-hub-one-year) 
-* [An Introduction to XP](https://www.agilealliance.org/glossary/xp/#q=~(infinite~false~filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
 * [A recent take on remote mob programming (2018)](https://www.remotemobprogramming.org/)
+* [An Introduction to XP](https://www.agilealliance.org/glossary/xp/#q=~(infinite~false~filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
 * [Industrial XP: Making XP Work in Large Organizations](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.2506&rep=rep1&type=pdf#:~:text=Industrial%20XP%20(IXP)%20is%20a,often%20face%20when%20implementing%20XP.)
 * [When Is Xp Not Appropriate](http://wiki.c2.com/?WhenIsXpNotAppropriate) 
 * [Wikipedia: 12 Practices of Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming_practices)
