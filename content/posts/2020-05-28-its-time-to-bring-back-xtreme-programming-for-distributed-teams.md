@@ -1,6 +1,6 @@
 ---
 template: post
-title: 'What''s old is new again: adapting Extreme Programming to work for remote teams'
+title: 'What''s old is new again: adapting Agile / XP to work for remote teams'
 slug: consider-xp-for-distributed-teams
 draft: false
 date: 2020-06-16T05:58:41.206Z
