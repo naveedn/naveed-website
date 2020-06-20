@@ -162,12 +162,11 @@ Hopefully, I've convinced you that XP is at least worth re-examining in our work
 6. Do regular retrospectives where we reflect upon how efficient and productive we feel as a team. Try new ideas to improve our process. Get rid of things that don't work. Try to use some proxy for quantitative progress as well (Jira Tickets closed per sprint, or number of features launched). Use this is a feedback loop to determine what your team's optimal workflow is. Every team is different, at the end of the day XP is as much as shift in perspective as it is a process for doing software engineering.
 
 - - -
+<div id="appendix"></div>
 
 I hope you enjoyed the essay, thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
 
 - - -
-
-<div id="appendix"></div>
 
 Further Reading:
 
