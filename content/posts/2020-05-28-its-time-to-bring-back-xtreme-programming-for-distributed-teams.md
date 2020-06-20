@@ -119,7 +119,7 @@ Most of these criticisms came from Matt Stephens and Doug Rosenberg, who co-auth
 
 I don't want to bash these guys too hard -- I mean, they wrote this in 2004, and I have the benefit of hindsight that they certainly did not have. But, in the 16 years since their book was released, the software engineering community has collectively agreed that a Continuous Design Approach (aka Continuous Innovation) is an ideology that not only works, but is largely responsible for the success of many B2C startups in the post dot-com generation (e.g. AirBnb, Facebook). 
 
-Eric Reis wrote the seminal book [the Lean Startup](https://amzn.to/2AAS6JZ), extolling the virtues continuous innovation while making the argument that it saves money in the long-run because "failing fast and pivoting means you don't end up building the wrong thing".
+Eric Reis wrote the seminal book [the Lean Startup](https://amzn.to/2AAS6JZ),making the argument that a continuous innovation / lean approach saves money in the long run because "failing fast and pivoting means you don't end up building the wrong thing".
 
 VC investor Peter Thiel gave further praise of Continuous Innovation in his book [Zero to One](https://amzn.to/30P8b9k), while Paul Graham, co-founder of the Y Combinator startup accelerator, penned the famous essay "[Do things that don't scale](http://paulgraham.com/ds.html)". You can see it in the ethos of Facebook's old company motto: "[Move fast and break things](https://www.businessinsider.com/mark-zuckerberg-innovation-2009-10?r=US&IR=T)".
 
@@ -141,13 +141,13 @@ But that's not the only technology improvement that makes XP more appealing now:
 * Jira, Asana, and a plethora of other tools exist to help us track our work and project progress. 
 * Slack allows us to communicate asynchronously with each other and receive automated notifications (e.g. Signal / DataDog), allowing context to be shared quickly and efficiently. 
 
-Many of these technologies reduce our need to be disciplined and strict with ourselves, freeing us to focus on adhering more closely to a smaller set of principles. Having less to worry about makes it easier for the new principles to stick.
+Many of these technologies reduce our need to be disciplined, allowing us to focus closely on a small set of principles. Having less to worry about makes it easier for the new principles to stick.
 
 #### XP's practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.
 
 We've already adopted the majority of these practices without realizing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions.
 
-Hopefully, I've convinced you that XP is at least worth re-examining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few recommendations.
+Hopefully, I've convinced you that XP is at least worth re-examining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few suggestions.
 
 <div id="recommendations"></div>
 
