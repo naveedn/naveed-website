@@ -31,7 +31,7 @@ Due to improved technology and the cultural shift in how we perceive remote work
 
 Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminate in a set of 12 practices and philosophies. Adopting these practices \*should\* lead to a productive but sustainable pace of software development. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures the ethos succinctly.
 
-![A screenshot of the web comment](/media/screen-shot-2020-06-17-at-6.48.14-pm.png "The 12 Principles of XP, according to the early internet.")
+![A screenshot of the web comment](/media/xp-feedback.gif "The 12 Principles of XP, according to the early internet.")
 
 ### Where did XP come from?
 
