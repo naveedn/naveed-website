@@ -33,15 +33,15 @@ Due to improved technology and a cultural shift in how we perceive remote work, 
 
 <a href="#history" style="color:red;">*Skip to next Section*</a>
 
-Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminate in a set of 12 practices and philosophies. Adopting these practices \*should\* lead to a productive but sustainable pace of software development. I'll add a link to the 12 practices at the bottom of the article, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures the ethos succinctly.
+Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their "logical extremes", which culminate in a set of 12 practices and philosophies. Adopting these practices \*should\* lead to a productive but sustainable pace of software development. I'll add a picture of the 12 practices below, but I find that this [comment on a web forum from 2004](https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya) captures the ethos succinctly.
 
-![A screenshot of the web comment](/media/ron-jeffries-xp-practices-circles.jpg "The 12 Principles of XP, according to the early internet.")
+![A screenshot of the web comment](/media/ron-jeffries-xp-practices-circles.jpg "The 12 Principles of XP")
 
 <div id="history"></div>
 
-### A 30 second crash course on XP
+### A 30 second history lesson on XP
 
-<a href="#arguments" style="color:red;">*Skip to next Section*</a>
+<a href="#popular-but-weak-arguments-against-xp" style="color:red;">*Skip to next Section*</a>
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures. (See: [The Mythical Man-Month](https://amzn.to/30QHn8F))
 * In 1999, programmer Kent Beck released a book called [Extreme Programming Explained](https://amzn.to/2YLNE2S), wherein he outlines a radically new and different approach to software development.
@@ -53,13 +53,13 @@ Extreme Programming is a software development style that takes the ideas from th
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/26gJz7vrNd95sT4jK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
-Some methodologies, like Kanban, enjoyed success in niche development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.
+Some methodologies, like Kanban, enjoyed success in some development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.
 
-XP and Mob Programming were decidedly less popular. These frameworks were in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler and Robert C. Martin (Uncle Bob). In the end, XP was considered too unapproachable for the masses, too unpalatable. 
+XP was decidedly less popular. It was in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler and Robert C. Martin (Uncle Bob). In the end, XP was considered too unapproachable for the masses, too unpalatable. 
 
 Some practices, like pair programming or test-driven development, seem absolutely asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a lengthy section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement if you ask me. 
 
-Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.<div id="arguments"></div>
+Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.
 
 # Popular but weak arguments against XP
 
@@ -100,7 +100,7 @@ There's no better example than in "[Coders at Work: Reflections on the Craft of 
 >
 > \--
 
-Even in the 90's, engineers were figuring out that this was a good system for remote work! And that's **without** instant messaging, video-chatting, and *the ability to simultaneously be on the internet and make a phone call.*
+Even in the 90's, engineers were figuring out that this was a good system for remote work! And that's **without** instant messaging, video-chatting, and the ability to *simultaneously be on the internet and make a phone call.*
 
 <iframe src="https://giphy.com/embed/Um3ljJl8jrnHy" width="480" height="314" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
@@ -120,13 +120,13 @@ VC investor Peter Thiel gave further praise of Continuous Innovation in his book
 
 It's not just VCs and founders talking about it. Edmond Lau, in his book [the Effective Engineer](https://amzn.to/2UWDbke), discusses tight-feedback loops and continuous delivery as the flywheel that powers the knowledge-discovery engine, which enable developers to iterate quickly and create leverage on their projects. 
 
-And finally, Google Ventures has [published their own guide for applying Continuous Design Approach](https://www.gv.com/sprint/) to their sprints. This guide struck a chord in the HCI / UX space. GV's design sprint bears striking resemblance to the company IDEO, which had their own [ABC Nightline special in 1999 about re-designing the shopping cart](https://www.youtube.com/watch?v=M66ZU2PCIcM&vl=en-US) that blew America's mind. 🛒 🤯 
+And finally, Google Ventures has [published their own guide](https://www.gv.com/sprint/) for applying a Continuous Design Approach to their sprints. This guide struck a chord in the HCI / UX space. GV's design sprint bears striking resemblance to the company IDEO, which had their own [ABC Nightline special in 1999 about re-designing the shopping cart](https://www.youtube.com/watch?v=M66ZU2PCIcM&vl=en-US) that blew America's mind. 🛒 🤯 
 
 The point is: Continuous Innovation isn't some fluke. It's been around for a while, the community collectively agreed it was awesome, and it will continue to stick around.
 
 #### XP requires too much change to adopt, and can only work with Senior Engineers
 
-The point that "XP only works with Senior Engineers" relies on the premise that XP is a high-discipline mental framework, and so only wizards in the industry can pull it off. Ordinary people are creatures of habit, so after the first major speed bump, XP falls apart at the seams.
+The point that "XP only works with Senior Engineers" relies on the premise that XP is a high-discipline mental framework, and so only wizards can pull it off. Ordinary people are creatures of habit, so after the first major speed bump, XP falls apart at the seams.
 
 But, this point was made in 2004, where the technology and tooling to automate these tasks simply didn't exist. It may have certainly been true then, but now almost every modern software company has some sort of CI / CD process like Jenkins or CircleCI. Tasks like linting, unit tests, artifact building, and deployment are handled automatically. (It's worth noting that unit testing was a "new" idea introduced in Kent's book, and now we take for granted how it's a cornerstone of modern software development.)
 
@@ -134,8 +134,8 @@ But that's not the only technology improvement that makes XP more appealing now:
 
 * Git has made branching and interleaving work across different developers trivially easy. (sorry Subversion)
 * Jira, Asana, and other project management tools have matured considerably, allowing us to track and plan our work in smaller increments.
-* Slack allows us to communicate asynchronously with each other
-* We have application monitoring systems (e.g. Signal / DataDog) with alerting and push notifications, so context to be shared broadly and engineers can tackle problems quickly. 
+* Slack allows us to communicate asynchronously with each other and receive notifications from application monitoring systems (e.g. Signal / DataDog), so context can be shared broadly and engineers can tackle problems quickly. ("Collective Ownership")
+* Designers and Product owners do user-experience interviews, incorporate product metrics tracking, and collect NPS surveys, allowing us to get feedback from the client without actually needing them to be on-site. 
 
 These technologies reduce our need to have a disciplined process to accomplish these tasks. Having less to worry about makes it easier for us to concentrate on doing the rest of the principles well. 
 
@@ -143,12 +143,19 @@ These technologies reduce our need to have a disciplined process to accomplish t
 
 We've already adopted the majority of these practices without realizing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn't be scared to challenge our assumptions.
 
-Hopefully, I've convinced you that XP is at least worth re-examining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few suggestions.
+As with all things, XP is not some magic bullet. There are aspects that were developed 20 years ago that haven't stood up to the test of time. My goal with this essay isn't to convince you that XP should be adopted in its entirety; but rather it should be investigated and each team should cherry-pick the parts they like. 
+
+### Parts of XP I don't agree with
+
+* **Planning Game**: our team follows a lightweight agile process and that works well for us. Sprint Planning, Sprint Grooming, Sprint Retrospective. That's it. The Planning Game introduces a lot of new cycles, and it's not clear what the benefit is in having these discrete layers.
+* **Test-Driven Development**: I know that TDD must work for *some* people, but testing in software development has come a long way, and there are multiple strategies for how to incorporate tests in your software product successfully. Additionally, I work in Python and JavaScript (2 dynamic languages), and oftentimes, I can avoid the "big upfront design" by prototyping very quickly in a repl or jupyter notebook. TDD was developed with Java in mind, which lacked these capabilities.
+
+If you're interested in experimenting with how XP might fit with your team, here are a few suggestions for how one could do that.
 
 ## How to (slowly) integrate XP into your team's workflow:
 
 1. Watch this talk by Dan North called "[Patterns for Effective Delivery](https://vimeo.com/24681032)". Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike & Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it's *what working on an XP team should feel like*.
-2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video by Allen Golub on the #noestimates movement](https://www.youtube.com/watch?v=QVBlnCTu9Ms), to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
+2. It's time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch [this video](https://www.youtube.com/watch?v=QVBlnCTu9Ms) by Allen Golub on the #noestimates movement to get an appreciation for a different take on how engineers can control the Agile process. I've had mixed results with #noestimates, but it does provide food for thought. 
 3. Coming off the heels of that, our team recently put a practice in place where we continue to break down tickets until every task can be done within a day or two max. As a result, we don't need to do "story point estimations" during grooming -- we just focus on clarifying tickets we know very well, breaking down big initiatives into bite sized pieces, and creating spikes for discovery based work. Bye bye, fibonacci-scale pointing method! 👋
 4. Take the time to observe the the team's culture with respect to ad-hoc video calls. This is where we can make the most gains in our remote environment. We need to build a culture within ourselves and our teams where it is OK to pair for 5 minutes on a bug or sync on some product spec. It's important to be respectful of each other's time, but we shouldn't sacrifice team alignment and [group intelligence](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) for the sake of inconveniencing each other.
 5. When you do grooming or sprint planning meetings with the team, take care to observe what items are high-risk. What are our known-unknowns? How familiar are we with the task? If it feels like we don't already have the solution in mind when we're discussing a ticket, treat this as an opportunity to do a SPIKE. Remember, it's totally fine to not know how a project will end up when we're still in the beginning phases. Expect to have curve balls thrown at you. Spike and de-risk things as they come up. It's ok to come up with Spike's mid-sprint if you hit a blocker and need to pivot. Velocity Planning, all that stuff -- they're just means to an end. Nothing matters as much as actually shipping a good, working solution. 
@@ -162,7 +169,7 @@ I hope you enjoyed the essay, thanks for reading! If you have any comments or re
 
 Further Reading:
 
-* Coders at Work: **[Interview with Jamie Zawinski](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)**
+* [Coders at Work: Interview with Jamie Zawinski](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)
 * [Gitlab playbook on remote work strategies](https://about.gitlab.com/company/culture/all-remote/)
 * [Stripe's reflection on creating all-remote hub 1 year later](https://stripe.com/blog/remote-hub-one-year) 
 * [An Introduction to XP](https://www.agilealliance.org/glossary/xp/#q=~(infinite~false~filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
