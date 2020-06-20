@@ -142,15 +142,17 @@ If you're interested in giving XP a shot, here are a few recommendations I have:
 5. When you do grooming or sprint planning meetings with the team, take care to observe what items are high-risk. What are our known-unknowns? How familiar are we with the task? If it feels like we don't already have the solution in mind when we're discussing a ticket, treat this as an opportunity to do a SPIKE. Remember, it's totally fine to not know how a project will end up when we're still in the beginning phases. Expect to have curve balls thrown at you. Spike and de-risk things as they come up. It's ok to come up with Spike's mid-sprint if you hit a blocker and need to pivot. Velocity Planning, all that stuff -- they're just means to an end. Nothing matters as much as actually shipping a good, working solution. 
 6. Do regular retrospectives where we reflect upon how efficient and productive we feel as a team. Try new ideas to improve our process. Get rid of things that don't work. Try to use some proxy for quantitative progress as well (Jira Tickets closed per sprint, or number of commits in Github, or whether the sprint goal was achieved). Use this is a feedback loop to determine what your team's optimal work flow is. Every team is different, at the end of the day XP is as much as shift in perspective as it is a process for doing software engineering.
 
-___
+- - -
 
 I hope you enjoyed the essay, thanks for reading! If you have any comments or responses, just tweet me [@nudgemybody](https://twitter.com/nudgemybody/status/1273174737980723201)!
 
-___
+- - -
 
 Further Reading:
 
 * Coders at Work: **[Interview with Jamie Zawinski](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)**
+* [Gitlab playbook on remote work strategies](https://about.gitlab.com/company/culture/all-remote/)
+* [Stripe's reflection on creating all-remote hub 1 year later](https://stripe.com/blog/remote-hub-one-year) 
 * [An Introduction to XP](https://www.agilealliance.org/glossary/xp/#q=~(infinite~false~filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
 * [A recent take on remote mob programming (2018)](https://www.remotemobprogramming.org/)
 * [Industrial XP: Making XP Work in Large Organizations](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.2506&rep=rep1&type=pdf#:~:text=Industrial%20XP%20(IXP)%20is%20a,often%20face%20when%20implementing%20XP.)
