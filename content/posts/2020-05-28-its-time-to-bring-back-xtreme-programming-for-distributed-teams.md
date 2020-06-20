@@ -74,7 +74,7 @@ I've been working remotely for the past 9 months, and started a new job about 3 
 
 That's not to say I agree with pair-programming **all the time.** I need my own time to think about problems, try out solutions, and organize my thoughts (so I don't waste other people's time when we meet). I think this is where most people get it wrong; we believe we are forced to operate lock-step with our teammates. But that's not how I've found it to work in practice. 
 
-Remote pairing is not this formal *thing* where we have to spend an uncomfortable amount of time in each other's personal space -- instead, it's like a game of football, where we huddle between plays and strategize before we execute some chunk of work. Sometimes we do it together, and sometimes we do it independently. 
+Remote pairing is not this formal *thing* where we have to spend an uncomfortable amount of time in each other's personal space -- instead, it's like a game of football, where we huddle between plays and strategize before we execute some chunk of work. Sometimes we work on a task together, and sometimes we work on separate pieces. 
 
 There's no better example than in "[Coders at Work: Reflections on the Craft of Programming](https://amzn.to/2ABX7SB)". In Chapter 2, Peter Seibel interviews [Jamie Zawinkski](https://www.jwz.org/about.html), an OG engineer of Netscape and a founding member of Mozilla. The whole interview is super fascinating, but I'll post the part of the interview that stands out:
 
