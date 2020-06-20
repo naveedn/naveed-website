@@ -65,7 +65,7 @@ Rather than describing each principle in detail and debating its merits (which s
 
 #### Pair Programming is an inefficient allocation of valuable resources because it limits parallelism in a team
 
-I've been working remotely full-time for the past 9 months, and started a new job about 3 months ago. Since then, I've spent more time pair-programming than ever before, but I've also been able to launch one of the largest, most complex features of my career.  Pair-programming is the best substitute we have to colocating in our current situation. I use it for many different tasks, and I do it often.
+I've been working remotely for the past 9 months, and started a new job about 3 months ago. Since then, I've spent more time pair-programming than ever before, but I've also been able to launch one of the largest, most complex features of my career.  Pair-programming is the best substitute we have to colocating in our current situation. I use it for many different tasks, and I do it often.
 
 * I was able to ramp up very quickly on my team's product, architecture, and codebases. Pivotal Labs, a boutique software consultancy that practices XP, has written a pretty [good article](https://www.pivotaltracker.com/blog/how-pair-programming-and-mob-programming-help-quickly-onboard-new-software-engineers) about how XP is great system for onboarding new engineers.
 * I've saved hours of dev time getting unblocked and helping my teammates configure their local environment / IDE. (We're a polyglot team with front-end, back-end, database, and ETL components). Observing each other and sharing keyboard shortcuts have allowed us to shave off seconds for menial tasks, which add up over time. 
