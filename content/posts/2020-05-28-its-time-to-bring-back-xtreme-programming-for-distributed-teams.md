@@ -59,24 +59,22 @@ XP and Mob Programming were decidedly less popular. These frameworks were in a b
 
 Some practices, like pair programming or test-driven development, seem absolutely asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a lengthy section dedicated to "[Controversial Aspects](https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects)" -- not a ringing bell of endorsement if you ask me. 
 
-Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.
-
-<div id="arguments"></div>
+Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.<div id="arguments"></div>
 
 # Popular but weak arguments against XP
 
 #### Pair Programming is an inefficient allocation of valuable resources because it limits parallelism in a team
 
-I've been working remotely full-time for the past 9 months, and started a new job about 3 months ago. Since then, I've spent more time pair-programming than ever before, but I've also been able to launch one of the largest, most complex features in my career.  Pair-programming is the best substitute we have to colocating in our current distributed environment. I use it for many different tasks, and I do it often.
+I've been working remotely full-time for the past 9 months, and started a new job about 3 months ago. Since then, I've spent more time pair-programming than ever before, but I've also been able to launch one of the largest, most complex features of my career.  Pair-programming is the best substitute we have to colocating in our current situation. I use it for many different tasks, and I do it often.
 
 * I was able to ramp up very quickly on my team's product, architecture, and codebases. Pivotal Labs, a boutique software consultancy that practices XP, has written a pretty [good article](https://www.pivotaltracker.com/blog/how-pair-programming-and-mob-programming-help-quickly-onboard-new-software-engineers) about how XP is great system for onboarding new engineers.
-* I've saved hours of dev time getting unblocked and helping my teammates configure their local environment / IDE. (We're a polyglot team with front-end, back-end, database, and ETL components). Sharing shortcuts about the tools we use have allowed us to shave off so much time in delivering tasks.
-* I've been able to triage and isolate bugs much faster in pair-debugging sessions, preventing myself from "spinning my wheels" if I've been stuck on a problem for an hour or more. 
+* I've saved hours of dev time getting unblocked and helping my teammates configure their local environment / IDE. (We're a polyglot team with front-end, back-end, database, and ETL components). Observing each other and sharing keyboard shortcuts have allowed us to shave off seconds for menial tasks, which add up over time. 
+* I've been able to triage and isolate bugs much faster in pair-debugging sessions, preventing myself from "spinning my wheels" if I've been stuck on a problem for an hour or more. The repeated exposure means that swarming on a P0 is often times very efficient because we all understand how the other teammates think and we can divide-and-conquer a problem unconsciously. 
 * As a team, we've been able to gather consensus and coordinate much more effectively because a discussion about the spec can highlight different assumptions we have about the same requirements, leading to clarifications and shared understanding about what we're trying to do. We're able to pivot and [SPIKE](https://en.wikipedia.org/wiki/Spike_(software_development)) on tasks more easily, allowing us to give better timelines to our business partners. 
 
-That's not to say I agree with pair-programming **all the time.** I need my own time to think about problems, try out solutions, and organize my thoughts (so I don't waste other people's time when we meet). I think this is where most people get it wrong; we believe we must be forced to operate lock-step with our teammates. But that's not how I've found it to work in practice. 
+That's not to say I agree with pair-programming **all the time.** I need my own time to think about problems, try out solutions, and organize my thoughts (so I don't waste other people's time when we meet). I think this is where most people get it wrong; we believe we are forced to operate lock-step with our teammates. But that's not how I've found it to work in practice. 
 
-Remote pairing is not this formal *thing* where we have to spend an uncomfortable amount of time in each other's personal space -- instead, it's like a game of football, where we huddle between plays and strategize before we execute some chunk of work. 
+Remote pairing is not this formal *thing* where we have to spend an uncomfortable amount of time in each other's personal space -- instead, it's like a game of football, where we huddle between plays and strategize before we execute some chunk of work. Sometimes we do it together, and sometimes we do it independently. 
 
 There's no better example than in "[Coders at Work: Reflections on the Craft of Programming](https://amzn.to/2ABX7SB)". In Chapter 2, Peter Seibel interviews [Jamie Zawinkski](https://www.jwz.org/about.html), an OG engineer of Netscape and a founding member of Mozilla. The whole interview is super fascinating, but I'll post the part of the interview that stands out:
 
@@ -108,7 +106,7 @@ Even in the 90's, engineers were figuring out that this was a good system for re
 
 As the interview may have unintentionally highlighted, having uninterrupted chunks of coder time was a key component in their successful collaboration. The idea has been talked about ad nauseum in the book "[Deep Work](https://amzn.to/2zKQzR6)" by Cal Newport, and many companies have independently verified that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)
 
-This is another area where remote teams benefit. The home workspace has different distractions than the office workplace. There isn't as much of an interest or need for idle chit-chat, and external distractions in the office such as birthdays or company gossip aren't as disruptive. We don't need to pretend to be busy, because we're being scrutinized more on our output than our effort.
+This is another area where remote teams benefit. The home workspace has different distractions than the office workplace, but [provided you can recognize and plan around them](https://www.naveed.dev/posts/remote-work-engineer-tips), it can be more productive than an office. For starters, there isn't as much of an interest or need for idle chit-chat, and distractions such as commuting, birthdays, or firings aren't competing for your attention. We don't need to pretend to be busy, because we're being scrutinized more on our output than our effort.
 
 #### Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and "enormously expensive" to customers
 
@@ -135,7 +133,7 @@ But, this point was made in 2004, where the technology and tooling to automate t
 But that's not the only technology improvement that makes XP more appealing now:
 
 * Git has made branching and interleaving work across different developers trivially easy. (sorry Subversion)
-* Jira, Asana, and other project management tools have matured considerably.
+* Jira, Asana, and other project management tools have matured considerably, allowing us to track and plan our work in smaller increments.
 * Slack allows us to communicate asynchronously with each other
 * We have application monitoring systems (e.g. Signal / DataDog) with alerting and push notifications, so context to be shared broadly and engineers can tackle problems quickly. 
 
