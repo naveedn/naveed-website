@@ -38,6 +38,7 @@ Extreme Programming is a software development style that takes the ideas from th
 ![A screenshot of the web comment](/media/ron-jeffries-xp-practices-circles.jpg "The 12 Principles of XP, according to the early internet.")
 
 <div id="history"></div>
+
 ### Where did XP come from?
 <a href="#arguments">_Skip to next Section_</a>
 
@@ -63,6 +64,7 @@ Some practices, like pair programming or test-driven development, seem absolutel
 Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let's discuss why some of the biggest critiques against this methodology don't hold water anymore.
 
 <div id="arguments"></div>
+
 # Popular but disproven arguments against XP
 <a href="#recommendations">_Skip to next Section_</a>
 
@@ -148,6 +150,7 @@ We've already adopted the majority of these practices without realizing it! Time
 Hopefully, I've convinced you that XP is at least worth re-examining in our work lives. If you're interested in experimenting with how XP might fit with your team, I have a few recommendations.
 
 <div id="recommendations"></div>
+
 ## How to (slowly) integrate XP into your team's workflow:
 <a href="#appendix">_Skip to Appendix_</a>
 
@@ -165,6 +168,7 @@ I hope you enjoyed the essay, thanks for reading! If you have any comments or re
 - - -
 
 <div id="appendix"></div>
+
 Further Reading:
 
 * Coders at Work: **[Interview with Jamie Zawinski](https://github.com/ndina/acm/blob/master/coders-at-work.pdf)**
