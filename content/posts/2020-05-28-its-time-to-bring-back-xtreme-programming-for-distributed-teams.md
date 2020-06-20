@@ -44,7 +44,7 @@ Extreme Programming is a software development style that takes the ideas from th
 <a href="#popular-but-weak-arguments-against-xp" style="color:red;">*Skip to next Section*</a>
 
 * In the land before time, software teams used a waterfall approach to software development. Most software projects were failures. (See: [The Mythical Man-Month](https://amzn.to/30QHn8F))
-* In 1995, Ken Schwaber and Jeff Sutherland created [Scrum](https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100), a process management framework [based of a 1986 article](https://hbr.org/1986/01/the-new-new-product-development-game) in the Harvard Business Review by Hirotaka Takeuchi and Ikujiro Nonaka.
+* In 1995, Ken Schwaber and Jeff Sutherland created [Scrum](https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100), a process management framework [influenced by a 1986 article](https://hbr.org/1986/01/the-new-new-product-development-game) in the Harvard Business Review by Hirotaka Takeuchi and Ikujiro Nonaka.
 * In 1999, programmer Kent Beck released a book called [Extreme Programming Explained](https://amzn.to/2YLNE2S), wherein he outlines a radically new and different approach to software development.
 * In early 2001, the industry's most well-regarded engineers (including Beck, Sutherland, and Schwaber) [met at a famous ski resort](https://agilemanifesto.org/history.html) and combined the ideas of these frameworks into a new paradigm for how organizations should do software development. That paradigm is the ubiquitous Agile Software Development movement.
 * The Agile movement fragmented as it grew in popularity. Over time, Agile was co-opted by business folks and process-oriented project managers.
