@@ -13,9 +13,7 @@ description: >
   transition into management.
 category: management
 tags:
-  - engineering
-  - engineering-management
-  - management
+  - productivity
 ---
 ![The Carta Rocketship](https://lh4.googleusercontent.com/4s0rFUUW8yFVLuPgIgj7lKF-uVP9GgUPShJ8ZBCZY-0FlUL0eQRCkXKd0x-H2bOc2PHAp10KcPpSzzsP5w-lmldNve5fUUn2Va6rblFomcJHWlxCRdQ2xMLmhvQyNrEpIN1qYLg9)
 
