@@ -2,7 +2,7 @@
 template: post
 title: Six lessons from my first six(ish) months of engineering management
 slug: six-lessons-six-months
-draft: true
+draft: false
 date: 2022-02-25T22:48:29.399Z
 description: >
   I made a significant career change last March: I switched into engineering
