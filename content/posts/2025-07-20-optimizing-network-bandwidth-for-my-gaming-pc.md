@@ -14,7 +14,6 @@ tags:
   - bandwidth
   - gaming
 ---
-
 When I first started playing on pc, i couldn't get higher than ~30mbps throughput no matter what, even though i have FIOS and am technically paying for gigabit internet. I can't run an ethernet cable up to my gaming PC because it's too far and I would have to drill through walls, which I'm not gonna do as a renter. And I never had any deadzones in my house, which made me doubt the low speed as being a range issue that requires a wifi extender or mesh network. I wanted to see if i could improve my bandwidth, and i was able to with a few network config changes and a hardware upgrade. 
 
 A quick lesson on networks and radio signals. There are 3 bands which devices can connect to the network: 2.4Ghz, 5Ghz, and now, 6Ghz. 2.4Ghz has longer range and generally handles interference better (aka walls), but its max bandwidth is limited to around 35mbps. 5Ghz allows for upwards of 100mbps download speeds over radio (best case), but has less penetration / range. 6Ghz is just faster than 5ghz -- around 700mbps w/ no interference. 
@@ -26,3 +25,7 @@ Note: The downside of setting your wifi to prefer a specific band (i.e. 5Ghz) is
 # Hardware Upgrade
 
 I noticed that after fiddling around with my network router settings (CR1000A), it had the option of enabling 6Ghz! However, my network card didn't support it. So, I bought and installed the AX210NGW Wifi Card that supports 6Ghz. The entire process very easy, and the new network speed is 400mbps!! 
+
+
+
+![A large game being downloaded at ~400mbps, a 10x improvement over the original 32mbps.](/media/new-network-card.png "new-network-card-download-screenshot")
