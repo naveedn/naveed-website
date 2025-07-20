@@ -2,7 +2,7 @@
 template: post
 title: 'Optimizing network bandwidth for my gaming PC  '
 slug: optimize-network-bandwidth-verizon-gaming-pc
-draft: true
+draft: false
 date: 2025-07-20T06:15:44.639Z
 description: >-
   In this article i detail a lot of little lessons i learned on the way to
