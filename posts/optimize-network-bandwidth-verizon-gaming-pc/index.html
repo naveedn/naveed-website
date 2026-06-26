@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Optimizing network bandwidth for my gaming PC   — Naveed's Blog</title>
+  <meta name="description" content="In this article i detail a lot of little lessons i learned on the way to becoming a 400lb neckbeard. I also improved the network speed on my gaming PC by a factor of 10x. You win some you lose some, i guess. ">
+  <link rel="canonical" href="https://www.naveed.dev/posts/optimize-network-bandwidth-verizon-gaming-pc/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Optimizing network bandwidth for my gaming PC   — Naveed's Blog">
+  <meta property="og:description" content="In this article i detail a lot of little lessons i learned on the way to becoming a 400lb neckbeard. I also improved the network speed on my gaming PC by a factor of 10x. You win some you lose some, i guess. ">
+  <meta property="og:image" content="https://www.naveed.dev/avatar.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="/avatar.png">
+  <link rel="alternate" type="application/rss+xml" title="Naveed's Blog" href="/rss.xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="layout">
+
+    <aside class="sidebar">
+      <a class="avatar-link" href="/"><img class="avatar" src="/avatar.png" alt="Naveed Nadjmabadi" width="75" height="75"></a>
+      <h1 class="site-title"><a href="/">Naveed Nadjmabadi</a></h1>
+      <p class="site-bio">Just another software engineer on the internet.</p>
+      <nav class="menu">
+        <a href="/pages/about/">About me</a>
+        <a href="/category/interviews/">Engineering Interviews</a>
+        <a href="/category/productivity/">Notes on Productivity</a>
+      </nav>
+      <div class="contacts">
+          <a href="https://twitter.com/nudgemybody" rel="noopener" target="_blank">Twitter</a>
+          <a href="https://github.com/naveedn" rel="noopener" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/naveednadjmabadi" rel="noopener" target="_blank">LinkedIn</a>
+          <a href="/rss.xml">RSS</a>
+      </div>
+      <p class="copyright">© All rights reserved.</p>
+    </aside>
+    <main class="content">
+
+      <article class="post">
+        <a class="back-link" href="/">← All posts</a>
+        <header class="post-header">
+          <h1 class="post-title">Optimizing network bandwidth for my gaming PC  </h1>
+          <div class="post-meta">
+            <time datetime="2025-07-20T06:15:44.639Z">July 20, 2025</time>
+             · <a href="/category/random/">random</a>
+          </div>
+        </header>
+        <div class="post-body">
+<p>When I first started playing on pc, i couldn&#39;t get higher than ~30mbps throughput no matter what, even though i have FIOS and am technically paying for gigabit internet. I can&#39;t run an ethernet cable up to my gaming PC because it&#39;s too far and I would have to drill through walls, which I&#39;m not gonna do as a renter. And I never had any deadzones in my house, which made me doubt the low speed as being a range issue that requires a wifi extender or mesh network. I wanted to see if i could improve my bandwidth, and i was able to with a few network config changes and a hardware upgrade. </p>
+<p>A quick lesson on networks and radio signals. There are 3 bands which devices can connect to the network: 2.4Ghz, 5Ghz, and now, 6Ghz. 2.4Ghz has longer range and generally handles interference better (aka walls), but its max bandwidth is limited to around 35mbps. 5Ghz allows for upwards of 100mbps download speeds over radio (best case), but has less penetration / range. 6Ghz is just faster than 5ghz -- around 700mbps w/ no interference. </p>
+<p>Verizon has a feature called SON (Self Organizing Network) which automatically selects the optimal Wi-Fi band for connected devices. So, because my gaming rig&#39;s network signal was weaker than other connections, it exclusively put me on the 2.4Ghz radio band.  You can fix this two ways: you can either login to the router and create a new network SSID for the 5Ghz connection specifically, or you can change your network card driver settings to <a href="https://superuser.com/questions/1774002/i-want-to-force-windows-11-to-only-use-2-4ghz-wifi-but-the-driver-options-doesn#:~:text=To%20force%20use%202.4GHZ,either%205GHZ%20or%202.4GHZ.">configure a preferred WiFi-band</a>. i opted to do the latter because I think having multiple SSIDs in the same house is a clunky UX. By just flipping these network configs, i was able to boost my network speeds from 35mbps to around 90. Not bad!  Downloading game updates / patches takes seconds, not minutes. </p>
+<p>Note: The downside of setting your wifi to prefer a specific band (i.e. 5Ghz) is that managing the optimal radio band becomes your responsibility. It still makes sense to force 2.4Ghz when you need to minimize packet loss. For applications that use TCP instead of UDP,  (like watching youtube) the higher interference made streaming video harder since the packets need to come in a specific order. So, tradeoffs. </p>
+<h1>Hardware Upgrade</h1>
+<p>I noticed that after fiddling around with my network router settings (CR1000A), it had the option of enabling 6Ghz! However, my network card didn&#39;t support it. So, I bought and installed the AX210NGW Wifi Card that supports 6Ghz. The entire process very easy, and the new network speed is 400mbps!! </p>
+<p><img src="/media/new-network-card.png" alt="A large game being downloaded at ~400mbps, a 10x improvement over the original 32mbps." title="new-network-card-download-screenshot"></p>
+
+        </div>
+        <div class="post-tags"><a href="/tag/network/">network</a><a href="/tag/bandwidth/">bandwidth</a><a href="/tag/gaming/">gaming</a></div>
+        <footer class="post-footer">
+          <a class="back-link" href="/">← All posts</a>
+        </footer>
+      </article>
+    </main>
+  </div>
+</body>
+</html>

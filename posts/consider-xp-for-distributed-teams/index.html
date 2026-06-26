@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What's old is new again: adapting Agile / XP to work for remote teams — Naveed's Blog</title>
+  <meta name="description" content="With the pandemic, our social patterns have shifted overnight. Video calls have become the norm for both social and work engagements. Adapting to a long-term remote work lifestyle is challenging, but after some experimentation, I've discovered practices that have made me much more productive. I realized many of these ideas have already been introduced to the programming community for decades -- but they were unfairly written off as impractical, despite making more sense NOW than ever before. Let's dig in.">
+  <link rel="canonical" href="https://www.naveed.dev/posts/consider-xp-for-distributed-teams/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="What's old is new again: adapting Agile / XP to work for remote teams — Naveed's Blog">
+  <meta property="og:description" content="With the pandemic, our social patterns have shifted overnight. Video calls have become the norm for both social and work engagements. Adapting to a long-term remote work lifestyle is challenging, but after some experimentation, I've discovered practices that have made me much more productive. I realized many of these ideas have already been introduced to the programming community for decades -- but they were unfairly written off as impractical, despite making more sense NOW than ever before. Let's dig in.">
+  <meta property="og:image" content="https://www.naveed.dev/avatar.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="/avatar.png">
+  <link rel="alternate" type="application/rss+xml" title="Naveed's Blog" href="/rss.xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="layout">
+
+    <aside class="sidebar">
+      <a class="avatar-link" href="/"><img class="avatar" src="/avatar.png" alt="Naveed Nadjmabadi" width="75" height="75"></a>
+      <h1 class="site-title"><a href="/">Naveed Nadjmabadi</a></h1>
+      <p class="site-bio">Just another software engineer on the internet.</p>
+      <nav class="menu">
+        <a href="/pages/about/">About me</a>
+        <a href="/category/interviews/">Engineering Interviews</a>
+        <a href="/category/productivity/">Notes on Productivity</a>
+      </nav>
+      <div class="contacts">
+          <a href="https://twitter.com/nudgemybody" rel="noopener" target="_blank">Twitter</a>
+          <a href="https://github.com/naveedn" rel="noopener" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/naveednadjmabadi" rel="noopener" target="_blank">LinkedIn</a>
+          <a href="/rss.xml">RSS</a>
+      </div>
+      <p class="copyright">© All rights reserved.</p>
+    </aside>
+    <main class="content">
+
+      <article class="post">
+        <a class="back-link" href="/">← All posts</a>
+        <header class="post-header">
+          <h1 class="post-title">What's old is new again: adapting Agile / XP to work for remote teams</h1>
+          <div class="post-meta">
+            <time datetime="2020-06-16T05:58:41.206Z">June 16, 2020</time>
+             · <a href="/category/productivity/">productivity</a>
+          </div>
+        </header>
+        <div class="post-body">
+<p><em>Reading Time: 8 minutes</em></p>
+<p>Here&#39;s a contrarian opinion: since COVID started, we&#39;re doing project management all wrong. We&#39;re adapting to a work-life balance that is governed by a <em>different</em> set of social dynamics, but the project management strategies we employ haven&#39;t been updated accordingly.</p>
+<p>Due to improved technology and a cultural shift in how we perceive remote work, modern development teams can benefit from adapting some practices of XP, a project management strategy that was initially dismissed when it came out over 20 years ago.</p>
+<h2>First off, what is XP (Extreme Programming)?</h2>
+<p><a href="#history" style="color:red;"><em>Skip to next Section</em></a></p>
+<p>Extreme Programming is a software development style that takes the ideas from the Agile Development process and drives them to their &quot;logical extremes&quot;, which culminate in a set of 12 practices and philosophies. Adopting these practices *should* lead to a productive but sustainable pace of software development. I&#39;ll add a picture of the 12 practices below, but I find that this <a href="https://web.archive.org/web/20120101190943/http://www.satyakomatineni.com/akc/display?url=DisplayNoteIMPURL&reportId=862&ownerUserId=satya">comment on a web forum from 2004</a> captures the ethos succinctly.</p>
+<p><img src="/media/ron-jeffries-xp-practices-circles.jpg" alt="A screenshot of the web comment" title="The 12 Principles of XP"></p>
+<div id="history"></div>
+
+<h3>A 30 second history lesson on Project Management</h3>
+<p><a href="#popular-but-weak-arguments-against-xp" style="color:red;"><em>Skip to next Section</em></a></p>
+<ul>
+<li><p>In the land before time, software teams used a waterfall approach to software development. Most software projects were failures. (See: <a href="https://amzn.to/30QHn8F">The Mythical Man-Month</a>)</p>
+</li>
+<li><p>In 1995, Ken Schwaber and Jeff Sutherland created <a href="https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100">Scrum</a>, a process management framework <a href="https://hbr.org/1986/01/the-new-new-product-development-game">influenced by a 1986 article</a> in the Harvard Business Review by Hirotaka Takeuchi and Ikujiro Nonaka.</p>
+</li>
+<li><p>In 1999, programmer Kent Beck released a book called <a href="https://amzn.to/2YLNE2S">Extreme Programming Explained</a>, wherein he outlines a radically new and different approach to software development.</p>
+</li>
+<li><p>In early 2001, the industry&#39;s most well-regarded engineers (including Beck, Sutherland, and Schwaber) <a href="https://agilemanifesto.org/history.html">met at a famous ski resort</a> and combined the ideas of these frameworks into a new paradigm for how organizations should do software development. That paradigm is the ubiquitous Agile Software Development movement.</p>
+</li>
+<li><p>The Agile movement fragmented as it grew in popularity. Over time, Agile was co-opted by business folks and process-oriented project managers.</p>
+<ul>
+<li><p>Rigid formalizations of the practices introduced process bloat, which slowed down development teams big and small. </p>
+</li>
+<li><p>People began forking off and experimenting with alternative styles of software development, which is where <a href="https://en.wikipedia.org/wiki/Mob_programming#:~:text=Mob%20programming%20(informally%20mobbing)%20is,code%20at%20the%20same%20time.">Mob Programming</a> is derived from.</p>
+<ul>
+<li>Kanban, <a href="https://www.digite.com/kanban/what-is-kanban/#:~:text=It%20all%20started%20in%20the,every%20stage%20of%20production%20optimally.">a method developed by Taiichi Ohno for Toyota in the early 1940&#39;s</a>, resurfaces as a viable project management strategy for software systems.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/26gJz7vrNd95sT4jK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+
+<p>Some methodologies, like Kanban, enjoyed success in some development teams. Kanban became the preferred strategy in DevOps or client-facing support teams, for example, because it allowed teams to allocate effort for unpredictable events that necessitate high urgency fixes.</p>
+<p>XP was decidedly less popular. It was in a bit of a limbo -- some of the top practitioners in our field were using XP, such as Martin Fowler and Robert C. Martin (Uncle Bob). In the end, Extreme Programming was considered too unapproachable for the masses, too unpalatable. </p>
+<p>Some practices, like pair programming or test-driven development, seem asinine from a business perspective. Indeed, if you visit the wikipedia page for Extreme Programming, they have a lengthy section dedicated to &quot;<a href="https://en.wikipedia.org/wiki/Extreme_programming#Controversial_aspects">Controversial Aspects</a>&quot; -- not a ringing bell of endorsement if you ask me. </p>
+<p>Rather than describing each principle in detail and debating its merits (which sounds as boring to read as it is to write), let&#39;s discuss why some of the biggest critiques against this methodology don&#39;t hold water anymore.</p>
+<h2>Popular but weak arguments against XP</h2>
+<h4>Pair Programming is an inefficient allocation of valuable resources because it limits parallelism in a team</h4>
+<p>I&#39;ve been working remotely for the past 9 months, and started a new job about 3 months ago. Since then, I&#39;ve spent more time pair-programming than ever before, but I&#39;ve also been able to launch one of the largest, most complex features of my career.  Pair-programming is the best substitute we have to colocating in our current situation. I use it for many different tasks, and I do it often.</p>
+<ul>
+<li>I was able to ramp up very quickly on my team&#39;s product, architecture, and codebases. Pivotal Labs, a boutique software consultancy that practices XP, has written a pretty <a href="https://www.pivotaltracker.com/blog/how-pair-programming-and-mob-programming-help-quickly-onboard-new-software-engineers">good article</a> about how XP is great system for onboarding new engineers.</li>
+<li>I&#39;ve saved hours of dev time getting unblocked and helping my teammates configure their local environment / IDE. (We&#39;re a polyglot team with front-end, back-end, database, and ETL components). Observing each other and sharing keyboard shortcuts have allowed us to shave off seconds for menial tasks, which add up over time. </li>
+<li>I&#39;ve been able to triage and isolate bugs much faster in pair-debugging sessions, preventing myself from &quot;spinning my wheels&quot; if I&#39;ve been stuck on a problem for an hour or more. The repeated exposure means that swarming on a P0 is often times very efficient because we all understand how other teammates think and we can divide-and-conquer a problem unconsciously. </li>
+<li>As a team, we&#39;ve been able to gather consensus and coordinate much more effectively because a discussion about the spec can highlight different assumptions we have about the same requirements, leading to clarifications and shared understanding about what we&#39;re trying to do. We&#39;re able to pivot and <a href="https://en.wikipedia.org/wiki/Spike_(software_development)">SPIKE</a> on tasks more easily, allowing us to give better timelines to our business partners.</li>
+</ul>
+<p>That&#39;s not to say I agree with pair-programming <strong>all the time.</strong> I need my own space to think about problems, try out solutions, and organize my thoughts so I don&#39;t waste other people&#39;s time when we meet. People work at different paces, and it&#39;s important to have a system that anticipates that. I think this is where most people get pair-programming wrong; they believe we are forced to operate lock-step with our teammates. But that&#39;s not how I&#39;ve found it to work in practice. </p>
+<p>Remote pairing is not this formal <em>thing</em> where we have to spend an uncomfortable amount of time in each other&#39;s personal space -- instead, it&#39;s like a game of football, where we huddle between plays and strategize before we execute some chunk of work. Sometimes we work on a task together, and sometimes we work on separate pieces. </p>
+<p>There&#39;s no better example than in &quot;<a href="https://amzn.to/2ABX7SB">Coders at Work: Reflections on the Craft of Programming</a>&quot;. In Chapter 2, Peter Seibel interviews <a href="https://www.jwz.org/about.html">Jamie Zawinkski</a>, an OG engineer of Netscape and a founding member of Mozilla. The whole interview is super fascinating, but I&#39;ll post the part of the interview that stands out:</p>
+<blockquote>
+<p><em>... [discussion about building netscape 1.0] ...</em></p>
+<p><strong>Seibel</strong>: At some point you also worked on the mail reader, right?</p>
+<p><strong>Zawinkski</strong>: In 2.0 Marc [Andreessen] comes into my cubicle and says, &quot;We need a mail reader.&quot; And I&#39;m like, &quot;OK, that sounds cool. I&#39;ve worked on mail readers before.&quot; I was living in Berkeley and basically I didn&#39;t come into the office for a couple weeks. I was spending the whole time sitting in cafes doodling, trying to figure out what I wanted in a mail reader. Making lists, crossing it off, trying to decide how long it would take me. What should the UI look like?</p>
+<p>Then I came back and started coding. And then Marc comes in again and says, &quot;Oh, so we hired this other guy who&#39;s done mail stuff before. You guys should work together.&quot; It&#39;s this guy Terry Weissman, who was just fantastic -- we worked together so well. And it was a completely different dynamic than it had been in the early days with the rest of the browser team. </p>
+<p>We didn&#39;t yell at each other at all. And the way we divided up labor, I can&#39;t imagine how it possibly worked or could ever work for anyone. I had the basic design done and I&#39;d started doing a little coding and every day or every couple of days we&#39;d look at the list of features and I&#39;d go, &quot;Uhhh, maybe I&#39;ll work on that,&quot; and he&#39;d go, &quot;OK, I&#39;ll work on that,&quot; and then we&#39;d go away.</p>
+<p>Check-ins would happen and then we&#39;d come back and he&#39;d say, &quot;Alright I&#39;m done with that, what are you doing?&quot; &quot;Uh, I&#39;m working on this.&quot; &quot;OK, well, I&#39;ll start on that then.&quot; And we just sort of divided up the pieces. It worked out really well.</p>
+<p>We had disagreements -- I thought we had to toss filtering into folders because we just didn&#39;t have time to do it right. And he was like, &quot;No, no, I really think we ought to do that.&quot; And I was like, &quot;We don&#39;t have time!&quot; So he wrote it that night.</p>
+<p>The other thing was, Terry and I rarely saw each other because he lived in Santa Cruz and I lived in Berkeley. We were about the same distance to work in opposite directions and because the two of us were the only two who ever needed to communicate, we were just like, &quot;I won&#39;t make you come in if you don&#39;t make me come in.&quot; &quot;Deal!&quot;</p>
+<p><strong>Seibel</strong>: Did you guys email a lot?</p>
+<p><strong>Zawinski</strong>: Yea, constant email. This was before instant messaging -- these days it probably all would have been IM because we were sending one-liner emails constantly. And we talked on the phone.</p>
+<p>--</p>
+</blockquote>
+<p>Even in the early 90&#39;s, engineers were figuring out that this was a good system for remote work! And that&#39;s <strong>without</strong> instant messaging, video-chatting, and the ability to <em>simultaneously be on the internet and make a phone call.</em></p>
+<iframe src="https://giphy.com/embed/Um3ljJl8jrnHy" width="480" height="314" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+<p>As the interview may have unintentionally highlighted, having uninterrupted chunks of coder time was a key component in their successful collaboration. The idea has been talked about ad nauseum in the book &quot;<a href="https://amzn.to/2zKQzR6">Deep Work</a>&quot; by Cal Newport, and many companies have independently verified that having distraction-free blocks for developers has yielded impressive productivity gains. (duh!)</p>
+<p>This is another area where remote teams benefit. The home workspace has different distractions than the office workplace, but <a href="https://www.naveed.dev/posts/remote-work-engineer-tips">provided you can recognize and plan around them</a>, it can be more productive than an office. </p>
+<p>For starters, there isn&#39;t as much of an interest or need for idle chit-chat, and distractions such as commuting, birthdays, or firings aren&#39;t competing for your attention. We don&#39;t need to pretend to be busy, because we&#39;re being scrutinized more on our output than our effort.</p>
+<p><em>A side note: Many parents have had to be full-time school teachers and caretakers alongside their work. This approach may not work well if you don&#39;t have the luxury of a quiet workspace. That&#39;s totally understandable.</em></p>
+<h4>Continuous Design Approach is inefficient, impossible to measure, prone to getting off track, and &quot;enormously expensive&quot; to customers</h4>
+<p>Most of these criticisms came from Matt Stephens and Doug Rosenberg, who co-authored a book called &quot;<a href="https://amzn.to/30SIyVg">Extreme Programming Refactored: The Case against XP</a>&quot;. And pretty much on all counts here, they&#39;re totally f*cking wrong.</p>
+<p>I don&#39;t want to bash these guys too hard -- I mean, they wrote this in 2004, and I have the benefit of hindsight that they certainly did not have. But, in the 16 years since their book was released, the software engineering community has collectively agreed that a Continuous Design Approach (aka Continuous Innovation) is an ideology that not only works, but is largely responsible for the success of many B2C startups in the post dot-com generation (e.g. AirBnb, Facebook). </p>
+<p>Eric Reis wrote the seminal book <a href="https://amzn.to/2AAS6JZ">the Lean Startup</a>, making the argument that a continuous innovation / lean approach saves money in the long run because &quot;failing fast and pivoting means you don&#39;t end up building the wrong thing&quot;.</p>
+<p>VC investor Peter Thiel gave further praise of Continuous Innovation in his book <a href="https://amzn.to/30P8b9k">Zero to One</a>, while Paul Graham, co-founder of the Y Combinator startup accelerator, penned the famous essay &quot;<a href="http://paulgraham.com/ds.html">Do things that don&#39;t scale</a>&quot;. You can see it in the ethos of Facebook&#39;s old company motto: &quot;<a href="https://www.businessinsider.com/mark-zuckerberg-innovation-2009-10?r=US&IR=T">Move fast and break things</a>&quot;.</p>
+<p>It&#39;s not just VCs and founders talking about it. Edmond Lau, in his book <a href="https://amzn.to/2UWDbke">the Effective Engineer</a>, discusses tight-feedback loops and continuous delivery as the flywheel that powers the knowledge-discovery engine, which enable developers to iterate quickly and create leverage on their projects. </p>
+<p>And finally, Google Ventures has <a href="https://www.gv.com/sprint/">published their own guide</a> for applying a Continuous Design Approach to their sprints. This guide struck a chord in the HCI / UX space. GV&#39;s design sprint bears striking resemblance to the company IDEO, which had their own <a href="https://www.youtube.com/watch?v=M66ZU2PCIcM&vl=en-US">ABC Nightline special in 1999 about re-designing the shopping cart</a> that blew America&#39;s mind. 🛒 🤯 </p>
+<p>The point is: Continuous Innovation isn&#39;t some fluke. It&#39;s been around for a while, the community collectively agreed it was awesome, and it will continue to stick around.</p>
+<h4>XP requires too much change to adopt, and can only work with Senior Engineers</h4>
+<p>The point that &quot;XP only works with Senior Engineers&quot; relies on the premise that XP is a high-discipline mental framework, and so only wizards can pull it off. Ordinary people are creatures of habit, so after the first major speed bump, XP falls apart at the seams.</p>
+<p>But, this point was made in 2004, where the technology and tooling to automate these tasks simply didn&#39;t exist. It may have certainly been true then, but now almost every modern software company has some sort of CI / CD process like Jenkins or CircleCI. Tasks like linting, unit tests, artifact building, and deployment are handled automatically. (It&#39;s worth noting that unit testing was a &quot;new&quot; idea introduced in Kent&#39;s book, and now we take for granted how it&#39;s a cornerstone of modern software development.)</p>
+<p>But that&#39;s not the only technology improvement that makes XP more appealing now:</p>
+<ul>
+<li>Git has made branching and interleaving work across different developers trivially easy.</li>
+<li>Jira, Asana, and other project management tools have matured considerably, allowing us to track and plan our work in smaller increments.</li>
+<li>Slack allows us to communicate asynchronously with each other and receive notifications from application monitoring systems (e.g. Signal / DataDog), so context can be shared broadly and engineers can tackle problems quickly. (&quot;Collective Ownership&quot;, &quot;Whole Team&quot;)</li>
+<li>Designers and Product owners do user-experience interviews, incorporate product metrics tracking, and collect NPS surveys, allowing us to get feedback from the client without actually needing them to be on-site.</li>
+</ul>
+<p>These technologies reduce our need to have a disciplined process to accomplish these tasks. Having less to worry about makes it easier for us to concentrate on doing the rest of the principles well. </p>
+<h4>XP&#39;s practices are interdependent but few practical organizations are willing/able to adopt all the practices; therefore the entire process fails.</h4>
+<p>We&#39;ve already adopted the majority of these practices without realizing it! Times are different, technology is different, and many of the radical concepts introduced by XP are conventional wisdom nowadays. The nature of work is evolving as we speak; we shouldn&#39;t be scared to challenge our assumptions.</p>
+<p>As with all things, XP is not some magic bullet. There are aspects that were developed 20 years ago that haven&#39;t stood up to the test of time. My goal with this essay isn&#39;t to convince you that XP should be adopted in its entirety; but rather it should be investigated and each team should cherry-pick the parts they like. </p>
+<h3>Parts of XP I don&#39;t agree with</h3>
+<ul>
+<li><strong>Planning Game</strong>: our team follows a lightweight agile/scrum process and that works well for us. Sprint Planning, Sprint Grooming, Sprint Retrospective. That&#39;s it. The Planning Game introduces a lot of new cycles, and it&#39;s not clear what the benefit is in having these discrete layers.</li>
+<li><strong>Test-Driven Development</strong>: I know that TDD must work for <em>some</em> people, but testing in software development has come a long way, and there are multiple strategies for how to incorporate tests in your software product successfully. Additionally, I work in Python and JavaScript (2 dynamic languages), and oftentimes, I can avoid the &quot;big upfront design&quot; by prototyping very quickly in a repl or jupyter notebook. TDD was developed with Java in mind, which lacked these capabilities.</li>
+</ul>
+<p>If you&#39;re interested in experimenting with how XP might fit with your team, here are a few suggestions for how one could do that.</p>
+<h2>How to (slowly) integrate XP into your team&#39;s workflow:</h2>
+<ol>
+<li>Watch this talk by Dan North called &quot;<a href="https://vimeo.com/24681032">Patterns for Effective Delivery</a>&quot;. Pay special attention to all the strategies he lays out: (Ginger Cake, Dancing Skeleton, Spike &amp; Stabilize). This talk has influenced me the most in my career, its 45 minutes of poignant insight-after-insight. If there is one thing a person should take away after watching this video, it&#39;s <em>what working on an XP team should feel like</em>.</li>
+<li>It&#39;s time to wash ourselves clean of our unhealthy obsession with time-based planning. Watch <a href="https://www.youtube.com/watch?v=QVBlnCTu9Ms">this video</a> by Allen Holub on the #noestimates movement to get an appreciation for a different take on how engineers can control the Agile process. I&#39;ve had mixed results with #noestimates, but it does provide food for thought. </li>
+<li>Coming off the heels of that, our team recently put a practice in place where we continue to break down tickets until every task can be done within a day or two max. As a result, we don&#39;t need to do &quot;story point estimations&quot; during grooming -- we just focus on clarifying tickets we know very well, breaking down big initiatives into bite sized pieces, and creating spikes for discovery based work. Bye bye, fibonacci-scale pointing method! 👋</li>
+<li>Take the time to observe the the team&#39;s culture with respect to ad-hoc video calls. This is where we can make the most gains in our remote environment. We need to build a culture within ourselves and our teams where it is OK to pair for 5 minutes on a bug or sync on some product spec. It&#39;s important to be respectful of each other&#39;s time, but we shouldn&#39;t sacrifice team alignment and <a href="https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html">group intelligence</a> for the sake of inconveniencing each other.</li>
+<li>When you do grooming or sprint planning meetings with the team, take care to observe what items are high-risk. What are our known-unknowns? How familiar are we with the task? If it feels like we don&#39;t already have the solution in mind when we&#39;re discussing a ticket, treat this as an opportunity to do a SPIKE. Remember, it&#39;s totally fine to not know how a project will end up when we&#39;re still in the beginning phases. Expect to have curve balls thrown at you. Spike and de-risk things as they come up. It&#39;s ok to come up with Spike&#39;s mid-sprint if you hit a blocker and need to pivot. Velocity Planning, all that stuff -- they&#39;re just means to an end. Nothing matters as much as actually shipping a good, working solution. </li>
+<li>Do regular retrospectives where we reflect upon how efficient and productive we feel as a team. Try new ideas to improve our process. Get rid of things that don&#39;t work. Try to use some proxy for quantitative progress as well (Jira Tickets closed per sprint, or number of features launched). Use this is a feedback loop to determine what your team&#39;s optimal workflow is. Every team is different, at the end of the day XP is as much as shift in perspective as it is a process for doing software engineering.</li>
+</ol>
+<hr>
+<p>I hope you enjoyed the essay, thanks for reading! If you have any comments or responses, just tweet me <a href="https://twitter.com/nudgemybody/status/1273174737980723201">@nudgemybody</a>!</p>
+<hr>
+<p>Further Reading:</p>
+<ul>
+<li><a href="https://github.com/ndina/acm/blob/master/coders-at-work.pdf">Coders at Work: Interview with Jamie Zawinski</a></li>
+<li><a href="https://about.gitlab.com/company/culture/all-remote/">Gitlab playbook on remote work strategies</a></li>
+<li><a href="https://stripe.com/blog/remote-hub-one-year">Stripe&#39;s reflection on creating all-remote hub 1 year later</a> </li>
+<li><a href="https://www.remotemobprogramming.org/">A recent take on remote mob programming (2018)</a></li>
+<li><a href="https://www.agilealliance.org/glossary/xp/#q=~(infinite~false~filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)">An Introduction to XP</a></li>
+<li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.2506&rep=rep1&type=pdf#:~:text=Industrial%20XP%20(IXP)%20is%20a,often%20face%20when%20implementing%20XP.">Industrial XP: Making XP Work in Large Organizations</a></li>
+<li><a href="http://wiki.c2.com/?WhenIsXpNotAppropriate">When Is Xp Not Appropriate</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Extreme_programming_practices">Wikipedia: 12 Practices of Extreme Programming</a></li>
+<li><a href="https://toggl.com/out-of-office-remote-company-culture/">https://toggl.com/out-of-office-remote-company-culture/</a></li>
+</ul>
+
+        </div>
+        <div class="post-tags"><a href="/tag/remote/">remote</a><a href="/tag/productivity/">productivity</a><a href="/tag/remote-work/">remote work</a><a href="/tag/xp/">XP</a><a href="/tag/extreme-programming/">extreme programming</a><a href="/tag/agile/">agile</a><a href="/tag/project-management/">project management</a><a href="/tag/organizational-theory/">organizational theory</a></div>
+        <footer class="post-footer">
+          <a class="back-link" href="/">← All posts</a>
+        </footer>
+      </article>
+    </main>
+  </div>
+</body>
+</html>
