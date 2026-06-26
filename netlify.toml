@@ -1,0 +1,7 @@
+# Plain static site — no build step.
+# The HTML/CSS in the repo root IS the site, so Netlify just publishes it
+# directly. (The site is primarily deployed via GitHub Pages; this keeps the
+# legacy Netlify project building successfully as well.)
+[build]
+  publish = "."
+  command = "echo 'No build step — serving static HTML.'"
